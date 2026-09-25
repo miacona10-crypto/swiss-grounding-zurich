@@ -1,0 +1,10 @@
+import { readFile } from 'node:fs/promises';
+import vm from 'node:vm';
+const html=await readFile(new URL('../web/index.html',import.meta.url),'utf8');
+for(const match of html.matchAll(/<script>([\s\S]*?)<\/script>/g))new vm.Script(match[1]);
+for(const match of html.matchAll(/<script[^>]*\bsrc="\/(.*?)"[^>]*>/g))new vm.Script(await readFile(new URL('../web/'+match[1],import.meta.url),'utf8'));
+for(const match of html.matchAll(/<link[^>]*\bhref="\/(.*?)"[^>]*>/g))await readFile(new URL('../web/'+match[1],import.meta.url));
+const pkg=JSON.parse(await readFile(new URL('../package.json',import.meta.url)));
+const lock=JSON.parse(await readFile(new URL('../package-lock.json',import.meta.url)));
+if(pkg.version!==lock.packages[''].version)throw Error('Lockfile version mismatch');
+console.log('Browser JavaScript, linked static assets and package/lockfile version: OK');

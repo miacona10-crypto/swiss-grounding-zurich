@@ -1,0 +1,71 @@
+SWISS GROUNDING — GITHUB-ABGABE
+V7.8 / 0.6.0 — Anleitung für Windows
+
+DU BRAUCHST JETZT KEINEN CODE ZU ÄNDERN.
+Dieses Paket ist für GitHub vorbereitet. Die bestehende lokale Demo bleibt separat.
+
+1. ZIP ENTPACKEN
+Rechtsklick auf Swiss-Grounding-GitHub-Upload.zip > Alle extrahieren.
+Öffne den entpackten Ordner Swiss-Grounding-Abgabe.
+Darin liegen diese Anleitung, EINREICHUNGSTEXT.txt und GITHUB-UPLOAD.
+
+2. DEIN PROJEKT-REPOSITORY ÖFFNEN
+Öffne auf github.com dein vorgesehenes Swiss-Grounding-Repository.
+Wähle den Branch main, falls eine Branch-Auswahl erscheint.
+Bei einem leeren Repository: Klicke auf „uploading an existing file“.
+Sonst: Add file > Upload files.
+
+3. DIE RICHTIGEN DATEIEN AUSWÄHLEN
+Öffne im Windows Explorer den Ordner GITHUB-UPLOAD.
+Du siehst dort README.md, package.json und die Ordner src, data, tests usw.
+Drücke Strg+A und ziehe diese markierten Inhalte zusammen in die GitHub-Uploadfläche.
+WICHTIG: Den INHALT hochladen, nicht den Ordner GITHUB-UPLOAD selbst und nicht die ZIP-Datei.
+Alle vorbereiteten Dateien dürfen mit: auch .gitignore, Tests und öffentliche Berichte.
+Keinen API-Key, keine eigene .env und keinen node_modules-Ordner hinzufügen.
+Warte, bis alle Dateien hochgeladen sind. Bei einer Fehlermeldung noch nicht committen.
+
+4. SPEICHERN / COMMITTEN
+Commit-Nachricht: Submit Swiss Grounding Zurich V7.8
+Falls angeboten: „Commit directly to the main branch“ auswählen.
+Klicke auf Commit changes. Bei einem leeren Repository wird der erste Commit angelegt.
+Wenn du stattdessen einen anderen Branch benutzt, muss die Einreichung genau diesen nennen.
+
+5. KURZ KONTROLLIEREN
+Auf der Hauptseite des Repositorys müssen direkt README.md, package.json, src/ und data/ stehen.
+Das README muss darunter mit „Swiss Grounding — Zürich V7.8“ und „Evaluation quick start“ erscheinen.
+Es darf nicht erst ein zusätzlicher Ordner GITHUB-UPLOAD geöffnet werden müssen.
+Das Paket enthält über 70 Dateien und braucht keine externen großen Datendownloads für den Erststart.
+Prüfe außerdem: Die Jury muss das Repository lesen können — öffentlich oder ausdrücklich freigegeben.
+Für eine öffentliche Abgabe kannst du den Link in einem privaten Browserfenster testen.
+
+6. REPOSITORY-LINK KOPIEREN
+Kopiere die URL der Repository-Hauptseite aus dem Browser:
+https://github.com/DEIN-BENUTZERNAME/DEIN-REPOSITORY
+NICHT http://127.0.0.1:4176 und NICHT die lokale Demo-Adresse einreichen.
+Die lokale Adresse funktioniert nur auf deinem Computer.
+Optional, wenn die Einreichung einen Commit verlangt: Auf den letzten Commit klicken und dessen SHA kopieren.
+
+7. AUF DER EINREICHUNGSSEITE EINTRAGEN
+Öffne EINREICHUNGSTEXT.txt. Übernimm Titel und Beschreibung in die passenden Felder.
+In das Repository-Feld kommt der echte Link aus Schritt 6.
+Bei Transport: stdio. Bei Hosted endpoint: None — local stdio MCP.
+Bei Credentials: None for MCP; Swisscom key only for optional Apertus demo.
+Falls eine Demo-URL optional ist, leer lassen bzw. „local demo included“ angeben — keine lokale URL als öffentliche Demo ausgeben.
+Wenn der Formularaufbau anders aussieht, ordne die Texte den passenden Feldern zu.
+
+8. ENDGÜLTIG ABSENDEN
+Die Dateien auf GitHub allein reichen nicht als Einreichung auf der Event-Seite.
+Auf der Event-Seite den abschließenden Submit-/Einreichen-Knopf anklicken.
+Die Bestätigung abwarten und einen Screenshot davon speichern.
+
+WAS BEREITS VORBEREITET IST
+README mit 13 Evaluation-Punkten; Quellcode; Daten; Lockfile; Daten-Refresh;
+275 bestandene automatisierte Tests und öffentliche Berichte; acht zusätzliche
+V7.8-Szenarien über echten MCP und amtliche Live-Quellen; .gitignore.
+Die Programmdateien wurden für dieses Upload-Paket nicht verändert.
+Live Apertus, Windows-Ausführung und sichtbares Kartenrendering wurden in diesem Release-Lauf nicht verifiziert.
+
+OPTIONALE DEMO SPÄTER STARTEN
+Im Projektordner: npm.cmd ci, danach npm.cmd run web.
+Die im Terminal angezeigte URL öffnen und das Terminal offen lassen.
+Für die GitHub-Abgabe muss der lokale Server nicht laufen.

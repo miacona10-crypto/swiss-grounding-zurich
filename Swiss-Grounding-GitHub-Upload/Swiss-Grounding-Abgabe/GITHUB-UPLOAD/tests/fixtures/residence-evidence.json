@@ -1,0 +1,43 @@
+{
+  "available": true,
+  "facts": [
+    {
+      "id": "permit_eu_mobility",
+      "text": "Mit einer bestehenden EU/EFTA-Bewilligung ist beim Wechsel in einen anderen Kanton laut SEM keine neue Bewilligung allein wegen des Wohnortwechsels nötig. Dies bestätigt weder die persönliche Gültigkeit noch eine Verlängerung deiner Bewilligung.",
+      "conditions": "Bestehende EU/EFTA-Bewilligung; Wohnortwechsel innerhalb der Schweiz",
+      "sourceId": "sem-eu-mobility",
+      "passageId": "permit_eu_mobility"
+    },
+    {
+      "id": "permit_eu_address",
+      "text": "Lege deinen EU/EFTA-Ausweis bei der Anmeldung am neuen Wohnort vor, damit die neue Wohnadresse eingetragen wird.",
+      "conditions": "Bestehende EU/EFTA-Bewilligung; Wohnortwechsel innerhalb der Schweiz",
+      "sourceId": "sem-eu-mobility",
+      "passageId": "permit_eu_address"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sem-eu-mobility",
+      "title": "FAQ – Fragen zur Personenfreizügigkeit",
+      "url": "https://www.sem.admin.ch/sem/de/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html",
+      "authority": "Staatssekretariat für Migration SEM",
+      "retrievedAt": "2026-09-25T09:34:53.831Z",
+      "contentSha256": "fd36933975716e5601a0edf41d9fa60812e5a9ca9c1278b452bed87e638c6524",
+      "passages": [
+        {
+          "id": "permit_eu_mobility",
+          "heading": "Stellen- oder Wohnortwechsel",
+          "text": "Staatsangehörige der EU/EFTA und ihre Familienangehörigen benötigen keine neue Bewilligung, wenn sie ihren Lebensmittelpunkt in einen anderen Kanton verlegen.",
+          "truncated": false
+        },
+        {
+          "id": "permit_eu_address",
+          "heading": "Stellen- oder Wohnortwechsel",
+          "text": "Im EU/EFTA-Ausweis ist aber die neue Wohnadresse aufzuführen. Der Ausweis ist zu diesem Zweck bei der Anmeldung am neuen Wohnort vorzulegen.",
+          "truncated": false
+        }
+      ]
+    }
+  ]
+}

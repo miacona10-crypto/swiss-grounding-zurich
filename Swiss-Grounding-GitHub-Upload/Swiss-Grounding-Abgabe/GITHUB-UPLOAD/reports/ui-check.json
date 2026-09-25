@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-09-25T08:15:32.003Z",
+  "modelSimulated": true,
+  "realMcp": false,
+  "status": "blocked_environment",
+  "error": "browserType.launch: Executable doesn't exist at /root/.cache/ms-playwright/chromium_headless_shell-1234/chrome-headless-shell-linux64/chrome-headless-shell\n╔════════════════════════════════════════════════════════════╗\n║ Looks like Playwright was just installed or updated.       ║\n║ Please run the following command to download new browsers: ║\n║                                                            ║\n║     npx playwright install                                 ║\n║                                                            ║\n║ <3 Playwright Team                                         ║\n╚════════════════════════════════════════════════════════════╝",
+  "visualBrowserCheck": false,
+  "mapRendered": null,
+  "reason": "No browser executable installed; attempted runtime download failed. HTTP chat and UI response data are covered by automated tests."
+}

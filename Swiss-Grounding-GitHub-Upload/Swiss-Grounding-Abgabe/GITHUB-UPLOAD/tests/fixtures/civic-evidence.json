@@ -1,0 +1,298 @@
+{
+  "registration": {
+    "available": true,
+    "facts": [
+      {
+        "id": "deadline",
+        "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+        "conditions": "Zuzug in die Stadt Zürich",
+        "sourceId": "zh-registration",
+        "passageId": "deadline"
+      },
+      {
+        "id": "domestic_online",
+        "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+        "conditions": "Zuzug aus einer Schweizer Gemeinde",
+        "sourceId": "zh-registration",
+        "passageId": "domestic_online"
+      },
+      {
+        "id": "domestic_deregister",
+        "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+        "conditions": "Zuzug aus einer Schweizer Gemeinde",
+        "sourceId": "zh-registration",
+        "passageId": "domestic_deregister"
+      },
+      {
+        "id": "domestic_appointment",
+        "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+        "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+        "sourceId": "zh-registration",
+        "passageId": "domestic_appointment"
+      },
+      {
+        "id": "abroad_appointment",
+        "text": "Bei Zuzug aus dem Ausland: persönlich beim Personenmeldeamt Zürich Süd anmelden und vorher einen Termin buchen.",
+        "conditions": "Zuzug aus dem Ausland",
+        "sourceId": "zh-registration",
+        "passageId": "abroad_appointment"
+      },
+      {
+        "id": "family",
+        "text": "Bei einer Familienanmeldung aus dem Ausland müssen alle Familienmitglieder persönlich zum Termin erscheinen.",
+        "conditions": "Familienanmeldung bei Zuzug aus dem Ausland",
+        "sourceId": "zh-registration",
+        "passageId": "family"
+      },
+      {
+        "id": "swiss_lease",
+        "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+        "conditions": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "swiss_lease"
+      },
+      {
+        "id": "swiss_insurance",
+        "text": "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+        "conditions": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "swiss_insurance"
+      },
+      {
+        "id": "swiss_fee",
+        "text": "Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.",
+        "conditions": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "swiss_fee"
+      },
+      {
+        "id": "foreign_lease",
+        "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+        "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "foreign_lease"
+      },
+      {
+        "id": "foreign_insurance",
+        "text": "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+        "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "foreign_insurance"
+      },
+      {
+        "id": "foreign_civil",
+        "text": "Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.",
+        "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "foreign_civil"
+      },
+      {
+        "id": "foreign_fee",
+        "text": "Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.",
+        "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "foreign_fee"
+      },
+      {
+        "id": "abroad_lease",
+        "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+        "conditions": "Zuzug aus dem Ausland",
+        "sourceId": "zh-registration",
+        "passageId": "abroad_lease"
+      },
+      {
+        "id": "abroad_civil",
+        "text": "Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.",
+        "conditions": "Zuzug aus dem Ausland",
+        "sourceId": "zh-registration",
+        "passageId": "abroad_civil"
+      },
+      {
+        "id": "swiss_identity",
+        "text": "Pass oder Identitätskarte mitnehmen.",
+        "conditions": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "swiss_identity"
+      },
+      {
+        "id": "foreign_identity",
+        "text": "Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.",
+        "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "foreign_identity"
+      },
+      {
+        "id": "foreign_permit",
+        "text": "Ausländerausweis mitnehmen, sofern vorhanden.",
+        "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+        "sourceId": "zh-registration",
+        "passageId": "foreign_permit"
+      },
+      {
+        "id": "foreign_fees",
+        "text": "Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.",
+        "conditions": "Ausländische Staatsangehörigkeit; je nach Bewilligung",
+        "sourceId": "zh-registration",
+        "passageId": "foreign_fees"
+      },
+      {
+        "id": "abroad_identity",
+        "text": "Reisepass mitnehmen; bei EU/EFTA-Staatsangehörigkeit genügt auch der Personalausweis.",
+        "conditions": "Zuzug aus dem Ausland",
+        "sourceId": "zh-registration",
+        "passageId": "abroad_identity"
+      },
+      {
+        "id": "abroad_work",
+        "text": "Arbeitsvertrag oder Studienbestätigung nach der persönlichen Situation mitnehmen.",
+        "conditions": "Zuzug aus dem Ausland",
+        "sourceId": "zh-registration",
+        "passageId": "abroad_work"
+      },
+      {
+        "id": "abroad_permit",
+        "text": "Zusicherung der Aufenthaltsbewilligung und Ermächtigung der Visumserteilung mitnehmen, sofern vorhanden.",
+        "conditions": "Zuzug aus dem Ausland; sofern vorhanden",
+        "sourceId": "zh-registration",
+        "passageId": "abroad_permit"
+      },
+      {
+        "id": "domestic_fee",
+        "text": "Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.",
+        "conditions": "Zuzug aus einer Schweizer Gemeinde; pro erwachsene Person",
+        "sourceId": "zh-registration",
+        "passageId": "domestic_fee"
+      },
+      {
+        "id": "abroad_fees",
+        "text": "Migrationsamtliche Gebühren hängen von der Art der Bewilligung ab; ein persönlicher Gesamtbetrag ist hier nicht bestätigt.",
+        "conditions": "Zuzug aus dem Ausland; je nach Bewilligung",
+        "sourceId": "zh-registration",
+        "passageId": "abroad_fees"
+      }
+    ],
+    "sources": [
+      {
+        "id": "zh-registration",
+        "url": "https://www.stadt-zuerich.ch/test-fixture",
+        "title": "Synthetic test evidence",
+        "retrievedAt": "2026-09-24T00:00:00Z",
+        "passages": []
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.eumzug.swiss/eumzugngx/global",
+        "title": "online via eUmzugCH"
+      },
+      {
+        "url": "https://www.stadt-zuerich.ch/termin-pma",
+        "title": "Termin für Zuzug aus einer anderen Schweizer Gemeinde buchen."
+      },
+      {
+        "url": "https://www.stadt-zuerich.ch/web/de/mobilitaet/parkieren/parkbewilligungen/spezialbewilligungen.html",
+        "title": "provisorische Parkkarte"
+      },
+      {
+        "url": "https://www.zh.ch/de/sicherheitsdirektion/strassenverkehrsamt.html",
+        "title": "Strassenverkehrsamt"
+      },
+      {
+        "url": "https://www.stadt-zuerich.ch/registration-pma",
+        "title": "Termin für Zuzug aus dem Ausland buchen"
+      }
+    ]
+  },
+  "debt_extract": {
+    "available": true,
+    "facts": [
+      {
+        "id": "debt_methods",
+        "text": "Du kannst den Auszug online, per Brief oder persönlich am Schalter bestellen.",
+        "conditions": "Betreibungsregisterauszug Zürich",
+        "sourceId": "zh-debt",
+        "passageId": "debt_methods"
+      },
+      {
+        "id": "debt_jurisdiction",
+        "text": "Zuständig ist das Betreibungsamt für die betreffende aktuelle oder frühere Wohnadresse. Die neue Adresse oder das nächstgelegene Amt ist nicht automatisch richtig.",
+        "conditions": "Adresse, auf die sich der Auszug bezieht",
+        "sourceId": "zh-debt",
+        "passageId": "debt_jurisdiction"
+      },
+      {
+        "id": "debt_online",
+        "text": "Im offiziellen Onlineformular wird das zuständige Amt ermittelt. Mehrere Zürcher Wohnadressen der letzten fünf Jahre können dort berücksichtigt werden.",
+        "conditions": "Onlinebestellung",
+        "sourceId": "zh-debt",
+        "passageId": "debt_online"
+      },
+      {
+        "id": "debt_identity_online",
+        "text": "Halte für das amtliche Bestellformular eine Ausweiskopie bereit. Lade sie ausschliesslich dort hoch, nicht in diesen Chat.",
+        "conditions": "Onlinebestellung",
+        "sourceId": "zh-debt",
+        "passageId": "debt_identity_online"
+      },
+      {
+        "id": "debt_identity_office",
+        "text": "Am Schalter: amtlichen Ausweis mitbringen; Bezahlung bar oder mit Debitkarte.",
+        "conditions": "Persönliche Bestellung",
+        "sourceId": "zh-debt",
+        "passageId": "debt_identity_office"
+      },
+      {
+        "id": "debt_fee",
+        "text": "Ein Standardauszug kostet 17 Franken zuzüglich Porto; andere Auskunftsarten können abweichen.",
+        "conditions": "Standardauszug",
+        "sourceId": "zh-debt",
+        "passageId": "debt_fee"
+      },
+      {
+        "id": "debt_third",
+        "text": "Für Auskünfte über andere Personen oder Firmen muss ein berechtigtes Interesse durch Unterlagen glaubhaft gemacht werden. Das Amt prüft den Einzelfall.",
+        "conditions": "Auszug über eine andere Person oder Firma",
+        "sourceId": "zh-debt",
+        "passageId": "debt_third"
+      },
+      {
+        "id": "debt_delivery",
+        "text": "Schriftliche Auszüge werden laut Stadt ausschliesslich an Adressen in der Schweiz versandt.",
+        "conditions": "Schriftlicher Auszug",
+        "sourceId": "zh-debt",
+        "passageId": "debt_delivery"
+      }
+    ],
+    "sources": [
+      {
+        "id": "zh-debt",
+        "url": "https://www.stadt-zuerich.ch/test-fixture",
+        "title": "Synthetic test evidence",
+        "retrievedAt": "2026-09-24T00:00:00Z",
+        "passages": []
+      }
+    ],
+    "links": [
+      {
+        "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/betreibungen/betreibungsregisterauszug-bestellen.html#kosten_des_betreibungsauszugs",
+        "title": "Kosten des Betreibungsauszugs"
+      },
+      {
+        "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/betreibungen/betreibungsregisterauszug-bestellen.html#erlaeuterungen_zumbetreibungsauszug",
+        "title": "Erläuterungen zum Betreibungsauszug"
+      },
+      {
+        "url": "https://www.stadt-zuerich.ch/web/de/lebenslagen/einwohner-services/betreibungen/betreibungsaemter.html",
+        "title": "zuständige Betreibungsamt"
+      },
+      {
+        "url": "https://www.stadt-zuerich.ch/web/de/lebenslagen/einwohner-services/betreibungen/formulare-und-merkblaetter.html",
+        "title": "Formular: Betreibungsauszug bestellen"
+      },
+      {
+        "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/betreibungen/betreibungsregisterauszug-bestellen.html#rechtsgrundlagen",
+        "title": "Rechtsgrundlagen"
+      }
+    ]
+  }
+}

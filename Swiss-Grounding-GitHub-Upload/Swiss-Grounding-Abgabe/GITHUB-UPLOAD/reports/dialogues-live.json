@@ -1,0 +1,1901 @@
+{
+  "checkedAt": "2026-09-25T08:41:37.700Z",
+  "version": "0.5.6 / V7.6",
+  "realMcp": true,
+  "liveSources": true,
+  "liveModel": false,
+  "rows": [
+    {
+      "name": "reported registration failure",
+      "passed": true,
+      "questions": [
+        "ich möchte mich an der apollostrasse in Zürich anmelden wo genau muss ich mich anmelden. Bin neu in der stadt",
+        "apollostrasse 13",
+        "Aus einer anderen Schweizer Gemeinde",
+        "Welche Unterlagen muss ich mitbringen?",
+        "Schweizer Staatsangehörigkeit"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "needs_clarification",
+          "answer": "Ziehst du aus einer anderen Schweizer Gemeinde oder aus dem Ausland nach Zürich?",
+          "message": "Ziehst du aus einer anderen Schweizer Gemeinde oder aus dem Ausland nach Zürich?",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": null,
+            "nationality": null
+          },
+          "missingFields": [
+            "residenceOrigin"
+          ],
+          "nextQuestion": "Ziehst du aus einer anderen Schweizer Gemeinde oder aus dem Ausland nach Zürich?",
+          "options": [
+            "Aus einer anderen Schweizer Gemeinde",
+            "Aus dem Ausland",
+            "Umzug innerhalb der Stadt Zürich"
+          ],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [],
+          "limitations": [],
+          "pending_question": {
+            "field": "origin",
+            "reason": "Ziehst du aus einer anderen Schweizer Gemeinde oder aus dem Ausland nach Zürich?",
+            "options": [
+              "Aus einer anderen Schweizer Gemeinde",
+              "Aus dem Ausland",
+              "Umzug innerhalb der Stadt Zürich"
+            ]
+          }
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "needs_clarification",
+          "answer": "Die Adresse ist übernommen. Für den Anmeldeweg ist deine Herkunft entscheidend.\n\nZiehst du aus einer anderen Schweizer Gemeinde oder aus dem Ausland nach Zürich?",
+          "message": "Die Adresse ist übernommen. Für den Anmeldeweg ist deine Herkunft entscheidend.\n\nZiehst du aus einer anderen Schweizer Gemeinde oder aus dem Ausland nach Zürich?",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": "apollostrasse 13",
+            "addressStatus": "user_provided",
+            "residenceOrigin": null,
+            "nationality": null
+          },
+          "missingFields": [
+            "residenceOrigin"
+          ],
+          "nextQuestion": "Die Adresse ist übernommen. Für den Anmeldeweg ist deine Herkunft entscheidend.\n\nZiehst du aus einer anderen Schweizer Gemeinde oder aus dem Ausland nach Zürich?",
+          "options": [
+            "Aus einer anderen Schweizer Gemeinde",
+            "Aus dem Ausland",
+            "Umzug innerhalb der Stadt Zürich"
+          ],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [],
+          "limitations": [],
+          "pending_question": {
+            "field": "origin",
+            "reason": "Die Adresse ist übernommen. Für den Anmeldeweg ist deine Herkunft entscheidend.\n\nZiehst du aus einer anderen Schweizer Gemeinde oder aus dem Ausland nach Zürich?",
+            "options": [
+              "Aus einer anderen Schweizer Gemeinde",
+              "Aus dem Ausland",
+              "Umzug innerhalb der Stadt Zürich"
+            ]
+          }
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Online oder mit Termin**\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n\n**Vorbereitung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+          "message": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Online oder mit Termin**\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n\n**Vorbereitung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": "apollostrasse 13",
+            "addressStatus": "user_provided",
+            "residenceOrigin": "switzerland",
+            "nationality": null
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [
+            {
+              "title": "Online oder mit Termin",
+              "items": [
+                "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+                "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest."
+              ]
+            },
+            {
+              "title": "Vorbereitung",
+              "items": [
+                "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+                "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich."
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "claims": [
+            {
+              "id": "domestic_online",
+              "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "domestic_appointment",
+              "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+              "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "domestic_deregister",
+              "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_deregister",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            }
+          ],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "zh-registration",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:45.614Z",
+              "contentSha256": "da53d6437cbeda9c6eec78b73d0ca251e1ac3b07a7a420590b76219d51f69052",
+              "passages": [
+                {
+                  "id": "deadline",
+                  "heading": "Zuzug in die Stadt Zürich",
+                  "text": "Sie müssen sich innerhalb von 14 Tagen bei der Stadt Zürich anmelden (Meldepflicht). Eine Anmeldung ist erst ab dem effektiven Einzug möglich.",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_online",
+                  "heading": "Zuzug aus einer Schweizer Gemeinde",
+                  "text": "Einige Gemeinden nehmen bereits am schweizweiten eUmzugCH teil. Melden Sie Ihren Umzug nach Zürich online via eUmzugCH",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_deregister",
+                  "heading": "Zuzug aus einer Schweizer Gemeinde",
+                  "text": "Bitte melden Sie sich bei Ihrer bisherigen Wohnsitzgemeinde ab. Ohne die Abmeldung bei Ihrer bisherigen Wohnsitzgemeinde können Sie sich nicht in der Stadt anmelden.",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_appointment",
+                  "heading": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+                  "text": "Eine Vorsprache vor Ort ist ausschliesslich mit vorheriger Terminvereinbarung möglich.",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [],
+          "missingRules": [],
+          "suggestions": [
+            {
+              "label": "Erste Schritte",
+              "question": "Welche ersten Schritte muss ich nach meinem Zuzug beachten?"
+            },
+            {
+              "label": "Entsorgungskalender",
+              "question": "Wie finde ich meinen persönlichen Entsorgungskalender?"
+            }
+          ],
+          "followUp": {
+            "label": "Passende Unterlagen anzeigen",
+            "question": "Welche Unterlagen muss ich mitbringen?"
+          },
+          "pending_question": null
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "needs_clarification",
+          "answer": "Für die Unterlagen beim Zuzug aus der Schweiz: Hast du die Schweizer oder eine ausländische Staatsangehörigkeit?",
+          "message": "Für die Unterlagen beim Zuzug aus der Schweiz: Hast du die Schweizer oder eine ausländische Staatsangehörigkeit?",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": "apollostrasse 13",
+            "addressStatus": "user_provided",
+            "residenceOrigin": "switzerland",
+            "nationality": null
+          },
+          "missingFields": [
+            "nationality"
+          ],
+          "nextQuestion": "Für die Unterlagen beim Zuzug aus der Schweiz: Hast du die Schweizer oder eine ausländische Staatsangehörigkeit?",
+          "options": [
+            "Schweizer Staatsangehörigkeit",
+            "Ausländische Staatsangehörigkeit"
+          ],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [],
+          "limitations": [],
+          "pending_question": {
+            "field": "nationality",
+            "reason": "Für die Unterlagen beim Zuzug aus der Schweiz: Hast du die Schweizer oder eine ausländische Staatsangehörigkeit?",
+            "options": [
+              "Schweizer Staatsangehörigkeit",
+              "Ausländische Staatsangehörigkeit"
+            ]
+          }
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Deine Unterlagen**\n- Pass oder Identitätskarte mitnehmen.\n- Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.\n- Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+          "message": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Deine Unterlagen**\n- Pass oder Identitätskarte mitnehmen.\n- Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.\n- Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": "apollostrasse 13",
+            "addressStatus": "user_provided",
+            "residenceOrigin": "switzerland",
+            "nationality": "swiss"
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [
+            {
+              "title": "Deine Unterlagen",
+              "items": [
+                "Pass oder Identitätskarte mitnehmen.",
+                "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+                "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen."
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "claims": [
+            {
+              "id": "swiss_identity",
+              "text": "Pass oder Identitätskarte mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "swiss_identity",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "swiss_lease",
+              "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "swiss_lease",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "swiss_insurance",
+              "text": "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "swiss_insurance",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            }
+          ],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "zh-registration",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:45.614Z",
+              "contentSha256": "da53d6437cbeda9c6eec78b73d0ca251e1ac3b07a7a420590b76219d51f69052",
+              "passages": [
+                {
+                  "id": "swiss_lease",
+                  "heading": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+                  "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag",
+                  "truncated": false
+                },
+                {
+                  "id": "swiss_insurance",
+                  "heading": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+                  "text": "Krankenkassenkarte (aller Familienmitglieder)",
+                  "truncated": false
+                },
+                {
+                  "id": "swiss_identity",
+                  "heading": "Zuzug aus der Schweiz; Schweizer Staatsangehörigkeit",
+                  "text": "Pass oder Identitätskarte",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [],
+          "missingRules": [],
+          "suggestions": [
+            {
+              "label": "Erste Schritte",
+              "question": "Welche ersten Schritte muss ich nach meinem Zuzug beachten?"
+            },
+            {
+              "label": "Entsorgungskalender",
+              "question": "Wie finde ich meinen persönlichen Entsorgungskalender?"
+            }
+          ],
+          "followUp": null,
+          "pending_question": null
+        }
+      ]
+    },
+    {
+      "name": "foreign origin, exact office",
+      "passed": true,
+      "questions": [
+        "Ich ziehe aus Deutschland nach Zürich. Wo muss ich mich anmelden?"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Dein Anmeldeweg: Zuzug aus dem Ausland nach Zürich.\n\n**Persönlich anmelden**\n- Bei Zuzug aus dem Ausland: persönlich beim Personenmeldeamt Zürich Süd anmelden und vorher einen Termin buchen.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n\n**Bei einer Familienanmeldung**\n- Bei einer Familienanmeldung aus dem Ausland müssen alle Familienmitglieder persönlich zum Termin erscheinen.\n\n**Besuchsort**\n- Personenmeldeamt Zürich Süd · Stadthausquai 17, 8001 Zürich",
+          "message": "Dein Anmeldeweg: Zuzug aus dem Ausland nach Zürich.\n\n**Persönlich anmelden**\n- Bei Zuzug aus dem Ausland: persönlich beim Personenmeldeamt Zürich Süd anmelden und vorher einen Termin buchen.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n\n**Bei einer Familienanmeldung**\n- Bei einer Familienanmeldung aus dem Ausland müssen alle Familienmitglieder persönlich zum Termin erscheinen.\n\n**Besuchsort**\n- Personenmeldeamt Zürich Süd · Stadthausquai 17, 8001 Zürich",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "abroad",
+            "nationality": null
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [
+            {
+              "title": "Persönlich anmelden",
+              "items": [
+                "Bei Zuzug aus dem Ausland: persönlich beim Personenmeldeamt Zürich Süd anmelden und vorher einen Termin buchen.",
+                "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich."
+              ]
+            },
+            {
+              "title": "Bei einer Familienanmeldung",
+              "items": [
+                "Bei einer Familienanmeldung aus dem Ausland müssen alle Familienmitglieder persönlich zum Termin erscheinen."
+              ]
+            },
+            {
+              "title": "Besuchsort",
+              "items": [
+                "Personenmeldeamt Zürich Süd · Stadthausquai 17, 8001 Zürich"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "Termin für Zuzug aus dem Ausland",
+              "url": "https://www.stadt-zuerich.ch/registration-pma"
+            }
+          ],
+          "claims": [
+            {
+              "id": "abroad_appointment",
+              "text": "Bei Zuzug aus dem Ausland: persönlich beim Personenmeldeamt Zürich Süd anmelden und vorher einen Termin buchen.",
+              "conditions": "Zuzug aus dem Ausland",
+              "sourceId": "zh-registration",
+              "passageId": "abroad_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "family",
+              "text": "Bei einer Familienanmeldung aus dem Ausland müssen alle Familienmitglieder persönlich zum Termin erscheinen.",
+              "conditions": "Familienanmeldung bei Zuzug aus dem Ausland",
+              "sourceId": "zh-registration",
+              "passageId": "family",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "pma_south_address",
+              "text": "Stadthausquai 17, 8001 Zürich",
+              "conditions": "Besuchsort bei Zuzug aus dem Ausland",
+              "sourceId": "zh-pma-locations",
+              "passageId": "contact",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/dokumente-und-bestaetigungen/lebensbestaetigung.html"
+            }
+          ],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "zh-registration",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:45.614Z",
+              "contentSha256": "da53d6437cbeda9c6eec78b73d0ca251e1ac3b07a7a420590b76219d51f69052",
+              "passages": [
+                {
+                  "id": "deadline",
+                  "heading": "Zuzug in die Stadt Zürich",
+                  "text": "Sie müssen sich innerhalb von 14 Tagen bei der Stadt Zürich anmelden (Meldepflicht). Eine Anmeldung ist erst ab dem effektiven Einzug möglich.",
+                  "truncated": false
+                },
+                {
+                  "id": "abroad_appointment",
+                  "heading": "Zuzug aus dem Ausland",
+                  "text": "Für die Anmeldung aus dem Ausland müssen Sie einen Termin vereinbaren. Die Anmeldung findet persönlich beim Personenmeldeamt Zürich Süd statt.",
+                  "truncated": false
+                },
+                {
+                  "id": "family",
+                  "heading": "Familienanmeldung bei Zuzug aus dem Ausland",
+                  "text": "bei Familienanmeldungen alle Familienmitglieder persönlich beim Termin erscheinen.",
+                  "truncated": false
+                }
+              ]
+            },
+            {
+              "id": "zh-pma-locations",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/dokumente-und-bestaetigungen/lebensbestaetigung.html",
+              "title": "Kontakt Personenmeldeamt Zürich Süd",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:46.651Z",
+              "contentSha256": "5bc9539de19d2efbbed5cfb39c78a631a6b6d748bfba3bd620b2cd255a47fa58",
+              "passages": [
+                {
+                  "id": "contact",
+                  "heading": "Personenmeldeamt Zürich Süd",
+                  "text": "Stadthausquai 17, 8001 Zürich",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [],
+          "missingRules": [],
+          "suggestions": [
+            {
+              "label": "Erste Schritte",
+              "question": "Welche ersten Schritte muss ich nach meinem Zuzug beachten?"
+            },
+            {
+              "label": "Entsorgungskalender",
+              "question": "Wie finde ich meinen persönlichen Entsorgungskalender?"
+            }
+          ],
+          "followUp": {
+            "label": "Passende Unterlagen anzeigen",
+            "question": "Welche Unterlagen muss ich mitbringen?"
+          },
+          "pending_question": null
+        }
+      ]
+    },
+    {
+      "name": "intra-city move separate procedure",
+      "passed": true,
+      "questions": [
+        "Ich ziehe innerhalb der Stadt Zürich um. Wie melde ich das?"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Dein Verfahren: Adressänderung innerhalb der Stadt Zürich.\n\n**Online oder persönlich**\n- Die städtische Online-Adressänderung ist für bereits in Zürich angemeldete, volljährige und handlungsfähige Personen vorgesehen; frühestens 30 Tage vor Einzug.\n- Für die persönliche Adressänderung buche einen Termin bei Zürich Nord oder Zürich West.\n- Melde die Adressänderung innerhalb von 14 Tagen nach dem Umzug.",
+          "message": "Dein Verfahren: Adressänderung innerhalb der Stadt Zürich.\n\n**Online oder persönlich**\n- Die städtische Online-Adressänderung ist für bereits in Zürich angemeldete, volljährige und handlungsfähige Personen vorgesehen; frühestens 30 Tage vor Einzug.\n- Für die persönliche Adressänderung buche einen Termin bei Zürich Nord oder Zürich West.\n- Melde die Adressänderung innerhalb von 14 Tagen nach dem Umzug.",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "within_city",
+            "nationality": null
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [
+            {
+              "title": "Online oder persönlich",
+              "items": [
+                "Die städtische Online-Adressänderung ist für bereits in Zürich angemeldete, volljährige und handlungsfähige Personen vorgesehen; frühestens 30 Tage vor Einzug.",
+                "Für die persönliche Adressänderung buche einen Termin bei Zürich Nord oder Zürich West.",
+                "Melde die Adressänderung innerhalb von 14 Tagen nach dem Umzug."
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "Adressänderung online melden",
+              "url": "https://www.stadt-zuerich.ch/umzug"
+            },
+            {
+              "label": "Termin für Adressänderung",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "claims": [
+            {
+              "id": "local_online",
+              "text": "Die städtische Online-Adressänderung ist für bereits in Zürich angemeldete, volljährige und handlungsfähige Personen vorgesehen; frühestens 30 Tage vor Einzug.",
+              "conditions": "Online-Adressänderung innerhalb der Stadt Zürich",
+              "sourceId": "zh-local-move",
+              "passageId": "local_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/umzug"
+            },
+            {
+              "id": "local_office",
+              "text": "Für die persönliche Adressänderung buche einen Termin bei Zürich Nord oder Zürich West.",
+              "conditions": "Persönliche Adressänderung innerhalb der Stadt Zürich",
+              "sourceId": "zh-local-move",
+              "passageId": "local_office",
+              "sourceUrl": "https://www.stadt-zuerich.ch/umzug"
+            },
+            {
+              "id": "local_deadline",
+              "text": "Melde die Adressänderung innerhalb von 14 Tagen nach dem Umzug.",
+              "conditions": "Umzug innerhalb der Stadt Zürich",
+              "sourceId": "zh-local-move",
+              "passageId": "local_deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/umzug"
+            }
+          ],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "zh-local-move",
+              "url": "https://www.stadt-zuerich.ch/umzug",
+              "title": "Umzug innerhalb der Stadt | Stadt Zürich",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:49.144Z",
+              "contentSha256": "fb9a8dbcfbda708b6f9cd1ef0529782e1c0ecadede22702fa9b00e9fc60e4136",
+              "passages": [
+                {
+                  "id": "local_deadline",
+                  "heading": "Umzug innerhalb der Stadt Zürich",
+                  "text": "Die Meldepflicht Ihrer Adressänderung beträgt 14 Tage ab Umzug.",
+                  "truncated": false
+                },
+                {
+                  "id": "local_online",
+                  "heading": "Online-Adressänderung innerhalb der Stadt Zürich",
+                  "text": "Sie sind bereits in der Stadt Zürich angemeldet. Sie sind volljährig und handlungsfähig Die Adressänderung können Sie uns online frühestens 30 Tage vor Einzug melden.",
+                  "truncated": false
+                },
+                {
+                  "id": "local_office",
+                  "heading": "Persönliche Adressänderung innerhalb der Stadt Zürich",
+                  "text": "nur noch mit Termin an den Standorten Personenmeldeamt Zürich Nord oder Personenmeldeamt Zürich West möglich.",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [],
+          "missingRules": [],
+          "suggestions": [
+            {
+              "label": "Erste Schritte",
+              "question": "Welche ersten Schritte muss ich nach meinem Zuzug beachten?"
+            },
+            {
+              "label": "Entsorgungskalender",
+              "question": "Wie finde ich meinen persönlichen Entsorgungskalender?"
+            }
+          ],
+          "followUp": {
+            "label": "Passende Unterlagen anzeigen",
+            "question": "Welche Unterlagen muss ich mitbringen?"
+          },
+          "pending_question": null
+        }
+      ]
+    },
+    {
+      "name": "nearest glass then cardboard",
+      "passed": true,
+      "questions": [
+        "Wo kann ich nahe der Apollostrasse in Zürich Glas entsorgen?",
+        "20",
+        "Wann kann ich Karton rausstellen?"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "needs_clarification",
+          "answer": "Welche Hausnummer an der Apollostrasse meinst du? Der amtliche Adressbestand ordnet diese Strasse 8032 Zürich, Kreis 7, zu.",
+          "message": "Welche Hausnummer an der Apollostrasse meinst du? Der amtliche Adressbestand ordnet diese Strasse 8032 Zürich, Kreis 7, zu.",
+          "topic": "waste",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Glas",
+            "street": "Apollostrasse",
+            "address": null
+          },
+          "missingFields": [
+            "houseNumber"
+          ],
+          "nextQuestion": "Welche Hausnummer an der Apollostrasse meinst du? Der amtliche Adressbestand ordnet diese Strasse 8032 Zürich, Kreis 7, zu.",
+          "options": [],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "addresses",
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ],
+          "limitations": [],
+          "pending_question": {
+            "field": "house_number",
+            "reason": "Welche Hausnummer an der Apollostrasse meinst du? Der amtliche Adressbestand ordnet diese Strasse 8032 Zürich, Kreis 7, zu.",
+            "options": []
+          }
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Die drei nächstgelegenen erfassten Sammelstellen für Glas **nach Luftlinie** ab Apollostrasse 20, 8032 Zürich (Kreis 7):\n\n1. **Merkurstrasse 4** · 8032 Zürich, Kreis 7 · ca. 300 m Luftlinie\n2. **Mühlebachstrasse 35** · 8008 Zürich, Kreis 8 · ca. 450 m Luftlinie\n3. **Hammerstrasse 43** · 8032 Zürich, Kreis 7 · ca. 630 m Luftlinie\n\nFusswege können länger sein. Öffnungszeiten und aktuelle Betriebszustände sind nicht geprüft.",
+          "message": "Die drei nächstgelegenen erfassten Sammelstellen für Glas **nach Luftlinie** ab Apollostrasse 20, 8032 Zürich (Kreis 7):\n\n1. **Merkurstrasse 4** · 8032 Zürich, Kreis 7 · ca. 300 m Luftlinie\n2. **Mühlebachstrasse 35** · 8008 Zürich, Kreis 8 · ca. 450 m Luftlinie\n3. **Hammerstrasse 43** · 8032 Zürich, Kreis 7 · ca. 630 m Luftlinie\n\nFusswege können länger sein. Öffnungszeiten und aktuelle Betriebszustände sind nicht geprüft.",
+          "topic": "waste",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Glas",
+            "street": "Apollostrasse",
+            "houseNumber": "20",
+            "postalCode": "8032",
+            "district": 7,
+            "address": "Apollostrasse 20"
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [
+            {
+              "id": "sa74589",
+              "address": "Merkurstrasse 4",
+              "postalCode": "8032",
+              "district": 7,
+              "lat": 47.366078,
+              "lon": 8.553028,
+              "materials": [
+                "Glas",
+                "Metall",
+                "Oel",
+                "Textilien"
+              ],
+              "distanceMeters": 300,
+              "mapUrl": "https://www.openstreetmap.org/?mlat=47.366078&mlon=8.553028#map=18/47.366078/8.553028"
+            },
+            {
+              "id": "sa74560",
+              "address": "Mühlebachstrasse 35",
+              "postalCode": "8008",
+              "district": 8,
+              "lat": 47.364576,
+              "lon": 8.550821,
+              "materials": [
+                "Glas",
+                "Metall",
+                "Oel",
+                "Textilien"
+              ],
+              "distanceMeters": 450,
+              "mapUrl": "https://www.openstreetmap.org/?mlat=47.364576&mlon=8.550821#map=18/47.364576/8.550821"
+            },
+            {
+              "id": "sa74437",
+              "address": "Hammerstrasse 43",
+              "postalCode": "8032",
+              "district": 7,
+              "lat": 47.360497,
+              "lon": 8.561517,
+              "materials": [
+                "Glas",
+                "Metall",
+                "Textilien"
+              ],
+              "distanceMeters": 630,
+              "mapUrl": "https://www.openstreetmap.org/?mlat=47.360497&mlon=8.561517#map=18/47.360497/8.561517"
+            }
+          ],
+          "sourceLinks": [
+            {
+              "id": "stations",
+              "title": "Amtliche Sammelstellen mit Koordinaten",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_sammelstelle",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "id": "addresses",
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "id": "districts",
+              "title": "Amtliche Stadtkreisgrenzen",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_stadtkreise",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ],
+          "limitations": [
+            "Entfernungen sind gerundete Luftlinien zwischen amtlichen Koordinaten, keine Fusswege oder Gehzeiten. Adresspunkte liegen nicht zwingend am Hauseingang. Öffnungszeiten und aktuelle Betriebsstörungen sind nicht geprüft.",
+            "Keine PET-Annahme aus diesen Materialangaben ableiten."
+          ],
+          "origin": {
+            "id": "adrstzh_adressen_stzh_p.18304",
+            "address": "Apollostrasse 20",
+            "street": "Apollostrasse",
+            "number": "20",
+            "postalCode": "8032",
+            "district": 7,
+            "lat": 47.365138238762135,
+            "lon": 8.55671961492512
+          },
+          "sortMode": "straight_line",
+          "totalMatches": 178,
+          "followUp": {
+            "question": "Wann kann ich Karton rausstellen?",
+            "label": "Nächster Kartontermin"
+          },
+          "pending_question": null
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Nächster im amtlichen Kalender verzeichneter Kartontermin für 8032 Zürich: **28.09.2026**.\n\nStelle den Karton am Sammeltag vor **7 Uhr** bereit.\n\nAdresse: Apollostrasse 20, Kreis 7.\n\nDer Termin gilt laut Datensatz für die PLZ; kurzfristige Betriebsänderungen sind nicht enthalten.",
+          "message": "Nächster im amtlichen Kalender verzeichneter Kartontermin für 8032 Zürich: **28.09.2026**.\n\nStelle den Karton am Sammeltag vor **7 Uhr** bereit.\n\nAdresse: Apollostrasse 20, Kreis 7.\n\nDer Termin gilt laut Datensatz für die PLZ; kurzfristige Betriebsänderungen sind nicht enthalten.",
+          "topic": "waste",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Karton",
+            "street": "Apollostrasse",
+            "houseNumber": "20",
+            "postalCode": "8032",
+            "district": 7,
+            "address": "Apollostrasse 20"
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "addresses",
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "id": "calendar",
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Kartonsammlung | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kartonsammlung.html",
+              "retrievedAt": "2026-09-25T08:41:50.566Z"
+            }
+          ],
+          "limitations": [
+            "Kalender nach PLZ, keine Echtzeitmeldung zur Abfuhr."
+          ],
+          "calendar": {
+            "postalCode": "8032",
+            "dates": [
+              "2026-09-28",
+              "2026-10-05",
+              "2026-10-12"
+            ],
+            "timezone": "Europe/Zurich",
+            "before": "07:00",
+            "todayCollection": false,
+            "todayCutoffPassed": false
+          },
+          "origin": {
+            "id": "adrstzh_adressen_stzh_p.18304",
+            "address": "Apollostrasse 20",
+            "street": "Apollostrasse",
+            "number": "20",
+            "postalCode": "8032",
+            "district": 7,
+            "lat": 47.365138238762135,
+            "lon": 8.55671961492512
+          },
+          "followUp": {
+            "question": "Wo kann ich Glas entsorgen?",
+            "label": "Glas-Sammelstellen suchen"
+          },
+          "pending_question": null
+        }
+      ]
+    },
+    {
+      "name": "debt extract cost without private details",
+      "passed": true,
+      "questions": [
+        "Wie viel kostet ein Betreibungsauszug in Zürich?"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Betreibungsregisterauszug in der Stadt Zürich\n\n**Kosten**\n- Ein Standardauszug kostet 17 Franken zuzüglich Porto; andere Auskunftsarten können abweichen.",
+          "message": "Betreibungsregisterauszug in der Stadt Zürich\n\n**Kosten**\n- Ein Standardauszug kostet 17 Franken zuzüglich Porto; andere Auskunftsarten können abweichen.",
+          "topic": "debt_extract",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": null,
+            "nationality": null
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [
+            {
+              "title": "Kosten",
+              "items": [
+                "Ein Standardauszug kostet 17 Franken zuzüglich Porto; andere Auskunftsarten können abweichen."
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "Amtliche Bestellung und Adresssuche öffnen",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/betreibungen/betreibungsregisterauszug-bestellen.html"
+            }
+          ],
+          "claims": [
+            {
+              "id": "debt_fee",
+              "text": "Ein Standardauszug kostet 17 Franken zuzüglich Porto; andere Auskunftsarten können abweichen.",
+              "conditions": "Standardauszug",
+              "sourceId": "zh-debt",
+              "passageId": "debt_fee",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/betreibungen/betreibungsregisterauszug-bestellen.html"
+            }
+          ],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "zh-debt",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/betreibungen/betreibungsregisterauszug-bestellen.html",
+              "title": "Auszug aus dem Betreibungsregister bestellen | Stadt Zürich",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:51.538Z",
+              "contentSha256": "d071e3667e4a709aeb068f6cdb8025cfbb44e6549ab6352cfde4f533c3493abd",
+              "passages": [
+                {
+                  "id": "debt_fee",
+                  "heading": "Standardauszug",
+                  "text": "Ein Standard-Auszug kostet 17 Franken plus Porto (A-Post)",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [],
+          "missingRules": [],
+          "suggestions": [],
+          "followUp": null,
+          "pending_question": null
+        }
+      ]
+    },
+    {
+      "name": "foreign national moving from Swiss canton",
+      "passed": true,
+      "questions": [
+        "Wo kann ich mich in Zürich anmelden wenn ich aus einem anderen Kanton komme?",
+        "Ich bin Ausländer, was muss ich beachten?"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Online oder mit Termin**\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n\n**Vorbereitung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+          "message": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Online oder mit Termin**\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n\n**Vorbereitung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "switzerland",
+            "nationality": null
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [
+            {
+              "title": "Online oder mit Termin",
+              "items": [
+                "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+                "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest."
+              ]
+            },
+            {
+              "title": "Vorbereitung",
+              "items": [
+                "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+                "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich."
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "claims": [
+            {
+              "id": "domestic_online",
+              "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "domestic_appointment",
+              "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+              "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "domestic_deregister",
+              "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_deregister",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            }
+          ],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "zh-registration",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:45.614Z",
+              "contentSha256": "da53d6437cbeda9c6eec78b73d0ca251e1ac3b07a7a420590b76219d51f69052",
+              "passages": [
+                {
+                  "id": "deadline",
+                  "heading": "Zuzug in die Stadt Zürich",
+                  "text": "Sie müssen sich innerhalb von 14 Tagen bei der Stadt Zürich anmelden (Meldepflicht). Eine Anmeldung ist erst ab dem effektiven Einzug möglich.",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_online",
+                  "heading": "Zuzug aus einer Schweizer Gemeinde",
+                  "text": "Einige Gemeinden nehmen bereits am schweizweiten eUmzugCH teil. Melden Sie Ihren Umzug nach Zürich online via eUmzugCH",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_deregister",
+                  "heading": "Zuzug aus einer Schweizer Gemeinde",
+                  "text": "Bitte melden Sie sich bei Ihrer bisherigen Wohnsitzgemeinde ab. Ohne die Abmeldung bei Ihrer bisherigen Wohnsitzgemeinde können Sie sich nicht in der Stadt anmelden.",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_appointment",
+                  "heading": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+                  "text": "Eine Vorsprache vor Ort ist ausschliesslich mit vorheriger Terminvereinbarung möglich.",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [],
+          "missingRules": [],
+          "suggestions": [
+            {
+              "label": "Erste Schritte",
+              "question": "Welche ersten Schritte muss ich nach meinem Zuzug beachten?"
+            },
+            {
+              "label": "Entsorgungskalender",
+              "question": "Wie finde ich meinen persönlichen Entsorgungskalender?"
+            }
+          ],
+          "followUp": {
+            "label": "Passende Unterlagen anzeigen",
+            "question": "Welche Unterlagen muss ich mitbringen?"
+          },
+          "pending_question": null
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Als ausländische Person beim Zuzug aus einer anderen Schweizer Gemeinde nach Zürich: Das solltest du vorbereiten.\n\n**Anmeldung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n\n**Unterlagen für die Anmeldung**\n- Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.\n- Ausländerausweis mitnehmen, sofern vorhanden.\n- Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.\n- Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.\n- Relevante Zivilstandspapiere mitnehmen, bei Zuzug aus dem Ausland im Original.\n\n**Gebühren**\n- Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.\n- Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.",
+          "message": "Als ausländische Person beim Zuzug aus einer anderen Schweizer Gemeinde nach Zürich: Das solltest du vorbereiten.\n\n**Anmeldung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n\n**Unterlagen für die Anmeldung**\n- Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.\n- Ausländerausweis mitnehmen, sofern vorhanden.\n- Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.\n- Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.\n- Relevante Zivilstandspapiere mitnehmen, bei Zuzug aus dem Ausland im Original.\n\n**Gebühren**\n- Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.\n- Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "switzerland",
+            "nationality": "foreign"
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [
+            {
+              "title": "Anmeldung",
+              "items": [
+                "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+                "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+                "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+                "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht."
+              ]
+            },
+            {
+              "title": "Unterlagen für die Anmeldung",
+              "items": [
+                "Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.",
+                "Ausländerausweis mitnehmen, sofern vorhanden.",
+                "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+                "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+                "Relevante Zivilstandspapiere mitnehmen, bei Zuzug aus dem Ausland im Original."
+              ]
+            },
+            {
+              "title": "Gebühren",
+              "items": [
+                "Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.",
+                "Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt."
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "claims": [
+            {
+              "id": "domestic_deregister",
+              "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_deregister",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "domestic_appointment",
+              "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+              "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "domestic_online",
+              "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "foreign_identity",
+              "text": "Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_identity",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "foreign_permit",
+              "text": "Ausländerausweis mitnehmen, sofern vorhanden.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_permit",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "foreign_lease",
+              "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_lease",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "foreign_insurance",
+              "text": "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_insurance",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "foreign_civil",
+              "text": "Relevante Zivilstandspapiere mitnehmen, bei Zuzug aus dem Ausland im Original.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_civil",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "domestic_fee",
+              "text": "Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde; pro erwachsene Person",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_fee",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "foreign_fees",
+              "text": "Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.",
+              "conditions": "Ausländische Staatsangehörigkeit; je nach Bewilligung",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_fees",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            }
+          ],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "zh-registration",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:45.614Z",
+              "contentSha256": "da53d6437cbeda9c6eec78b73d0ca251e1ac3b07a7a420590b76219d51f69052",
+              "passages": [
+                {
+                  "id": "deadline",
+                  "heading": "Zuzug in die Stadt Zürich",
+                  "text": "Sie müssen sich innerhalb von 14 Tagen bei der Stadt Zürich anmelden (Meldepflicht). Eine Anmeldung ist erst ab dem effektiven Einzug möglich.",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_online",
+                  "heading": "Zuzug aus einer Schweizer Gemeinde",
+                  "text": "Einige Gemeinden nehmen bereits am schweizweiten eUmzugCH teil. Melden Sie Ihren Umzug nach Zürich online via eUmzugCH",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_deregister",
+                  "heading": "Zuzug aus einer Schweizer Gemeinde",
+                  "text": "Bitte melden Sie sich bei Ihrer bisherigen Wohnsitzgemeinde ab. Ohne die Abmeldung bei Ihrer bisherigen Wohnsitzgemeinde können Sie sich nicht in der Stadt anmelden.",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_appointment",
+                  "heading": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+                  "text": "Eine Vorsprache vor Ort ist ausschliesslich mit vorheriger Terminvereinbarung möglich.",
+                  "truncated": false
+                },
+                {
+                  "id": "foreign_lease",
+                  "heading": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+                  "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag",
+                  "truncated": false
+                },
+                {
+                  "id": "foreign_insurance",
+                  "heading": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+                  "text": "Krankenkassenkarte (aller Familienmitglieder)",
+                  "truncated": false
+                },
+                {
+                  "id": "foreign_civil",
+                  "heading": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+                  "text": "Zivilstandspapiere (Ehepapiere und Geburtsscheine der Kinder)",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_fee",
+                  "heading": "Zuzug aus einer Schweizer Gemeinde; pro erwachsene Person",
+                  "text": "Fr. 40.– pro erwachsene Person",
+                  "truncated": false
+                },
+                {
+                  "id": "foreign_identity",
+                  "heading": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+                  "text": "Pass (bei EU/EFTA Staatsangehörigen genügt auch die Identitätskarte)",
+                  "truncated": false
+                },
+                {
+                  "id": "foreign_permit",
+                  "heading": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+                  "text": "Ausländerausweis (sofern vorhanden)",
+                  "truncated": false
+                },
+                {
+                  "id": "foreign_fees",
+                  "heading": "Ausländische Staatsangehörigkeit; je nach Bewilligung",
+                  "text": "Migrationsamtliche Gebühren (je nach Art der Bewilligung unterschiedlich)",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [],
+          "missingRules": [],
+          "suggestions": [
+            {
+              "label": "Erste Schritte",
+              "question": "Welche ersten Schritte muss ich nach meinem Zuzug beachten?"
+            },
+            {
+              "label": "Entsorgungskalender",
+              "question": "Wie finde ich meinen persönlichen Entsorgungskalender?"
+            }
+          ],
+          "followUp": {
+            "label": "Passende Unterlagen anzeigen",
+            "question": "Welche Unterlagen muss ich mitbringen?"
+          },
+          "pending_question": null
+        }
+      ]
+    },
+    {
+      "name": "first steps from another canton",
+      "passed": true,
+      "questions": [
+        "Ich ziehe aus einem anderen Kanton nach Zürich. Was muss ich beim Zuzug alles beachten?"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Zuzug anmelden**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n\n**Weitere Schritte nach deiner Situation**\n- Die Anmeldung beim Personenmeldeamt meldet Strom und Wasser nicht automatisch um. Kläre die Anmeldung bei ewz und der Wasserversorgung.\n- Falls du ein Auto hast: Innerhalb des Kantons kannst du die neue Adresse dem Strassenverkehrsamt melden; bei einem Zuzug aus einem anderen Kanton nennt die Stadt für neue Kontrollschilder und Ausweise eine Frist von 14 Tagen und persönliche Abholung.\n- Wenn du einen Hund über drei Monate hast, melde ihn innert zehn Tagen nach dem Zuzug bei der städtischen Hundekontrolle an.\n- Falls du selbständig erwerbstätig bist, melde dich bei der SVA Zürich.",
+          "message": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Zuzug anmelden**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n\n**Weitere Schritte nach deiner Situation**\n- Die Anmeldung beim Personenmeldeamt meldet Strom und Wasser nicht automatisch um. Kläre die Anmeldung bei ewz und der Wasserversorgung.\n- Falls du ein Auto hast: Innerhalb des Kantons kannst du die neue Adresse dem Strassenverkehrsamt melden; bei einem Zuzug aus einem anderen Kanton nennt die Stadt für neue Kontrollschilder und Ausweise eine Frist von 14 Tagen und persönliche Abholung.\n- Wenn du einen Hund über drei Monate hast, melde ihn innert zehn Tagen nach dem Zuzug bei der städtischen Hundekontrolle an.\n- Falls du selbständig erwerbstätig bist, melde dich bei der SVA Zürich.",
+          "topic": "registration",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "switzerland",
+            "nationality": null
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [
+            {
+              "title": "Zuzug anmelden",
+              "items": [
+                "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+                "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+                "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+                "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht."
+              ]
+            },
+            {
+              "title": "Weitere Schritte nach deiner Situation",
+              "items": [
+                "Die Anmeldung beim Personenmeldeamt meldet Strom und Wasser nicht automatisch um. Kläre die Anmeldung bei ewz und der Wasserversorgung.",
+                "Falls du ein Auto hast: Innerhalb des Kantons kannst du die neue Adresse dem Strassenverkehrsamt melden; bei einem Zuzug aus einem anderen Kanton nennt die Stadt für neue Kontrollschilder und Ausweise eine Frist von 14 Tagen und persönliche Abholung.",
+                "Wenn du einen Hund über drei Monate hast, melde ihn innert zehn Tagen nach dem Zuzug bei der städtischen Hundekontrolle an.",
+                "Falls du selbständig erwerbstätig bist, melde dich bei der SVA Zürich."
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "claims": [
+            {
+              "id": "domestic_deregister",
+              "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_deregister",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "domestic_appointment",
+              "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+              "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "domestic_online",
+              "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html"
+            },
+            {
+              "id": "steps_utilities",
+              "text": "Die Anmeldung beim Personenmeldeamt meldet Strom und Wasser nicht automatisch um. Kläre die Anmeldung bei ewz und der Wasserversorgung.",
+              "conditions": "Nach einem Zuzug in die Stadt Zürich",
+              "sourceId": "zh-first-steps",
+              "passageId": "steps_utilities",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html"
+            },
+            {
+              "id": "steps_car",
+              "text": "Falls du ein Auto hast: Innerhalb des Kantons kannst du die neue Adresse dem Strassenverkehrsamt melden; bei einem Zuzug aus einem anderen Kanton nennt die Stadt für neue Kontrollschilder und Ausweise eine Frist von 14 Tagen und persönliche Abholung.",
+              "conditions": "Bei Fahrzeugbesitz; Umzug innerhalb des Kantons oder aus einem anderen Kanton",
+              "sourceId": "zh-first-steps",
+              "passageId": "steps_car",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html"
+            },
+            {
+              "id": "steps_dog",
+              "text": "Wenn du einen Hund über drei Monate hast, melde ihn innert zehn Tagen nach dem Zuzug bei der städtischen Hundekontrolle an.",
+              "conditions": "Hund über drei Monate; Zuzug in die Stadt Zürich",
+              "sourceId": "zh-first-steps",
+              "passageId": "steps_dog",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html"
+            },
+            {
+              "id": "steps_self_employed",
+              "text": "Falls du selbständig erwerbstätig bist, melde dich bei der SVA Zürich.",
+              "conditions": "Selbständigerwerbend; Zuzug in die Stadt Zürich",
+              "sourceId": "zh-first-steps",
+              "passageId": "steps_self_employed",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html"
+            }
+          ],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "zh-registration",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:45.614Z",
+              "contentSha256": "da53d6437cbeda9c6eec78b73d0ca251e1ac3b07a7a420590b76219d51f69052",
+              "passages": [
+                {
+                  "id": "deadline",
+                  "heading": "Zuzug in die Stadt Zürich",
+                  "text": "Sie müssen sich innerhalb von 14 Tagen bei der Stadt Zürich anmelden (Meldepflicht). Eine Anmeldung ist erst ab dem effektiven Einzug möglich.",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_online",
+                  "heading": "Zuzug aus einer Schweizer Gemeinde",
+                  "text": "Einige Gemeinden nehmen bereits am schweizweiten eUmzugCH teil. Melden Sie Ihren Umzug nach Zürich online via eUmzugCH",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_deregister",
+                  "heading": "Zuzug aus einer Schweizer Gemeinde",
+                  "text": "Bitte melden Sie sich bei Ihrer bisherigen Wohnsitzgemeinde ab. Ohne die Abmeldung bei Ihrer bisherigen Wohnsitzgemeinde können Sie sich nicht in der Stadt anmelden.",
+                  "truncated": false
+                },
+                {
+                  "id": "domestic_appointment",
+                  "heading": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+                  "text": "Eine Vorsprache vor Ort ist ausschliesslich mit vorheriger Terminvereinbarung möglich.",
+                  "truncated": false
+                }
+              ]
+            },
+            {
+              "id": "zh-first-steps",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html",
+              "title": "Erste Schritte | Stadt Zürich",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:52.569Z",
+              "contentSha256": "6a1a21cee6f9751e97693685681aeb11658929f52f5295f24dbdc5e0bc51b8ad",
+              "passages": [
+                {
+                  "id": "steps_utilities",
+                  "heading": "Nach einem Zuzug in die Stadt Zürich",
+                  "text": "Ihre Anmeldung beim Personenmeldeamt ersetzt nicht die Anmeldung bei der Strom- und Wasserversorgung.",
+                  "truncated": false
+                },
+                {
+                  "id": "steps_car",
+                  "heading": "Bei Fahrzeugbesitz; Umzug innerhalb des Kantons oder aus einem anderen Kanton",
+                  "text": "Bei einem Umzug innerhalb des Kantons Zürich können Sie Ihre neue Adresse beim Strassenverkehrsamt melden. Ansonsten müssen Sie die neuen Kontrollschilder und Ausweise innert 14 Tagen persönlich abholen.",
+                  "truncated": false
+                },
+                {
+                  "id": "steps_dog",
+                  "heading": "Hund über drei Monate; Zuzug in die Stadt Zürich",
+                  "text": "Jeder Hund im Alter von über drei Monaten muss bei der Hundekontrolle innerhalb von zehn Tagen nach dem Zuzug angemeldet werden.",
+                  "truncated": false
+                },
+                {
+                  "id": "steps_self_employed",
+                  "heading": "Selbständigerwerbend; Zuzug in die Stadt Zürich",
+                  "text": "Melden Sie sich direkt bei der SVA Zürich an, falls Sie selbständigerwerbend sind.",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [],
+          "missingRules": [],
+          "suggestions": [
+            {
+              "label": "Erste Schritte",
+              "question": "Welche ersten Schritte muss ich nach meinem Zuzug beachten?"
+            },
+            {
+              "label": "Entsorgungskalender",
+              "question": "Wie finde ich meinen persönlichen Entsorgungskalender?"
+            }
+          ],
+          "followUp": {
+            "label": "Passende Unterlagen anzeigen",
+            "question": "Welche Unterlagen muss ich mitbringen?"
+          },
+          "pending_question": null
+        }
+      ]
+    },
+    {
+      "name": "cardboard rules without irrelevant postcode clarification",
+      "passed": true,
+      "questions": [
+        "Wie muss ich Karton in Zürich bereitstellen?"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Falte und bündle Karton und stelle ihn am Sammeltag **vor 7 Uhr** bereit. Die Sammlung ist laut Stadt kostenlos.\n\nDer konkrete Sammeltag hängt von deiner Adresse ab. Nenne für den nächsten Termin deine Postleitzahl oder Strasse und Hausnummer in Zürich.",
+          "message": "Falte und bündle Karton und stelle ihn am Sammeltag **vor 7 Uhr** bereit. Die Sammlung ist laut Stadt kostenlos.\n\nDer konkrete Sammeltag hängt von deiner Adresse ab. Nenne für den nächsten Termin deine Postleitzahl oder Strasse und Hausnummer in Zürich.",
+          "topic": "waste",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Karton",
+            "address": null
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [
+            {
+              "title": "Kartonsammlung | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kartonsammlung.html",
+              "retrievedAt": "2026-09-25T08:41:50.566Z",
+              "passages": [
+                {
+                  "id": "p0",
+                  "heading": "Navigation › Sprunglink",
+                  "text": "Zur Bereichsauswahl Zum Inhalt\nSeite vorlesen Kartonsammlung Stellen Sie gebündelten Karton oder Ihren Kartoncontainer am Sammeltag vor 7 Uhr an den Strassenrand. Die Kartonsammlung ist kostenlos. Ihr Sammeltag für Karton ändert sich! Weil Karton ab 2026 wöchentlich gesammelt wird, ändern sich die Sammeltage.\nKarton gehört gefaltet, gebündelt und geschnürt an den Strassenrand oder in den Kartoncontainer. Stellen Sie den gebündelten Karton oder Ihren Kartoncontainer am Sammeltag vor 7 Uhr an den Strassenrand. Sammeln Sie Karton nicht in Papiertragetaschen. Sie fallen bei Regen auseinander.\nAbfuhrtage\nKartonsammlung ist einmal pro Woche. Die Daten entnehmen Sie dem Entsorgungskalender .\nWas entsorgen\nVideo: Karton bündeln und schnüren\nKartoncontainer\nFallen regelmässig grössere Mengen Karton zum Entsorgen an, lohnt sich der praktische Kartoncontainer mit einem Volumen von 240 Litern oder 770 Litern. Das Leeren an den offiziellen Sammeltagen ist gratis. Unter Container und Zubehör können Sie Behälter kaufen und für die Leerung registrieren lassen.\nPreise\nFür Bewohner*innen sowie Unternehmen in der Stadt Zürich ist die wöchentliche Kartonsammlung gratis — egal, ob Sie den Karton gebündelt am Strassenrand oder im Kartoncontainer bereitstellen.\nAltstadt\nEinzelne Gassen sind für die Sammelfahrzeuge zu schmal. Bitte stellen Sie den Karton an einer für unsere Sammelfahrzeuge erreichbaren Strasse bereit. Im folgenden PDF finden Sie eine Karte, auf der diese Strassen eingezeichnet sind.\nMerkblätter",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [],
+          "followUp": {
+            "label": "Nächsten Kartontermin finden",
+            "question": "Wann ist mein nächster Kartontermin?"
+          },
+          "pending_question": null
+        }
+      ]
+    },
+    {
+      "name": "Seefeldstrasse cans to nearest batteries retains Zurich and cites retail return",
+      "passed": true,
+      "questions": [
+        "ich bin bei der Seefeldstrasse und möchte gerne Büchsen entsorgen was soll ich tun?",
+        "Stadt Zürich",
+        "102",
+        "ich möchte gerne Batterien entsorgen wo kann ich das am nächsten machen"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "needs_clarification",
+          "answer": "Meinst du die Stadt Zürich? Die Auskünfte dieses Servers gelten ausschliesslich dort.",
+          "message": "Meinst du die Stadt Zürich? Die Auskünfte dieses Servers gelten ausschliesslich dort.",
+          "topic": "waste",
+          "context": {
+            "municipality": null,
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": null,
+            "nationality": null
+          },
+          "missingFields": [
+            "municipality"
+          ],
+          "nextQuestion": "Meinst du die Stadt Zürich? Die Auskünfte dieses Servers gelten ausschliesslich dort.",
+          "options": [
+            "Stadt Zürich"
+          ],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [],
+          "limitations": [],
+          "pending_question": {
+            "field": "city_confirmation",
+            "reason": "Meinst du die Stadt Zürich? Die Auskünfte dieses Servers gelten ausschliesslich dort.",
+            "options": [
+              "Stadt Zürich"
+            ]
+          }
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "needs_clarification",
+          "answer": "Welche Hausnummer an der Seefeldstrasse meinst du? Der amtliche Adressbestand ordnet diese Strasse 8008 Zürich, Kreis 8, zu.",
+          "message": "Welche Hausnummer an der Seefeldstrasse meinst du? Der amtliche Adressbestand ordnet diese Strasse 8008 Zürich, Kreis 8, zu.",
+          "topic": "waste",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Metall",
+            "street": "Seefeldstrasse",
+            "address": null
+          },
+          "missingFields": [
+            "houseNumber"
+          ],
+          "nextQuestion": "Welche Hausnummer an der Seefeldstrasse meinst du? Der amtliche Adressbestand ordnet diese Strasse 8008 Zürich, Kreis 8, zu.",
+          "options": [],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [
+            {
+              "id": "addresses",
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ],
+          "limitations": [],
+          "pending_question": {
+            "field": "house_number",
+            "reason": "Welche Hausnummer an der Seefeldstrasse meinst du? Der amtliche Adressbestand ordnet diese Strasse 8008 Zürich, Kreis 8, zu.",
+            "options": []
+          }
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "ok",
+          "answer": "Die drei nächstgelegenen erfassten Sammelstellen für Metall **nach Luftlinie** ab Seefeldstrasse 102, 8008 Zürich (Kreis 8):\n\n1. **Mittelstrasse 6** · 8008 Zürich, Kreis 8 · ca. 130 m Luftlinie\n2. **Riesbachstrasse 61** · 8008 Zürich, Kreis 8 · ca. 250 m Luftlinie\n3. **Seefeldstrasse 152** · 8008 Zürich, Kreis 8 · ca. 380 m Luftlinie\n\nFusswege können länger sein. Öffnungszeiten und aktuelle Betriebszustände sind nicht geprüft.",
+          "message": "Die drei nächstgelegenen erfassten Sammelstellen für Metall **nach Luftlinie** ab Seefeldstrasse 102, 8008 Zürich (Kreis 8):\n\n1. **Mittelstrasse 6** · 8008 Zürich, Kreis 8 · ca. 130 m Luftlinie\n2. **Riesbachstrasse 61** · 8008 Zürich, Kreis 8 · ca. 250 m Luftlinie\n3. **Seefeldstrasse 152** · 8008 Zürich, Kreis 8 · ca. 380 m Luftlinie\n\nFusswege können länger sein. Öffnungszeiten und aktuelle Betriebszustände sind nicht geprüft.",
+          "topic": "waste",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Metall",
+            "street": "Seefeldstrasse",
+            "houseNumber": "102",
+            "postalCode": "8008",
+            "district": 8,
+            "address": "Seefeldstrasse 102"
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [
+            {
+              "id": "sa74559",
+              "address": "Mittelstrasse 6",
+              "postalCode": "8008",
+              "district": 8,
+              "lat": 47.35904,
+              "lon": 8.551192,
+              "materials": [
+                "Glas",
+                "Metall",
+                "Textilien"
+              ],
+              "distanceMeters": 130,
+              "mapUrl": "https://www.openstreetmap.org/?mlat=47.35904&mlon=8.551192#map=18/47.35904/8.551192"
+            },
+            {
+              "id": "sa74561",
+              "address": "Riesbachstrasse 61",
+              "postalCode": "8008",
+              "district": 8,
+              "lat": 47.358223,
+              "lon": 8.555332,
+              "materials": [
+                "Glas",
+                "Metall",
+                "Textilien"
+              ],
+              "distanceMeters": 250,
+              "mapUrl": "https://www.openstreetmap.org/?mlat=47.358223&mlon=8.555332#map=18/47.358223/8.555332"
+            },
+            {
+              "id": "sa74439",
+              "address": "Seefeldstrasse 152",
+              "postalCode": "8008",
+              "district": 8,
+              "lat": 47.356662,
+              "lon": 8.5554,
+              "materials": [
+                "Glas",
+                "Metall",
+                "Oel",
+                "Textilien"
+              ],
+              "distanceMeters": 380,
+              "mapUrl": "https://www.openstreetmap.org/?mlat=47.356662&mlon=8.5554#map=18/47.356662/8.5554"
+            }
+          ],
+          "sourceLinks": [
+            {
+              "id": "stations",
+              "title": "Amtliche Sammelstellen mit Koordinaten",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_sammelstelle",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "id": "addresses",
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "id": "districts",
+              "title": "Amtliche Stadtkreisgrenzen",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_stadtkreise",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ],
+          "limitations": [
+            "Entfernungen sind gerundete Luftlinien zwischen amtlichen Koordinaten, keine Fusswege oder Gehzeiten. Adresspunkte liegen nicht zwingend am Hauseingang. Öffnungszeiten und aktuelle Betriebsstörungen sind nicht geprüft.",
+            "Keine PET-Annahme aus diesen Materialangaben ableiten."
+          ],
+          "origin": {
+            "id": "adrstzh_adressen_stzh_p.45167",
+            "address": "Seefeldstrasse 102",
+            "street": "Seefeldstrasse",
+            "number": "102",
+            "postalCode": "8008",
+            "district": 8,
+            "lat": 47.35959386346352,
+            "lon": 8.55272071943447
+          },
+          "sortMode": "straight_line",
+          "totalMatches": 169,
+          "followUp": {
+            "question": "Wann kann ich Karton rausstellen?",
+            "label": "Nächster Kartontermin"
+          },
+          "pending_question": null
+        },
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "partial",
+          "answer": "Batterien kannst du laut Stadt Zürich bei Verkaufsstellen kostenlos zurückgeben, die solche Produkte vertreiben. Dein Ausgangspunkt bleibt Seefeldstrasse 102, Zürich.\n\nWelche Annahmestelle von dort tatsächlich am nächsten ist, kann ich derzeit nicht verlässlich bestimmen: Für Batterien habe ich noch keine geprüfte Liste mit Filialadressen und Annahmeangeboten. Die zuvor gezeigten Metallcontainer sind kein Nachweis für Batterieannahme.",
+          "message": "Batterien kannst du laut Stadt Zürich bei Verkaufsstellen kostenlos zurückgeben, die solche Produkte vertreiben. Dein Ausgangspunkt bleibt Seefeldstrasse 102, Zürich.\n\nWelche Annahmestelle von dort tatsächlich am nächsten ist, kann ich derzeit nicht verlässlich bestimmen: Für Batterien habe ich noch keine geprüfte Liste mit Filialadressen und Annahmeangeboten. Die zuvor gezeigten Metallcontainer sind kein Nachweis für Batterieannahme.",
+          "topic": "waste",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Batterien",
+            "street": "Seefeldstrasse",
+            "houseNumber": "102",
+            "postalCode": "8008",
+            "district": 8,
+            "address": "Seefeldstrasse 102"
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [
+            {
+              "title": "Zurück an die Verkaufsstelle | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/verkaufsstelle.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T08:41:53.553Z",
+              "contentSha256": "8714325ec69a1d1d99563e0187a20a27fefd8fc8935be8767557230533832f5a",
+              "passages": [
+                {
+                  "id": "battery_return",
+                  "heading": "Batterien zurückgeben",
+                  "text": "Im Kaufpreis von Batterien, PET-Getränkeflaschen und Elektrogeräten ist eine vorgezogene Entsorgungs- und Recyclinggebühr enthalten. Deshalb ist der Fachhandel verpflichtet, diese Produkte und Geräte kostenlos zurückzunehmen.",
+                  "truncated": false
+                },
+                {
+                  "id": "retail_condition",
+                  "heading": "Voraussetzung",
+                  "text": "Grundsätzlich sind die Händler verpflichtet, die nachfolgenden Produkte und Geräte, die sie selbst vertreiben, zurückzunehmen.",
+                  "truncated": false
+                }
+              ]
+            }
+          ],
+          "limitations": [
+            "Keine verifizierte nächstgelegene Batterie-Annahmestelle; keine Filial-Öffnungszeiten."
+          ],
+          "dataAvailability": {
+            "status": "missing_data",
+            "fields": [
+              "verified_acceptance_locations",
+              "nearest_acceptance_location",
+              "branch_opening_hours"
+            ]
+          },
+          "pending_question": null
+        }
+      ]
+    },
+    {
+      "name": "excluded destination",
+      "passed": true,
+      "questions": [
+        "Ich ziehe von Zürich nach Uster. Wo muss ich mich anmelden?"
+      ],
+      "answers": [
+        {
+          "schema": "zurich-guidance-v1",
+          "handled": true,
+          "status": "out_of_scope",
+          "answer": "Dieser Server unterstützt ausschliesslich die Stadt Zürich, nicht uster. Für diese andere Gemeinde wende dich an deren Einwohneramt oder Entsorgungsstelle.",
+          "message": "Dieser Server unterstützt ausschliesslich die Stadt Zürich, nicht uster. Für diese andere Gemeinde wende dich an deren Einwohneramt oder Entsorgungsstelle.",
+          "topic": null,
+          "context": {
+            "municipality": null,
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": null,
+            "nationality": null
+          },
+          "missingFields": [],
+          "nextQuestion": null,
+          "options": [],
+          "cards": [],
+          "actions": [],
+          "claims": [],
+          "results": [],
+          "sourceLinks": [],
+          "limitations": [],
+          "reason": "municipality",
+          "scope": {
+            "kind": "municipality",
+            "place": "uster",
+            "answer": "Dieser Server unterstützt ausschliesslich die Stadt Zürich, nicht uster. Für diese andere Gemeinde wende dich an deren Einwohneramt oder Entsorgungsstelle."
+          },
+          "languageSupported": true,
+          "pending_question": null
+        }
+      ]
+    }
+  ]
+}

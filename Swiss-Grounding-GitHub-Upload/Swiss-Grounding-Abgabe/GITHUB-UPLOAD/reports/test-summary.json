@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-09-25T09:42:52.851888+00:00",
+  "version": "0.6.0 / V7.8",
+  "runtime": "Node 24 on Linux",
+  "counts": {
+    "tests": 275,
+    "pass": 275,
+    "fail": 0,
+    "skipped": 0
+  },
+  "exitCode": 0,
+  "realMcpClients": 2,
+  "liveOfficialSourceCases": 8,
+  "liveSwisscomModel": "not run: no event key set; five not_run rows",
+  "modelTests": "simulated provider responses; real HTTP/MCP",
+  "browserJavaScriptSyntax": "passed",
+  "visualBrowserTest": "not run: unavailable browser runtime (see ui-check.json)",
+  "windowsExecution": "not directly available in Linux",
+  "regression": "247 prior tests retained; 28 new residence/battery cases",
+  "freshExtractedPackageTests": "275 passed, 0 failed, 0 skipped",
+  "historicalLiveOfficialSourceCases": 28
+}

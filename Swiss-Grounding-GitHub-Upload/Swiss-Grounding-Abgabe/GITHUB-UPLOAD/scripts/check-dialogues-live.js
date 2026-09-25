@@ -1,0 +1,22 @@
+// Real MCP process and official sources; intentionally no paid/model credentials.
+import {Client} from '@modelcontextprotocol/client';
+import {StdioClientTransport} from '@modelcontextprotocol/client/stdio';
+import {fileURLToPath} from 'node:url';
+import {writeFile} from 'node:fs/promises';
+const client=new Client({name:'zurich-dialogue-release-check',version:'0.5.0'});
+const cases=[
+ {name:'reported registration failure',questions:['ich möchte mich an der apollostrasse in Zürich anmelden wo genau muss ich mich anmelden. Bin neu in der stadt','apollostrasse 13','Aus einer anderen Schweizer Gemeinde','Welche Unterlagen muss ich mitbringen?','Schweizer Staatsangehörigkeit'],check:rs=>rs[0].missingFields.includes('residenceOrigin')&&rs[1].missingFields.includes('residenceOrigin')&&rs[2].status==='ok'&&!rs[2].answer.includes('Zürich Süd')&&rs[3].missingFields.includes('nationality')&&rs[4].status==='ok'},
+ {name:'foreign origin, exact office',questions:['Ich ziehe aus Deutschland nach Zürich. Wo muss ich mich anmelden?'],check:rs=>rs[0].status==='ok'&&rs[0].answer.includes('Stadthausquai 17')&&!rs[0].answer.includes('bisherigen Wohngemeinde ab')},
+ {name:'intra-city move separate procedure',questions:['Ich ziehe innerhalb der Stadt Zürich um. Wie melde ich das?'],check:rs=>rs[0].status==='ok'&&rs[0].answer.includes('Zürich Nord')&&!rs[0].answer.includes('Zürich Süd')},
+ {name:'nearest glass then cardboard',questions:['Wo kann ich nahe der Apollostrasse in Zürich Glas entsorgen?','20','Wann kann ich Karton rausstellen?'],check:rs=>rs[0].status==='needs_clarification'&&rs[1].origin?.postalCode==='8032'&&rs[1].results[0].address==='Merkurstrasse 4'&&rs[2].calendar?.dates.length>0&&rs[2].calendar.before==='07:00'},
+ {name:'debt extract cost without private details',questions:['Wie viel kostet ein Betreibungsauszug in Zürich?'],check:rs=>rs[0].status==='ok'&&rs[0].answer.includes('17 Franken')&&!rs[0].missingFields.length},
+ {name:'foreign national moving from Swiss canton',questions:['Wo kann ich mich in Zürich anmelden wenn ich aus einem anderen Kanton komme?','Ich bin Ausländer, was muss ich beachten?'],check:rs=>rs[1].status==='ok'&&rs[1].context.residenceOrigin==='switzerland'&&rs[1].answer.includes('Ausländerausweis')&&rs[1].claims.some(c=>c.id==='foreign_permit'&&c.sourceUrl)},
+ {name:'first steps from another canton',questions:['Ich ziehe aus einem anderen Kanton nach Zürich. Was muss ich beim Zuzug alles beachten?'],check:rs=>rs[0].status==='ok'&&rs[0].answer.includes('Strom')&&rs[0].claims.some(c=>c.id==='steps_utilities'&&c.sourceUrl)},
+ {name:'cardboard rules without irrelevant postcode clarification',questions:['Wie muss ich Karton in Zürich bereitstellen?'],check:rs=>rs[0].status==='ok'&&rs[0].answer.includes('vor 7 Uhr')&&rs[0].sourceLinks.some(s=>s.url.includes('kartonsammlung'))},
+ {name:'Seefeldstrasse cans to nearest batteries retains Zurich and cites retail return',questions:['ich bin bei der Seefeldstrasse und möchte gerne Büchsen entsorgen was soll ich tun?','Stadt Zürich','102','ich möchte gerne Batterien entsorgen wo kann ich das am nächsten machen'],check:rs=>rs[2].origin?.address==='Seefeldstrasse 102'&&rs[3].status==='partial'&&rs[3].context.address==='Seefeldstrasse 102'&&rs[3].context.material==='Batterien'&&rs[3].results.length===0&&rs[3].sourceLinks.some(s=>s.url.includes('verkaufsstelle'))},
+ {name:'excluded destination',questions:['Ich ziehe von Zürich nach Uster. Wo muss ich mich anmelden?'],check:rs=>rs[0].status==='out_of_scope'&&!rs[0].claims.length}
+];
+const report={checkedAt:new Date().toISOString(),version:'0.6.0 / V7.8',realMcp:true,liveSources:true,liveModel:false,rows:[]};
+await client.connect(new StdioClientTransport({command:process.execPath,args:[fileURLToPath(new URL('../src/mcp.js',import.meta.url))],env:process.env}));
+try{for(const c of cases){let contextToken;const answers=[];for(const question of c.questions){const r=await client.callTool({name:'get_zurich_guidance',arguments:{question,...(contextToken?{contextToken}:{})}});if(r.isError)throw Error('MCP error');const d=JSON.parse(r.content[0].text);contextToken=d.contextToken;const {contextToken:privateToken,...data}=d;answers.push(data);}const passed=c.check(answers);report.rows.push({name:c.name,passed,questions:c.questions,answers});console.log(c.name+': '+(passed?'PASS':'FAIL'));}}finally{await client.close();}
+await writeFile(new URL('../reports/dialogues-live.json',import.meta.url),JSON.stringify(report,null,2));if(report.rows.some(r=>!r.passed))process.exitCode=1;

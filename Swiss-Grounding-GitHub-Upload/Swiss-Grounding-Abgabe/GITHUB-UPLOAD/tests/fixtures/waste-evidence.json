@@ -1,0 +1,297 @@
+{
+  "zh-coupons": {
+    "status": "retrieved",
+    "sourceId": "zh-coupons",
+    "title": "Die Stadt Zürich setzt auf quartiernahe Entsorgung | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2024/09/die-stadt-zuerich-setzt-auf-quartiernahe-entsorgung.html",
+    "retrievedAt": "2026-09-25T08:40:24.577Z",
+    "contentSha256": "6691d63806ee8ef104d73cb8b75d61f82e197758d80992e7008ea4450f2a0be0",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Die Stadt Zürich setzt auf quartiernahe Entsorgung | Stadt Zürich",
+          "text": "Künftig wird es keine Coupons mehr geben. Die Coupons 2024, die im November 2023 verteilt wurden, behalten ihre Gültigkeit bis zum Ablaufdatum Ende April 2025."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-bulky": {
+    "status": "retrieved",
+    "sourceId": "zh-bulky",
+    "title": "Sperrgut | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/was-entsorgen/sperrgut.html",
+    "retrievedAt": "2026-09-25T08:40:25.504Z",
+    "contentSha256": "5d861d7f3e4c50c81590af757063d2986f2e671b0a717195ae2ef88dd8866bd3",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Sperrgut | Stadt Zürich",
+          "text": "Entsorgen Sie Sperrgut im Recyclinghof oder im Mobilen Recyclinghof."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-yards": {
+    "status": "retrieved",
+    "sourceId": "zh-yards",
+    "title": "Recyclinghof | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/recyclinghof.html",
+    "retrievedAt": "2026-09-25T08:40:26.515Z",
+    "contentSha256": "26bfa7318293d9cc6baf9a55fc163a976bf68a0cc23c9fde8d29fdb8b9394507",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Recyclinghof | Stadt Zürich",
+          "text": "Sperrgut (z.B. Möbel, Teppiche, Matratzen) , Grubengut (z.B. Töpfe, Spiegel ) | pro Anlieferung bis 100 kg, pauschal Pro weitere 100 kg | Fr. 22.70 Fr. 19.45"
+        },
+        {
+          "heading": "Amtliche Kontaktadresse",
+          "text": "Recyclinghof Looächer: Mühlackerstrasse 207, 8046 Zürich."
+        },
+        {
+          "heading": "Amtliche Kontaktadresse",
+          "text": "Recyclinghof Werdhölzli: Bändlistrasse 94, 8064 Zürich."
+        },
+        {
+          "heading": "Recyclinghof | Stadt Zürich",
+          "text": "Öffnungszeiten Recyclinghof Looächer Navigation › Sprunglink Montag bis Freitag, 7 bis 17 Uhr Navigation › Sprunglink Samstag, 7.30 bis 14 Uhr Navigation › Sprunglink Sonntag geschlossen"
+        },
+        {
+          "heading": "Recyclinghof | Stadt Zürich",
+          "text": "Öffnungszeiten Reyclinghof Werdhölzli Navigation › Sprunglink Montag bis Freitag, 13 bis 19 Uhr Navigation › Sprunglink Samstag, 7.30 bis 14 Uhr Navigation › Sprunglink Sonntag geschlossen"
+        },
+        {
+          "heading": "Recyclinghof | Stadt Zürich",
+          "text": "Elektrogeräte | Keine benzinbetriebenen Geräte | Gratis"
+        }
+      ],
+      "contacts": [
+        {
+          "title": "Recyclinghof Looächer mit Tauschplatz",
+          "streets": [
+            "Mühlackerstrasse 207"
+          ],
+          "postalCode": "8046",
+          "city": "Zürich"
+        },
+        {
+          "title": "Recyclinghof Werdhölzli",
+          "streets": [
+            "Bändlistrasse 94"
+          ],
+          "postalCode": "8064",
+          "city": "Zürich"
+        }
+      ],
+      "links": []
+    }
+  },
+  "zh-mobile": {
+    "status": "retrieved",
+    "sourceId": "zh-mobile",
+    "title": "Mobiler Recyclinghof im Quartier | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/mobiler-recyclinghof.html",
+    "retrievedAt": "2026-09-25T08:40:27.505Z",
+    "contentSha256": "812c25cec8b043ef643b7529a163e44d0c1369da6e6da72622bba5aa9c824163",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Mobiler Recyclinghof im Quartier | Stadt Zürich",
+          "text": "Das Angebot ist kostenlos und autofrei."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-pickup": {
+    "status": "retrieved",
+    "sourceId": "zh-pickup",
+    "title": "Abfuhr Sperrgut, Metall, Elektrogeräte und Grubengut | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/abfuhr-sperrgut-metall-elektro-grubengut.html",
+    "retrievedAt": "2026-09-25T08:40:28.507Z",
+    "contentSha256": "8512a48fe43e4ffcb6bd67ac59cf0b443fb19c64eaa309a4ea8eaf8951181bc9",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Abfuhr Sperrgut, Metall, Elektrogeräte und Grubengut | Stadt Zürich",
+          "text": "Das Angebot ist kostenpflichtig."
+        },
+        {
+          "heading": "Abfuhr Sperrgut, Metall, Elektrogeräte und Grubengut | Stadt Zürich",
+          "text": "empfehlen 3 Arbeitstage im Voraus. Am vereinbarten Tag stellen Sie das sortierte Material am Strassenrand bereit, wo ERZ es abholt. Navigation › Sprunglink Bestellung per Telefon Navigation › Sprunglink Um Sie optimal zu beraten und alle Details zu klären, nehmen wir Bestellungen ausschliesslich telefonisch entgegen."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-sack": {
+    "status": "retrieved",
+    "sourceId": "zh-sack",
+    "title": "Abfuhr Hauskehricht | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/abfuhr-hauskehricht.html",
+    "retrievedAt": "2026-09-25T08:40:29.531Z",
+    "contentSha256": "fb4bcffadb94a48567968ba09e1758a7e026e59e748dbf4f6c8633e400065877",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Abfuhr Hauskehricht | Stadt Zürich",
+          "text": "Der blaue Züri-Sack ist im Detailhandel gegen eine Gebühr erhältlich."
+        },
+        {
+          "heading": "Abfuhr Hauskehricht | Stadt Zürich",
+          "text": "Der Gebührenanteil am Kaufpreis des Züri-Sacks wird nach dem Verkauf an die Stadt Zürich überwiesen. Die Stadt finanziert damit die Abfuhr und die Verwertung in der Kehrichtverwertungsanlage Hagenholz. Im Kaufpreis sind zusätzlich die Kosten für die Produktion der Säcke sowie ein Aufschlag des Detailhandels enthalten. Der Verkaufspreis kann je nach Verkaufsgeschäft variieren."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-paper": {
+    "status": "retrieved",
+    "sourceId": "zh-paper",
+    "title": "Papiersammlung | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/papiersammlung",
+    "retrievedAt": "2026-09-25T08:40:30.536Z",
+    "contentSha256": "8aa54fd8e963a2f110d1b8b31983342231e9ffd7a5e8d701f730ebf67f9a921e",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Papiersammlung | Stadt Zürich",
+          "text": "Papier wird in der Stadt Zürich alle zwei Wochen eingesammelt. Die Papiersammlung ist kostenlos."
+        },
+        {
+          "heading": "Papiersammlung | Stadt Zürich",
+          "text": "Stellen Sie das gebündelte Papier oder Ihren Papiercontainer am Sammeltag vor 7 Uhr an den Strassenrand. Sammeln Sie Papier nicht in Papiertragetaschen oder Kartonschachteln."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-calendar": {
+    "status": "retrieved",
+    "sourceId": "zh-calendar",
+    "title": "Entsorgungskalender | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/entsorgungskalender.html",
+    "retrievedAt": "2026-09-25T08:40:31.498Z",
+    "contentSha256": "5f8aa2322d9155933f0ddcd44622f749d581cad03e21c3f2dedb84b6e806fccb",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Entsorgungskalender | Stadt Zürich",
+          "text": "Strasse, Hausnummer sowie Entsorgungswege auswählen und die automatisch erzeugte Kalenderdatei (.ics / .ical) in Ihren elektronischen Kalender importieren"
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-bio": {
+    "status": "retrieved",
+    "sourceId": "zh-bio",
+    "title": "Abfuhr Bioabfall | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/abfuhr-bioabfall.html",
+    "retrievedAt": "2026-09-25T08:40:32.508Z",
+    "contentSha256": "13af11db3d81108e5fb3e8e2f672b38ac83f03bdf8ad37bda480f5aeaa4c67e7",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Abfuhr Bioabfall | Stadt Zürich",
+          "text": "Entsorgen Sie Bioabfall, der nicht einer Kompostierung zugeführt wird, in Bioabfallcontainern. Diese werden einmal pro Woche geleert."
+        },
+        {
+          "heading": "Abfuhr Bioabfall | Stadt Zürich",
+          "text": "Bioabfallcontainer müssen am Abfuhrtag vor 7 Uhr am festgelegten Abholort bereit gestellt werden."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-plastic": {
+    "status": "retrieved",
+    "sourceId": "zh-plastic",
+    "title": "Kunststoffsammlung | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kunststoffsammlung.html",
+    "retrievedAt": "2026-09-25T08:40:33.538Z",
+    "contentSha256": "f5b91e924300ab508e79128528ae694194add7be2e3ff9a6c17ad99f5403dc2c",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Kunststoffsammlung | Stadt Zürich",
+          "text": "Sammelsäcke für Kunststoff sind im Detailhandel erhältlich und können bei den jeweiligen Anbieter*innen auch wieder abgegeben werden. ERZ vertreibt keine Sammelsäcke."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-retail-return": {
+    "status": "retrieved",
+    "sourceId": "zh-retail-return",
+    "title": "Zurück an die Verkaufsstelle | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/verkaufsstelle.html",
+    "retrievedAt": "2026-09-25T08:40:34.534Z",
+    "contentSha256": "8714325ec69a1d1d99563e0187a20a27fefd8fc8935be8767557230533832f5a",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Zurück an die Verkaufsstelle | Stadt Zürich",
+          "text": "Grundsätzlich sind die Händler verpflichtet, die nachfolgenden Produkte und Geräte, die sie selbst vertreiben, zurückzunehmen."
+        },
+        {
+          "heading": "Zurück an die Verkaufsstelle | Stadt Zürich",
+          "text": "Im Kaufpreis von Batterien, PET-Getränkeflaschen und Elektrogeräten ist eine vorgezogene Entsorgungs- und Recyclinggebühr enthalten. Deshalb ist der Fachhandel verpflichtet, diese Produkte und Geräte kostenlos zurückzunehmen."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-hazardous": {
+    "status": "retrieved",
+    "sourceId": "zh-hazardous",
+    "title": "Sonderabfall | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/was-entsorgen/sonderabfall.html",
+    "retrievedAt": "2026-09-25T08:40:35.532Z",
+    "contentSha256": "34c92a66ef1e53fef8b5e77334cd7a2af528765b15450fbc166fe692b4ed663d",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Sonderabfall | Stadt Zürich",
+          "text": "Da Sonderabfall umweltschädlich und gefährlich ist, darf er nicht im Hauskehricht entsorgt werden."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  },
+  "zh-hazard": {
+    "status": "retrieved",
+    "sourceId": "zh-hazard",
+    "title": "Sonderabfall-Sammelstelle | Stadt Zürich",
+    "url": "https://www.stadt-zuerich.ch/sonderabfall-sammelstelle",
+    "retrievedAt": "2026-09-25T08:40:36.622Z",
+    "contentSha256": "cec495d9fb02f4d0c936153f1ac4b8989f30dcb0b434cd7835ba4da5856b6423",
+    "doc": {
+      "blocks": [
+        {
+          "heading": "Sonderabfall-Sammelstelle | Stadt Zürich",
+          "text": "Kantonale Sonderabfall-Sammelstelle Hagenholz Navigation › Sprunglink Hagenholzstrasse 110 Navigation › Sprunglink 8050 Zürich"
+        },
+        {
+          "heading": "Sonderabfall-Sammelstelle | Stadt Zürich",
+          "text": "Für Privatpersonen und Kleingewerbe sind bis 20 Kilogramm pro Jahr und anliefernde Person kostenlos."
+        }
+      ],
+      "contacts": [],
+      "links": []
+    }
+  }
+}

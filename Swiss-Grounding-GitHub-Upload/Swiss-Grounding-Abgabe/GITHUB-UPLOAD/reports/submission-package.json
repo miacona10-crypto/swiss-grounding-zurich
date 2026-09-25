@@ -1,0 +1,18 @@
+{
+  "preparedAt": "2026-09-25T09:54:55.771376+00:00",
+  "release": "V7.8 / 0.6.0",
+  "codeDataTestsAndPackagesByteIdenticalToCleanTestedRelease": 53,
+  "documentationChanges": [
+    "README.md",
+    ".gitignore",
+    "docs/ABGABE.md"
+  ],
+  "automatedTestsPassedBeforePackaging": 275,
+  "liveOfficialSourceV78ScenariosPassed": 8,
+  "liveApertusVerified": false,
+  "visualBrowserVerified": false,
+  "githubUploadFileCount": 71,
+  "largestFileBytes": 10925332,
+  "githubPublished": false,
+  "eventSubmitted": false
+}

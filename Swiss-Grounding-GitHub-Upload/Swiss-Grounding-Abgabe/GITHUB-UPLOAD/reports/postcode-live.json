@@ -1,0 +1,382 @@
+{
+  "version": "0.5.8 / V7.7.1",
+  "checkedAt": "2026-09-25T09:06:32.768Z",
+  "realMcp": true,
+  "liveSources": true,
+  "liveModel": false,
+  "rows": [
+    {
+      "name": "Langstrasse → four short numbers → 8004",
+      "passed": true,
+      "turns": [
+        {
+          "question": "ich bin an der Langstrasse in Zürich wann kann ich Karton entsorgen?",
+          "status": "needs_clarification",
+          "answer": "Welche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+          "pending": {
+            "field": "postal_code",
+            "reason": "Welche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+            "options": [
+              "PLZ 8004",
+              "PLZ 8005"
+            ]
+          },
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        },
+        {
+          "question": "56",
+          "status": "needs_clarification",
+          "answer": "Für den Kartontermin brauche ich die vierstellige Postleitzahl, keine weitere Hausnummer.\n\nWelche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+          "pending": {
+            "field": "postal_code",
+            "reason": "Für den Kartontermin brauche ich die vierstellige Postleitzahl, keine weitere Hausnummer.\n\nWelche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+            "options": [
+              "PLZ 8004",
+              "PLZ 8005"
+            ]
+          },
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        },
+        {
+          "question": "102",
+          "status": "needs_clarification",
+          "answer": "Für den Kartontermin brauche ich die vierstellige Postleitzahl, keine weitere Hausnummer.\n\nWelche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+          "pending": {
+            "field": "postal_code",
+            "reason": "Für den Kartontermin brauche ich die vierstellige Postleitzahl, keine weitere Hausnummer.\n\nWelche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+            "options": [
+              "PLZ 8004",
+              "PLZ 8005"
+            ]
+          },
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        },
+        {
+          "question": "130",
+          "status": "needs_clarification",
+          "answer": "Für den Kartontermin brauche ich die vierstellige Postleitzahl, keine weitere Hausnummer.\n\nWelche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+          "pending": {
+            "field": "postal_code",
+            "reason": "Für den Kartontermin brauche ich die vierstellige Postleitzahl, keine weitere Hausnummer.\n\nWelche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+            "options": [
+              "PLZ 8004",
+              "PLZ 8005"
+            ]
+          },
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        },
+        {
+          "question": "145",
+          "status": "needs_clarification",
+          "answer": "Für den Kartontermin brauche ich die vierstellige Postleitzahl, keine weitere Hausnummer.\n\nWelche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+          "pending": {
+            "field": "postal_code",
+            "reason": "Für den Kartontermin brauche ich die vierstellige Postleitzahl, keine weitere Hausnummer.\n\nWelche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+            "options": [
+              "PLZ 8004",
+              "PLZ 8005"
+            ]
+          },
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        },
+        {
+          "question": "PLZ 8004",
+          "status": "ok",
+          "answer": "Nächster im amtlichen Kalender verzeichneter Kartontermin für 8004 Zürich: **01.10.2026**.\n\nStelle den Karton am Sammeltag vor **7 Uhr** bereit.\n\nDer Termin gilt laut Datensatz für die PLZ; kurzfristige Betriebsänderungen sind nicht enthalten.",
+          "pending": null,
+          "calendar": {
+            "postalCode": "8004",
+            "locationBasis": "user_postcode",
+            "dates": [
+              "2026-10-01",
+              "2026-10-08",
+              "2026-10-15"
+            ],
+            "timezone": "Europe/Zurich",
+            "before": "07:00",
+            "todayCollection": false,
+            "todayCutoffPassed": false
+          },
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Kartonsammlung | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kartonsammlung.html",
+              "retrievedAt": "2026-09-25T09:06:55.605Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Langstrasse 102 → 8005",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Wann Karton an der Langstrasse 102 in Zürich?",
+          "status": "needs_clarification",
+          "answer": "Welche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+          "pending": {
+            "field": "postal_code",
+            "reason": "Welche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+            "options": [
+              "PLZ 8004",
+              "PLZ 8005"
+            ]
+          },
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        },
+        {
+          "question": "PLZ 8005",
+          "status": "ok",
+          "answer": "Nächster im amtlichen Kalender verzeichneter Kartontermin für 8005 Zürich: **30.09.2026**.\n\nStelle den Karton am Sammeltag vor **7 Uhr** bereit.\n\nDer Termin gilt laut Datensatz für die PLZ; kurzfristige Betriebsänderungen sind nicht enthalten.",
+          "pending": null,
+          "calendar": {
+            "postalCode": "8005",
+            "locationBasis": "user_postcode",
+            "dates": [
+              "2026-09-30",
+              "2026-10-07",
+              "2026-10-14"
+            ],
+            "timezone": "Europe/Zurich",
+            "before": "07:00",
+            "todayCollection": false,
+            "todayCutoffPassed": false
+          },
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Kartonsammlung | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kartonsammlung.html",
+              "retrievedAt": "2026-09-25T09:06:55.605Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Unique postcode, no house",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Wann Karton an der Apollostrasse?",
+          "status": "ok",
+          "answer": "Nächster im amtlichen Kalender verzeichneter Kartontermin für 8032 Zürich: **28.09.2026**.\n\nStelle den Karton am Sammeltag vor **7 Uhr** bereit.\n\nDer Termin gilt laut Datensatz für die PLZ; kurzfristige Betriebsänderungen sind nicht enthalten.",
+          "pending": null,
+          "calendar": {
+            "postalCode": "8032",
+            "locationBasis": "street_postcode",
+            "dates": [
+              "2026-09-28",
+              "2026-10-05",
+              "2026-10-12"
+            ],
+            "timezone": "Europe/Zurich",
+            "before": "07:00",
+            "todayCollection": false,
+            "todayCutoffPassed": false
+          },
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Kartonsammlung | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kartonsammlung.html",
+              "retrievedAt": "2026-09-25T09:06:55.605Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "No location → postcode",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Wann kann ich Karton entsorgen?",
+          "status": "needs_clarification",
+          "answer": "Welche Postleitzahl in der Stadt Zürich? Für den Kartonkalender genügt die PLZ; eine Hausnummer ist nicht nötig.",
+          "pending": {
+            "field": "postal_code",
+            "reason": "Welche Postleitzahl in der Stadt Zürich? Für den Kartonkalender genügt die PLZ; eine Hausnummer ist nicht nötig.",
+            "options": []
+          },
+          "sources": []
+        },
+        {
+          "question": "8004",
+          "status": "ok",
+          "answer": "Nächster im amtlichen Kalender verzeichneter Kartontermin für 8004 Zürich: **01.10.2026**.\n\nStelle den Karton am Sammeltag vor **7 Uhr** bereit.\n\nDer Termin gilt laut Datensatz für die PLZ; kurzfristige Betriebsänderungen sind nicht enthalten.",
+          "pending": null,
+          "calendar": {
+            "postalCode": "8004",
+            "locationBasis": "user_postcode",
+            "dates": [
+              "2026-10-01",
+              "2026-10-08",
+              "2026-10-15"
+            ],
+            "timezone": "Europe/Zurich",
+            "before": "07:00",
+            "todayCollection": false,
+            "todayCutoffPassed": false
+          },
+          "sources": [
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Kartonsammlung | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kartonsammlung.html",
+              "retrievedAt": "2026-09-25T09:06:55.605Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "General rule",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Wie bündele ich Karton?",
+          "status": "ok",
+          "answer": "Falte und bündle Karton und stelle ihn am Sammeltag **vor 7 Uhr** bereit. Die Sammlung ist laut Stadt kostenlos.\n\nDer konkrete Sammeltag hängt von deiner Adresse ab. Nenne für den nächsten Termin deine Postleitzahl oder Strasse und Hausnummer in Zürich.",
+          "pending": null,
+          "sources": [
+            {
+              "title": "Kartonsammlung | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kartonsammlung.html",
+              "retrievedAt": "2026-09-25T09:06:55.605Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Proximity unchanged",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Wo kann ich nahe Seefeldstrasse 102 in Zürich Glas entsorgen?",
+          "status": "ok",
+          "answer": "Die drei nächstgelegenen erfassten Sammelstellen für Glas **nach Luftlinie** ab Seefeldstrasse 102, 8008 Zürich (Kreis 8):\n\n1. **Mittelstrasse 6** · 8008 Zürich, Kreis 8 · ca. 130 m Luftlinie\n2. **Riesbachstrasse 61** · 8008 Zürich, Kreis 8 · ca. 250 m Luftlinie\n3. **Seefeldstrasse 152** · 8008 Zürich, Kreis 8 · ca. 380 m Luftlinie\n\nFusswege können länger sein. Öffnungszeiten und aktuelle Betriebszustände sind nicht geprüft.",
+          "pending": null,
+          "origin": "Seefeldstrasse 102",
+          "sources": [
+            {
+              "title": "Amtliche Sammelstellen mit Koordinaten",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_sammelstelle",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtliche Stadtkreisgrenzen",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_stadtkreise",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

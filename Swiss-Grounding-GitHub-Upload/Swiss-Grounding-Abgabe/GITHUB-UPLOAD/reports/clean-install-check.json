@@ -1,0 +1,17 @@
+{
+  "version": "0.6.0 / V7.8",
+  "checkedAt": "2026-09-25T09:42:52.851888+00:00",
+  "status": "passed",
+  "platform": "Linux",
+  "freshExtraction": true,
+  "npmCiExitCode": 0,
+  "tests": 275,
+  "pass": 275,
+  "fail": 0,
+  "skipped": 0,
+  "packageCheck": "passed",
+  "sourcesUnchangedSinceCleanTest": true,
+  "windowsDirectlyTested": false,
+  "visualBrowserTest": false,
+  "liveApertus": false
+}

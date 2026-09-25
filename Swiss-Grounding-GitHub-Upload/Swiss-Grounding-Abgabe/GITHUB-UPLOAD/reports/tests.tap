@@ -1,0 +1,1660 @@
+TAP version 13
+# Subtest: Apertus bridge uses the real MCP process, forwards clarification and preserves follow-up context (model simulated)
+ok 1 - Apertus bridge uses the real MCP process, forwards clarification and preserves follow-up context (model simulated)
+  ---
+  duration_ms: 597.479221
+  type: 'test'
+  ...
+# Subtest: provider request carries schema, tool result and credential only in the authorization header
+ok 2 - provider request carries schema, tool result and credential only in the authorization header
+  ---
+  duration_ms: 1.550851
+  type: 'test'
+  ...
+# Subtest: model answers without a real tool call never pass as an MCP test
+ok 3 - model answers without a real tool call never pass as an MCP test
+  ---
+  duration_ms: 0.520955
+  type: 'test'
+  ...
+# Subtest: unknown tool requests cannot execute arbitrary tools
+ok 4 - unknown tool requests cannot execute arbitrary tools
+  ---
+  duration_ms: 0.345744
+  type: 'test'
+  ...
+# Subtest: HTTP auth and tool support errors omit response bodies and keys
+ok 5 - HTTP auth and tool support errors omit response bodies and keys
+  ---
+  duration_ms: 0.540822
+  type: 'test'
+  ...
+# Subtest: evidence metadata survives the full tool loop and unsuccessful tools stay explicit
+ok 6 - evidence metadata survives the full tool loop and unsuccessful tools stay explicit
+  ---
+  duration_ms: 0.855288
+  type: 'test'
+  ...
+# Subtest: keys are excluded from MCP environment; network and Windows runtime settings remain
+ok 7 - keys are excluded from MCP environment; network and Windows runtime settings remain
+  ---
+  duration_ms: 0.376389
+  type: 'test'
+  ...
+# Subtest: truncated model replies are rejected before executing incomplete tool calls
+ok 8 - truncated model replies are rejected before executing incomplete tool calls
+  ---
+  duration_ms: 0.417029
+  type: 'test'
+  ...
+# Subtest: reported Bleicherweg failure: text-only provider replies use real MCP and retain all follow-up context
+ok 9 - reported Bleicherweg failure: text-only provider replies use real MCP and retain all follow-up context
+  ---
+  duration_ms: 992.545283
+  type: 'test'
+  ...
+# Subtest: native and application-initiated turns can alternate without losing the current MCP context
+ok 10 - native and application-initiated turns can alternate without losing the current MCP context
+  ---
+  duration_ms: 600.119464
+  type: 'test'
+  ...
+# Subtest: application fallback still fails closed for a broken MCP result
+ok 11 - application fallback still fails closed for a broken MCP result
+  ---
+  duration_ms: 2.624703
+  type: 'test'
+  ...
+# Subtest: optional model composition preserves every server fact and records both answer forms
+ok 12 - optional model composition preserves every server fact and records both answer forms
+  ---
+  duration_ms: 1.709226
+  type: 'test'
+  ...
+# Subtest: composition validator rejects additions, omissions, changed numbers, removed conditions and swapped dependent paragraphs
+ok 13 - composition validator rejects additions, omissions, changed numbers, removed conditions and swapped dependent paragraphs
+  ---
+  duration_ms: 2.654824
+  type: 'test'
+  ...
+# Subtest: optional formulation falls back to authoritative answer on invalid
+ok 14 - optional formulation falls back to authoritative answer on invalid
+  ---
+  duration_ms: 0.780781
+  type: 'test'
+  ...
+# Subtest: optional formulation falls back to authoritative answer on provider
+ok 15 - optional formulation falls back to authoritative answer on provider
+  ---
+  duration_ms: 0.464953
+  type: 'test'
+  ...
+# Subtest: clarifications skip optional composition and keep the exact pending question with one model call
+ok 16 - clarifications skip optional composition and keep the exact pending question with one model call
+  ---
+  duration_ms: 1.5086
+  type: 'test'
+  ...
+# Subtest: plain formulation request omits tool fields for provider compatibility
+ok 17 - plain formulation request omits tool fields for provider compatibility
+  ---
+  duration_ms: 0.849364
+  type: 'test'
+  ...
+# Subtest: live runner writes exactly five explicit skipped rows without a key and never connects
+ok 18 - live runner writes exactly five explicit skipped rows without a key and never connects
+  ---
+  duration_ms: 13.502354
+  type: 'test'
+  ...
+# Subtest: live runner catches provider failures per scenario and keeps the secret out of reports
+ok 19 - live runner catches provider failures per scenario and keeps the secret out of reports
+  ---
+  duration_ms: 10.766156
+  type: 'test'
+  ...
+# Subtest: browser chat executes real MCP, returns evidence and remembers follow-up context
+ok 20 - browser chat executes real MCP, returns evidence and remembers follow-up context
+  ---
+  duration_ms: 1062.619547
+  type: 'test'
+  ...
+# Subtest: missing location produces an actual MCP clarification, not invented evidence
+ok 21 - missing location produces an actual MCP clarification, not invented evidence
+  ---
+  duration_ms: 494.632578
+  type: 'test'
+  ...
+# Subtest: keys never reach a second browser session; disconnect forgets them
+ok 22 - keys never reach a second browser session; disconnect forgets them
+  ---
+  duration_ms: 19.942137
+  type: 'test'
+  ...
+# Subtest: cross-origin, missing CSRF, invalid bodies and oversized requests are rejected
+ok 23 - cross-origin, missing CSRF, invalid bodies and oversized requests are rejected
+  ---
+  duration_ms: 25.416524
+  type: 'test'
+  ...
+# Subtest: provider errors are explicit and redact the credential from streamed messages
+ok 24 - provider errors are explicit and redact the credential from streamed messages
+  ---
+  duration_ms: 388.630966
+  type: 'test'
+  ...
+# Subtest: concurrent requests are blocked while a model call is pending, then cancellation recovers
+ok 25 - concurrent requests are blocked while a model call is pending, then cancellation recovers
+  ---
+  duration_ms: 367.399974
+  type: 'test'
+  ...
+# Subtest: idle sessions expire and do not restore an entered secret
+ok 26 - idle sessions expire and do not restore an entered secret
+  ---
+  duration_ms: 11.339749
+  type: 'test'
+  ...
+# Subtest: browser HTTP regression: no provider tool call still yields the Bleicherweg clarification and mapped nearest stations
+ok 27 - browser HTTP regression: no provider tool call still yields the Bleicherweg clarification and mapped nearest stations
+  ---
+  duration_ms: 401.358617
+  type: 'test'
+  ...
+# Subtest: browser regression: misspelled street and cans never display scraped paragraphs, map metal stations after confirmation
+ok 28 - browser regression: misspelled street and cans never display scraped paragraphs, map metal stations after confirmation
+  ---
+  duration_ms: 424.133593
+  type: 'test'
+  ...
+# Subtest: browser optional composition returns model arrangement, original facts and map without exposing context tokens
+ok 29 - browser optional composition returns model arrangement, original facts and map without exposing context tokens
+  ---
+  duration_ms: 425.083856
+  type: 'test'
+  ...
+# Subtest: browser Langstrasse regression: postcode buttons, short replies, then real calendar via fallback
+ok 30 - browser Langstrasse regression: postcode buttons, short replies, then real calendar via fallback
+  ---
+  duration_ms: 10466.675785
+  type: 'test'
+  ...
+# Subtest: extended question: Wo kaufe ich Sperrgut-Marken in Zürich?
+ok 31 - extended question: Wo kaufe ich Sperrgut-Marken in Zürich?
+  ---
+  duration_ms: 19.52834
+  type: 'test'
+  ...
+# Subtest: extended question: Kann ERZ mein Sofa abholen?
+ok 32 - extended question: Kann ERZ mein Sofa abholen?
+  ---
+  duration_ms: 3.541559
+  type: 'test'
+  ...
+# Subtest: extended question: Wohin mit dem kaputten Fernseher?
+ok 33 - extended question: Wohin mit dem kaputten Fernseher?
+  ---
+  duration_ms: 0.562678
+  type: 'test'
+  ...
+# Subtest: extended question: Wo kaufe ich Züri-Säcke?
+ok 34 - extended question: Wo kaufe ich Züri-Säcke?
+  ---
+  duration_ms: 3.604274
+  type: 'test'
+  ...
+# Subtest: extended question: Wie entsorge ich Zeitungen?
+ok 35 - extended question: Wie entsorge ich Zeitungen?
+  ---
+  duration_ms: 2.481268
+  type: 'test'
+  ...
+# Subtest: extended question: Wann wird mein Papier abgeholt?
+ok 36 - extended question: Wann wird mein Papier abgeholt?
+  ---
+  duration_ms: 0.472102
+  type: 'test'
+  ...
+# Subtest: extended question: Was mache ich mit Bioabfall?
+ok 37 - extended question: Was mache ich mit Bioabfall?
+  ---
+  duration_ms: 1.205939
+  type: 'test'
+  ...
+# Subtest: extended question: Wann ist mein Bioabfalltermin?
+ok 38 - extended question: Wann ist mein Bioabfalltermin?
+  ---
+  duration_ms: 0.680381
+  type: 'test'
+  ...
+# Subtest: extended question: Wo gebe ich Kunststoff ab?
+ok 39 - extended question: Wo gebe ich Kunststoff ab?
+  ---
+  duration_ms: 0.496917
+  type: 'test'
+  ...
+# Subtest: extended question: Wo kann ich PET entsorgen?
+ok 40 - extended question: Wo kann ich PET entsorgen?
+  ---
+  duration_ms: 1.759708
+  type: 'test'
+  ...
+# Subtest: extended question: Wohin mit Chemikalien?
+ok 41 - extended question: Wohin mit Chemikalien?
+  ---
+  duration_ms: 0.736357
+  type: 'test'
+  ...
+# Subtest: extended question: Wo ist die Sonderabfall-Sammelstelle?
+ok 42 - extended question: Wo ist die Sonderabfall-Sammelstelle?
+  ---
+  duration_ms: 0.553486
+  type: 'test'
+  ...
+# Subtest: extended question: Wie finde ich den Entsorgungskalender?
+ok 43 - extended question: Wie finde ich den Entsorgungskalender?
+  ---
+  duration_ms: 0.293352
+  type: 'test'
+  ...
+# Subtest: extended question: Wo ist der nächste Recyclinghof?
+ok 44 - extended question: Wo ist der nächste Recyclinghof?
+  ---
+  duration_ms: 0.683354
+  type: 'test'
+  ...
+# Subtest: extended question: Welche Öffnungszeiten hat der Recyclinghof?
+ok 45 - extended question: Welche Öffnungszeiten hat der Recyclinghof?
+  ---
+  duration_ms: 1.092684
+  type: 'test'
+  ...
+# Subtest: coupon correction distinguishes free coupons and paid pickup; no invented retailer or 10-day guarantee
+ok 46 - coupon correction distinguishes free coupons and paid pickup; no invented retailer or 10-day guarantee
+  ---
+  duration_ms: 11.484435
+  type: 'test'
+  ...
+# Subtest: yard times do not assert open now or a nearest yard
+ok 47 - yard times do not assert open now or a nearest yard
+  ---
+  duration_ms: 0.564207
+  type: 'test'
+  ...
+# Subtest: unknown item asks for material, without assigning a container
+ok 48 - unknown item asks for material, without assigning a container
+  ---
+  duration_ms: 0.871344
+  type: 'test'
+  ...
+# Subtest: all rule sources offline yields unavailable, not remembered fees
+ok 49 - all rule sources offline yields unavailable, not remembered fees
+  ---
+  duration_ms: 0.333979
+  type: 'test'
+  ...
+# Subtest: changed source clauses fail closed for affected facts only
+ok 50 - changed source clauses fail closed for affected facts only
+  ---
+  duration_ms: 0.492007
+  type: 'test'
+  ...
+# Subtest: scope tier: municipality
+ok 51 - scope tier: municipality
+  ---
+  duration_ms: 0.334177
+  type: 'test'
+  ...
+# Subtest: scope tier: canton
+ok 52 - scope tier: canton
+  ---
+  duration_ms: 0.108139
+  type: 'test'
+  ...
+# Subtest: scope tier: outside_switzerland
+ok 53 - scope tier: outside_switzerland
+  ---
+  duration_ms: 0.758476
+  type: 'test'
+  ...
+# Subtest: language boundary: Comment puis-je m'inscrire à Zurich?
+ok 54 - language boundary: Comment puis-je m'inscrire à Zurich?
+  ---
+  duration_ms: 1.099865
+  type: 'test'
+  ...
+# Subtest: language boundary: Dove posso registrarmi a Zurigo?
+ok 55 - language boundary: Dove posso registrarmi a Zurigo?
+  ---
+  duration_ms: 0.164855
+  type: 'test'
+  ...
+# Subtest: language boundary: Cura èn las vacanzas a Scuol?
+ok 56 - language boundary: Cura èn las vacanzas a Scuol?
+  ---
+  duration_ms: 0.286072
+  type: 'test'
+  ...
+# Subtest: language boundary: Where can I register in Zurich?
+ok 57 - language boundary: Where can I register in Zurich?
+  ---
+  duration_ms: 0.108335
+  type: 'test'
+  ...
+# Subtest: language boundary: Как зарегистрироваться в Цюрихе?
+ok 58 - language boundary: Как зарегистрироваться в Цюрихе?
+  ---
+  duration_ms: 0.172539
+  type: 'test'
+  ...
+# Subtest: Swiss dialect is not mistaken for an unsupported language
+ok 59 - Swiss dialect is not mistaken for an unsupported language
+  ---
+  duration_ms: 0.086782
+  type: 'test'
+  ...
+# Subtest: punctuation and origin do not turn Zurich into another municipality
+ok 60 - punctuation and origin do not turn Zurich into another municipality
+  ---
+  duration_ms: 0.094657
+  type: 'test'
+  ...
+# Subtest: correction of origin does not assign a nationality
+ok 61 - correction of origin does not assign a nationality
+  ---
+  duration_ms: 4.712468
+  type: 'test'
+  ...
+# Subtest: follow-up outside evidence coverage does not recycle old registration text
+ok 62 - follow-up outside evidence coverage does not recycle old registration text
+  ---
+  duration_ms: 6.091143
+  type: 'test'
+  ...
+# Subtest: material capability table distinguishes nearest station from rules
+ok 63 - material capability table distinguishes nearest station from rules
+  ---
+  duration_ms: 0.128748
+  type: 'test'
+  ...
+# Subtest: mixed new and existing materials ask one targeted choice
+ok 64 - mixed new and existing materials ask one targeted choice
+  ---
+  duration_ms: 1.593781
+  type: 'test'
+  ...
+# Subtest: inert price table extraction excludes scripts and malformed rows
+ok 65 - inert price table extraction excludes scripts and malformed rows
+  ---
+  duration_ms: 4.496515
+  type: 'test'
+  ...
+# Subtest: Anmeldung ohne Ort
+ok 66 - Anmeldung ohne Ort
+  ---
+  duration_ms: 2.838529
+  type: 'test'
+  ...
+# Subtest: Kanton ist keine Stadt
+ok 67 - Kanton ist keine Stadt
+  ---
+  duration_ms: 0.893941
+  type: 'test'
+  ...
+# Subtest: Gemeinde-Konflikt
+ok 68 - Gemeinde-Konflikt
+  ---
+  duration_ms: 0.622621
+  type: 'test'
+  ...
+# Subtest: Zwei Gemeinden ohne Ziel
+ok 69 - Zwei Gemeinden ohne Ziel
+  ---
+  duration_ms: 0.200981
+  type: 'test'
+  ...
+# Subtest: Ziel statt Herkunft
+ok 70 - Ziel statt Herkunft
+  ---
+  duration_ms: 2.322939
+  type: 'test'
+  ...
+# Subtest: Ausland als Herkunft
+ok 71 - Ausland als Herkunft
+  ---
+  duration_ms: 0.354362
+  type: 'test'
+  ...
+# Subtest: Falsches Land
+ok 72 - Falsches Land
+  ---
+  duration_ms: 0.344156
+  type: 'test'
+  ...
+# Subtest: Falsche Gemeinde
+ok 73 - Falsche Gemeinde
+  ---
+  duration_ms: 0.705757
+  type: 'test'
+  ...
+# Subtest: Unbekanntes Thema
+ok 74 - Unbekanntes Thema
+  ---
+  duration_ms: 1.221002
+  type: 'test'
+  ...
+# Subtest: Nur Teilzeichenfolge
+ok 75 - Nur Teilzeichenfolge
+  ---
+  duration_ms: 0.244151
+  type: 'test'
+  ...
+# Subtest: Stadtinterner Umzug
+ok 76 - Stadtinterner Umzug
+  ---
+  duration_ms: 0.341713
+  type: 'test'
+  ...
+# Subtest: Französisch
+ok 77 - Französisch
+  ---
+  duration_ms: 0.192372
+  type: 'test'
+  ...
+# Subtest: Italienisch
+ok 78 - Italienisch
+  ---
+  duration_ms: 0.138604
+  type: 'test'
+  ...
+# Subtest: Rumantsch structured
+ok 79 - Rumantsch structured
+  ---
+  duration_ms: 0.063577
+  type: 'test'
+  ...
+# Subtest: Kartontermin
+ok 80 - Kartontermin
+  ---
+  duration_ms: 0.047977
+  type: 'test'
+  ...
+# Subtest: Kartonvorbereitung
+ok 81 - Kartonvorbereitung
+  ---
+  duration_ms: 0.220961
+  type: 'test'
+  ...
+# Subtest: Betreibungsregister
+ok 82 - Betreibungsregister
+  ---
+  duration_ms: 0.084161
+  type: 'test'
+  ...
+# Subtest: Leere Frage
+ok 83 - Leere Frage
+  ---
+  duration_ms: 0.045649
+  type: 'test'
+  ...
+# Subtest: Zu lange Frage
+ok 84 - Zu lange Frage
+  ---
+  duration_ms: 0.036191
+  type: 'test'
+  ...
+# Subtest: Falscher Typ
+ok 85 - Falscher Typ
+  ---
+  duration_ms: 0.057377
+  type: 'test'
+  ...
+# Subtest: extractor excludes navigation, scripts, forms and footer; preserves exception
+ok 86 - extractor excludes navigation, scripts, forms and footer; preserves exception
+  ---
+  duration_ms: 4.068062
+  type: 'test'
+  ...
+# Subtest: calendar never becomes a claimed address date, even if user supplies an address
+ok 87 - calendar never becomes a claimed address date, even if user supplies an address
+  ---
+  duration_ms: 1.850796
+  type: 'test'
+  ...
+# Subtest: unsupported city does not call retrieval
+ok 88 - unsupported city does not call retrieval
+  ---
+  duration_ms: 0.191861
+  type: 'test'
+  ...
+# Subtest: source outage is explicit, no fallback fabricated answer
+ok 89 - source outage is explicit, no fallback fabricated answer
+  ---
+  duration_ms: 1.047197
+  type: 'test'
+  ...
+# Subtest: tool output has bounded evidence, cites exact source, no stale sourceUpdated assumption
+ok 90 - tool output has bounded evidence, cites exact source, no stale sourceUpdated assumption
+  ---
+  duration_ms: 2.999835
+  type: 'test'
+  ...
+# Subtest: uncovered destination does not inherit origin Zurich
+ok 91 - uncovered destination does not inherit origin Zurich
+  ---
+  duration_ms: 0.15675
+  type: 'test'
+  ...
+# Subtest: vaccination after moving does not become registration advice
+ok 92 - vaccination after moving does not become registration advice
+  ---
+  duration_ms: 0.085443
+  type: 'test'
+  ...
+# Subtest: nested headings retain jurisdiction and section; browser notices are not evidence
+ok 93 - nested headings retain jurisdiction and section; browser notices are not evidence
+  ---
+  duration_ms: 0.809712
+  type: 'test'
+  ...
+# Subtest: cardboard evidence excludes the paper and bulky-waste sections
+ok 94 - cardboard evidence excludes the paper and bulky-waste sections
+  ---
+  duration_ms: 0.291366
+  type: 'test'
+  ...
+# Subtest: empty dynamic map shell is not evidence
+ok 95 - empty dynamic map shell is not evidence
+  ---
+  duration_ms: 0.324275
+  type: 'test'
+  ...
+# Subtest: public contact components provide addresses without executing their code
+ok 96 - public contact components provide addresses without executing their code
+  ---
+  duration_ms: 1.628061
+  type: 'test'
+  ...
+# Subtest: uploaded failure: house number does not replace the essential origin question
+ok 97 - uploaded failure: house number does not replace the essential origin question
+  ---
+  duration_ms: 33.174848
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; office
+ok 98 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; office
+  ---
+  duration_ms: 2.056602
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; documents
+ok 99 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; documents
+  ---
+  duration_ms: 1.201054
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; fees
+ok 100 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; fees
+  ---
+  duration_ms: 1.286121
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; deadline
+ok 101 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; deadline
+  ---
+  duration_ms: 1.275405
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; online
+ok 102 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin Schweizer; online
+  ---
+  duration_ms: 0.824286
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; office
+ok 103 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; office
+  ---
+  duration_ms: 1.867965
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; documents
+ok 104 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; documents
+  ---
+  duration_ms: 4.900602
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; fees
+ok 105 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; fees
+  ---
+  duration_ms: 0.551813
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; deadline
+ok 106 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; deadline
+  ---
+  duration_ms: 0.642818
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; online
+ok 107 - case matrix: Aus einer anderen Schweizer Gemeinde; Ich bin ausländischer Staatsangehöriger; online
+  ---
+  duration_ms: 0.404301
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin Schweizer; office
+ok 108 - case matrix: Aus dem Ausland; Ich bin Schweizer; office
+  ---
+  duration_ms: 0.615226
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin Schweizer; documents
+ok 109 - case matrix: Aus dem Ausland; Ich bin Schweizer; documents
+  ---
+  duration_ms: 1.123024
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin Schweizer; fees
+ok 110 - case matrix: Aus dem Ausland; Ich bin Schweizer; fees
+  ---
+  duration_ms: 0.450035
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin Schweizer; deadline
+ok 111 - case matrix: Aus dem Ausland; Ich bin Schweizer; deadline
+  ---
+  duration_ms: 0.358955
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin Schweizer; online
+ok 112 - case matrix: Aus dem Ausland; Ich bin Schweizer; online
+  ---
+  duration_ms: 0.459732
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; office
+ok 113 - case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; office
+  ---
+  duration_ms: 0.355863
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; documents
+ok 114 - case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; documents
+  ---
+  duration_ms: 0.433302
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; fees
+ok 115 - case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; fees
+  ---
+  duration_ms: 0.335286
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; deadline
+ok 116 - case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; deadline
+  ---
+  duration_ms: 1.280236
+  type: 'test'
+  ...
+# Subtest: case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; online
+ok 117 - case matrix: Aus dem Ausland; Ich bin ausländischer Staatsangehöriger; online
+  ---
+  duration_ms: 0.443813
+  type: 'test'
+  ...
+# Subtest: Swiss origin is not rejected as a destination: aus Winterthur
+ok 118 - Swiss origin is not rejected as a destination: aus Winterthur
+  ---
+  duration_ms: 0.821082
+  type: 'test'
+  ...
+# Subtest: Swiss origin is not rejected as a destination: von Uster
+ok 119 - Swiss origin is not rejected as a destination: von Uster
+  ---
+  duration_ms: 1.128648
+  type: 'test'
+  ...
+# Subtest: Swiss origin is not rejected as a destination: aus Bern
+ok 120 - Swiss origin is not rejected as a destination: aus Bern
+  ---
+  duration_ms: 0.490822
+  type: 'test'
+  ...
+# Subtest: Swiss origin is not rejected as a destination: aus der Schweiz
+ok 121 - Swiss origin is not rejected as a destination: aus der Schweiz
+  ---
+  duration_ms: 0.460322
+  type: 'test'
+  ...
+# Subtest: foreign origin chooses only the foreign branch: aus Deutschland
+ok 122 - foreign origin chooses only the foreign branch: aus Deutschland
+  ---
+  duration_ms: 0.645807
+  type: 'test'
+  ...
+# Subtest: foreign origin chooses only the foreign branch: aus Italien
+ok 123 - foreign origin chooses only the foreign branch: aus Italien
+  ---
+  duration_ms: 0.427024
+  type: 'test'
+  ...
+# Subtest: foreign origin chooses only the foreign branch: aus dem Ausland
+ok 124 - foreign origin chooses only the foreign branch: aus dem Ausland
+  ---
+  duration_ms: 0.92363
+  type: 'test'
+  ...
+# Subtest: outside destination never inherits Zurich: Uster
+ok 125 - outside destination never inherits Zurich: Uster
+  ---
+  duration_ms: 0.820999
+  type: 'test'
+  ...
+# Subtest: outside destination never inherits Zurich: Winterthur
+ok 126 - outside destination never inherits Zurich: Winterthur
+  ---
+  duration_ms: 0.319288
+  type: 'test'
+  ...
+# Subtest: outside destination never inherits Zurich: Konstanz
+ok 127 - outside destination never inherits Zurich: Konstanz
+  ---
+  duration_ms: 0.457188
+  type: 'test'
+  ...
+# Subtest: outside destination never inherits Zurich: Baden
+ok 128 - outside destination never inherits Zurich: Baden
+  ---
+  duration_ms: 0.338367
+  type: 'test'
+  ...
+# Subtest: deadline and general overview do not ask for irrelevant private details
+ok 129 - deadline and general overview do not ask for irrelevant private details
+  ---
+  duration_ms: 0.835396
+  type: 'test'
+  ...
+# Subtest: origin correction replaces the old branch
+ok 130 - origin correction replaces the old branch
+  ---
+  duration_ms: 0.88228
+  type: 'test'
+  ...
+# Subtest: contradictory origins require a clarification
+ok 131 - contradictory origins require a clarification
+  ---
+  duration_ms: 0.337654
+  type: 'test'
+  ...
+# Subtest: failed source never returns remembered deadlines or fees
+ok 132 - failed source never returns remembered deadlines or fees
+  ---
+  duration_ms: 0.492383
+  type: 'test'
+  ...
+# Subtest: missing case rule produces partial, not an allegedly complete checklist
+ok 133 - missing case rule produces partial, not an allegedly complete checklist
+  ---
+  duration_ms: 2.974079
+  type: 'test'
+  ...
+# Subtest: expired contexts do not silently reuse nationality or origin
+ok 134 - expired contexts do not silently reuse nationality or origin
+  ---
+  duration_ms: 0.457762
+  type: 'test'
+  ...
+# Subtest: multi-intent asks which task first without guessing
+ok 135 - multi-intent asks which task first without guessing
+  ---
+  duration_ms: 0.289719
+  type: 'test'
+  ...
+# Subtest: generic debt cost has no unnecessary address or nationality question
+ok 136 - generic debt cost has no unnecessary address or nationality question
+  ---
+  duration_ms: 0.310588
+  type: 'test'
+  ...
+# Subtest: debt office does not take the new flat as the debt-register address
+ok 137 - debt office does not take the new flat as the debt-register address
+  ---
+  duration_ms: 1.085096
+  type: 'test'
+  ...
+# Subtest: third-party debt extract keeps the legitimate-interest condition
+ok 138 - third-party debt extract keeps the legitimate-interest condition
+  ---
+  duration_ms: 0.489312
+  type: 'test'
+  ...
+# Subtest: topic transition uses a supplied address but verifies it before distance calculations
+ok 139 - topic transition uses a supplied address but verifies it before distance calculations
+  ---
+  duration_ms: 311.003635
+  type: 'test'
+  ...
+# Subtest: source parser attaches foreign-only office to the abroad branch and fails closed on a changed deadline
+ok 140 - source parser attaches foreign-only office to the abroad branch and fails closed on a changed deadline
+  ---
+  duration_ms: 2.086648
+  type: 'test'
+  ...
+# Subtest: moving background does not turn a single waste or debt question into two tasks
+ok 141 - moving background does not turn a single waste or debt question into two tasks
+  ---
+  duration_ms: 0.607475
+  type: 'test'
+  ...
+# Subtest: intra-city source provides its own deadline and northern/western offices
+ok 142 - intra-city source provides its own deadline and northern/western offices
+  ---
+  duration_ms: 2.403722
+  type: 'test'
+  ...
+# Subtest: known Swiss nationality does not get foreign migration fees
+ok 143 - known Swiss nationality does not get foreign migration fees
+  ---
+  duration_ms: 0.572956
+  type: 'test'
+  ...
+# Subtest: selecting one of several tasks retains the already supplied city and origin
+ok 144 - selecting one of several tasks retains the already supplied city and origin
+  ---
+  duration_ms: 0.709026
+  type: 'test'
+  ...
+# Subtest: unrelated follow-up is not answered with old registration rules
+ok 145 - unrelated follow-up is not answered with old registration rules
+  ---
+  duration_ms: 0.803997
+  type: 'test'
+  ...
+# Subtest: municipality clarification preserves original street and material: Stadt Zürich
+ok 146 - municipality clarification preserves original street and material: Stadt Zürich
+  ---
+  duration_ms: 77.260905
+  type: 'test'
+  ...
+# Subtest: municipality clarification preserves original street and material: Zürich
+ok 147 - municipality clarification preserves original street and material: Zürich
+  ---
+  duration_ms: 75.667544
+  type: 'test'
+  ...
+# Subtest: municipality clarification preserves original street and material: Ja
+ok 148 - municipality clarification preserves original street and material: Ja
+  ---
+  duration_ms: 75.659744
+  type: 'test'
+  ...
+# Subtest: cardboard request retains material and postcode after the city is clarified
+ok 149 - cardboard request retains material and postcode after the city is clarified
+  ---
+  duration_ms: 84.823116
+  type: 'test'
+  ...
+# Subtest: reported Dufourstrasse case: Büchsen use official metal sites after a spelling and house-number clarification
+ok 150 - reported Dufourstrasse case: Büchsen use official metal sites after a spelling and house-number clarification
+  ---
+  duration_ms: 67.012715
+  type: 'test'
+  ...
+# Subtest: reported foreign-national follow-up keeps domestic origin and answers with matching documents and costs
+ok 151 - reported foreign-national follow-up keeps domestic origin and answers with matching documents and costs
+  ---
+  duration_ms: 1.651661
+  type: 'test'
+  ...
+# Subtest: foreign nationality without move origin asks where the person lived before moving
+ok 152 - foreign nationality without move origin asks where the person lived before moving
+  ---
+  duration_ms: 0.417481
+  type: 'test'
+  ...
+# Subtest: arrival from abroad with foreign citizenship gets the corresponding documents and appointment
+ok 153 - arrival from abroad with foreign citizenship gets the corresponding documents and appointment
+  ---
+  duration_ms: 0.68961
+  type: 'test'
+  ...
+# Subtest: domestic move checklist combines registration with conditional first-step evidence
+ok 154 - domestic move checklist combines registration with conditional first-step evidence
+  ---
+  duration_ms: 1.116595
+  type: 'test'
+  ...
+# Subtest: follow-up about electricity uses first-step evidence without printing unrelated checklist items
+ok 155 - follow-up about electricity uses first-step evidence without printing unrelated checklist items
+  ---
+  duration_ms: 0.768871
+  type: 'test'
+  ...
+# Subtest: missing first-steps page does not become an invented checklist
+ok 156 - missing first-steps page does not become an invented checklist
+  ---
+  duration_ms: 0.822938
+  type: 'test'
+  ...
+# Subtest: first-steps parser accepts only clauses actually present in the source
+ok 157 - first-steps parser accepts only clauses actually present in the source
+  ---
+  duration_ms: 0.980386
+  type: 'test'
+  ...
+# Subtest: reported Seefeldstrasse conversation: nearest batteries never becomes a foreign municipality or metal-container claim
+ok 158 - reported Seefeldstrasse conversation: nearest batteries never becomes a foreign municipality or metal-container claim
+  ---
+  duration_ms: 81.533757
+  type: 'test'
+  ...
+# Subtest: location parsing uses complete words: am nächsten
+ok 159 - location parsing uses complete words: am nächsten
+  ---
+  duration_ms: 65.384204
+  type: 'test'
+  ...
+# Subtest: location parsing uses complete words: die nächste Sammelstelle
+ok 160 - location parsing uses complete words: die nächste Sammelstelle
+  ---
+  duration_ms: 54.626237
+  type: 'test'
+  ...
+# Subtest: location parsing uses complete words: nächstgelegene Sammelstelle
+ok 161 - location parsing uses complete words: nächstgelegene Sammelstelle
+  ---
+  duration_ms: 91.193946
+  type: 'test'
+  ...
+# Subtest: location parsing uses complete words: nachher
+ok 162 - location parsing uses complete words: nachher
+  ---
+  duration_ms: 67.712268
+  type: 'test'
+  ...
+# Subtest: common metal terms produce a location clarification rather than raw source paragraphs: Büchsen
+ok 163 - common metal terms produce a location clarification rather than raw source paragraphs: Büchsen
+  ---
+  duration_ms: 71.061572
+  type: 'test'
+  ...
+# Subtest: common metal terms produce a location clarification rather than raw source paragraphs: Dosen
+ok 164 - common metal terms produce a location clarification rather than raw source paragraphs: Dosen
+  ---
+  duration_ms: 97.986333
+  type: 'test'
+  ...
+# Subtest: common metal terms produce a location clarification rather than raw source paragraphs: Alu
+ok 165 - common metal terms produce a location clarification rather than raw source paragraphs: Alu
+  ---
+  duration_ms: 61.160096
+  type: 'test'
+  ...
+# Subtest: common metal terms produce a location clarification rather than raw source paragraphs: Kleinmetall
+ok 166 - common metal terms produce a location clarification rather than raw source paragraphs: Kleinmetall
+  ---
+  duration_ms: 69.543667
+  type: 'test'
+  ...
+# Subtest: pending city confirmation accepts typed affirmative: ja
+ok 167 - pending city confirmation accepts typed affirmative: ja
+  ---
+  duration_ms: 37.173549
+  type: 'test'
+  ...
+# Subtest: pending city confirmation accepts typed affirmative: ja genau
+ok 168 - pending city confirmation accepts typed affirmative: ja genau
+  ---
+  duration_ms: 48.835182
+  type: 'test'
+  ...
+# Subtest: pending city confirmation accepts typed affirmative: korrekt
+ok 169 - pending city confirmation accepts typed affirmative: korrekt
+  ---
+  duration_ms: 47.725741
+  type: 'test'
+  ...
+# Subtest: pending city confirmation accepts typed affirmative: Stadt Zürich
+ok 170 - pending city confirmation accepts typed affirmative: Stadt Zürich
+  ---
+  duration_ms: 40.333782
+  type: 'test'
+  ...
+# Subtest: pending city confirmation accepts typed affirmative: Zürich
+ok 171 - pending city confirmation accepts typed affirmative: Zürich
+  ---
+  duration_ms: 59.264791
+  type: 'test'
+  ...
+# Subtest: pending house number uses typed numeric grammar: 102
+ok 172 - pending house number uses typed numeric grammar: 102
+  ---
+  duration_ms: 57.59781
+  type: 'test'
+  ...
+# Subtest: pending house number uses typed numeric grammar: Nr. 102
+ok 173 - pending house number uses typed numeric grammar: Nr. 102
+  ---
+  duration_ms: 46.182906
+  type: 'test'
+  ...
+# Subtest: pending house number uses typed numeric grammar: die 102
+ok 174 - pending house number uses typed numeric grammar: die 102
+  ---
+  duration_ms: 36.673882
+  type: 'test'
+  ...
+# Subtest: pending house number uses typed numeric grammar: es ist die 102
+ok 175 - pending house number uses typed numeric grammar: es ist die 102
+  ---
+  duration_ms: 34.498303
+  type: 'test'
+  ...
+# Subtest: pending house number uses typed numeric grammar: Hausnummer 102
+ok 176 - pending house number uses typed numeric grammar: Hausnummer 102
+  ---
+  duration_ms: 39.285679
+  type: 'test'
+  ...
+# Subtest: pending origin accepts corrections without inferring nationality: doch aus Deutschland
+ok 177 - pending origin accepts corrections without inferring nationality: doch aus Deutschland
+  ---
+  duration_ms: 0.629528
+  type: 'test'
+  ...
+# Subtest: pending origin accepts corrections without inferring nationality: nein, aus Deutschland
+ok 178 - pending origin accepts corrections without inferring nationality: nein, aus Deutschland
+  ---
+  duration_ms: 0.257479
+  type: 'test'
+  ...
+# Subtest: pending origin accepts corrections without inferring nationality: nö, aus Basel
+ok 179 - pending origin accepts corrections without inferring nationality: nö, aus Basel
+  ---
+  duration_ms: 0.548811
+  type: 'test'
+  ...
+# Subtest: pending origin accepts corrections without inferring nationality: aus Bern
+ok 180 - pending origin accepts corrections without inferring nationality: aus Bern
+  ---
+  duration_ms: 0.250364
+  type: 'test'
+  ...
+# Subtest: pending origin accepts corrections without inferring nationality: Deutschland
+ok 181 - pending origin accepts corrections without inferring nationality: Deutschland
+  ---
+  duration_ms: 0.286748
+  type: 'test'
+  ...
+# Subtest: origin correction changes procedure but preserves an independently confirmed nationality
+ok 182 - origin correction changes procedure but preserves an independently confirmed nationality
+  ---
+  duration_ms: 1.082308
+  type: 'test'
+  ...
+# Subtest: material correction retains confirmed coordinates and resolves the next calendar step
+ok 183 - material correction retains confirmed coordinates and resolves the next calendar step
+  ---
+  duration_ms: 34.654461
+  type: 'test'
+  ...
+# Subtest: unknown numeric or yes answer never fabricates a missing street or origin
+ok 184 - unknown numeric or yes answer never fabricates a missing street or origin
+  ---
+  duration_ms: 0.403811
+  type: 'test'
+  ...
+# Subtest: conflicting origin values remain an open question
+ok 185 - conflicting origin values remain an open question
+  ---
+  duration_ms: 0.390416
+  type: 'test'
+  ...
+# Subtest: a new topic supersedes an outstanding field and does not become its value
+ok 186 - a new topic supersedes an outstanding field and does not become its value
+  ---
+  duration_ms: 46.664915
+  type: 'test'
+  ...
+# Subtest: street suggestion can be confirmed without restating the suggested street
+ok 187 - street suggestion can be confirmed without restating the suggested street
+  ---
+  duration_ms: 40.816131
+  type: 'test'
+  ...
+# Subtest: nationality answer rejects a residence-origin interpretation
+ok 188 - nationality answer rejects a residence-origin interpretation
+  ---
+  duration_ms: 1.023327
+  type: 'test'
+  ...
+# Subtest: locations filter BOTH material and postcode, retain source
+ok 189 - locations filter BOTH material and postcode, retain source
+  ---
+  duration_ms: 2.460564
+  type: 'test'
+  ...
+# Subtest: locations ask only for missing material
+ok 190 - locations ask only for missing material
+  ---
+  duration_ms: 0.869076
+  type: 'test'
+  ...
+# Subtest: PET cannot be inferred from glass or other material
+ok 191 - PET cannot be inferred from glass or other material
+  ---
+  duration_ms: 0.539637
+  type: 'test'
+  ...
+# Subtest: a postcode outside dataset is not a false positive
+ok 192 - a postcode outside dataset is not a false positive
+  ---
+  duration_ms: 0.304467
+  type: 'test'
+  ...
+# Subtest: expired and future snapshots fail closed
+ok 193 - expired and future snapshots fail closed
+  ---
+  duration_ms: 0.282807
+  type: 'test'
+  ...
+# Subtest: prior year is not a current calendar-year dataset
+ok 194 - prior year is not a current calendar-year dataset
+  ---
+  duration_ms: 0.790254
+  type: 'test'
+  ...
+# Subtest: invalid types and unbounded limits are rejected
+ok 195 - invalid types and unbounded limits are rejected
+  ---
+  duration_ms: 0.374172
+  type: 'test'
+  ...
+# Subtest: source placeholder rows never turn into fake locations
+ok 196 - source placeholder rows never turn into fake locations
+  ---
+  duration_ms: 0.468702
+  type: 'test'
+  ...
+# Subtest: conflicting material claims are refused
+ok 197 - conflicting material claims are refused
+  ---
+  duration_ms: 0.837589
+  type: 'test'
+  ...
+# Subtest: exact duplicate rows retain both source identifiers
+ok 198 - exact duplicate rows retain both source identifiers
+  ---
+  duration_ms: 6.453745
+  type: 'test'
+  ...
+# Subtest: a real MCP client negotiates protocol, lists tools and receives clarification
+ok 199 - a real MCP client negotiates protocol, lists tools and receives clarification
+  ---
+  duration_ms: 487.5137
+  type: 'test'
+  ...
+# Subtest: MCP exposes coverage and real local dataset rows with schema enforcement
+ok 200 - MCP exposes coverage and real local dataset rows with schema enforcement
+  ---
+  duration_ms: 866.999255
+  type: 'test'
+  ...
+# Subtest: reported Langstrasse dialogue accepts postcode after all four attempted house numbers
+ok 201 - reported Langstrasse dialogue accepts postcode after all four attempted house numbers
+  ---
+  duration_ms: 168.342192
+  type: 'test'
+  ...
+# Subtest: calendar ignores house 56, resolves only the Langstrasse postcode
+ok 202 - calendar ignores house 56, resolves only the Langstrasse postcode
+  ---
+  duration_ms: 99.908165
+  type: 'test'
+  ...
+# Subtest: calendar ignores house 102, resolves only the Langstrasse postcode
+ok 203 - calendar ignores house 102, resolves only the Langstrasse postcode
+  ---
+  duration_ms: 75.797779
+  type: 'test'
+  ...
+# Subtest: calendar ignores house 130, resolves only the Langstrasse postcode
+ok 204 - calendar ignores house 130, resolves only the Langstrasse postcode
+  ---
+  duration_ms: 60.88912
+  type: 'test'
+  ...
+# Subtest: calendar ignores house 145, resolves only the Langstrasse postcode
+ok 205 - calendar ignores house 145, resolves only the Langstrasse postcode
+  ---
+  duration_ms: 75.918094
+  type: 'test'
+  ...
+# Subtest: calendar ignores house 110, resolves only the Langstrasse postcode
+ok 206 - calendar ignores house 110, resolves only the Langstrasse postcode
+  ---
+  duration_ms: 68.617677
+  type: 'test'
+  ...
+# Subtest: calendar ignores house 240, resolves only the Langstrasse postcode
+ok 207 - calendar ignores house 240, resolves only the Langstrasse postcode
+  ---
+  duration_ms: 67.929967
+  type: 'test'
+  ...
+# Subtest: Apollostrasse: unique street postcode needs no house number and cites its derivation
+ok 208 - Apollostrasse: unique street postcode needs no house number and cites its derivation
+  ---
+  duration_ms: 60.898607
+  type: 'test'
+  ...
+# Subtest: Seefeldstrasse: unique street postcode needs no house number and cites its derivation
+ok 209 - Seefeldstrasse: unique street postcode needs no house number and cites its derivation
+  ---
+  duration_ms: 50.904874
+  type: 'test'
+  ...
+# Subtest: postcode calendar does not validate an irrelevant house number or assert a verified address
+ok 210 - postcode calendar does not validate an irrelevant house number or assert a verified address
+  ---
+  duration_ms: 53.710934
+  type: 'test'
+  ...
+# Subtest: cardboard with no location asks postcode directly within the declared city scope
+ok 211 - cardboard with no location asks postcode directly within the declared city scope
+  ---
+  duration_ms: 58.741995
+  type: 'test'
+  ...
+# Subtest: explicit postcode needs no street and no house
+ok 212 - explicit postcode needs no street and no house
+  ---
+  duration_ms: 61.620552
+  type: 'test'
+  ...
+# Subtest: general cardboard rule requires no personal location, even with unresolvable address
+ok 213 - general cardboard rule requires no personal location, even with unresolvable address
+  ---
+  duration_ms: 114.945466
+  type: 'test'
+  ...
+# Subtest: misspelled street for cardboard offers confirmation without asking a house number
+ok 214 - misspelled street for cardboard offers confirmation without asking a house number
+  ---
+  duration_ms: 73.01471
+  type: 'test'
+  ...
+# Subtest: nearest glass still needs a real point; postcode-only calendar cannot manufacture one
+ok 215 - nearest glass still needs a real point; postcode-only calendar cannot manufacture one
+  ---
+  duration_ms: 93.28628
+  type: 'test'
+  ...
+# Subtest: missing proximity address is a data gap with an escape, never proof of nonexistence
+ok 216 - missing proximity address is a data gap with an escape, never proof of nonexistence
+  ---
+  duration_ms: 69.724837
+  type: 'test'
+  ...
+# Subtest: explicit outside-city calendar is never replaced by Zürich postcode logic
+ok 217 - explicit outside-city calendar is never replaced by Zürich postcode logic
+  ---
+  duration_ms: 0.425999
+  type: 'test'
+  ...
+# Subtest: contradictory street/postcode requires postcode clarification and no house validation
+ok 218 - contradictory street/postcode requires postcode clarification and no house validation
+  ---
+  duration_ms: 72.806657
+  type: 'test'
+  ...
+# Subtest: independent JSON-RPC client initializes and calls tools from another working directory
+ok 219 - independent JSON-RPC client initializes and calls tools from another working directory
+  ---
+  duration_ms: 529.364676
+  type: 'test'
+  ...
+# Subtest: separate citizenship, origin and permit: Ich bin Italiener und habe eine B-Bewilligung
+ok 220 - separate citizenship, origin and permit: Ich bin Italiener und habe eine B-Bewilligung
+  ---
+  duration_ms: 4.612331
+  type: 'test'
+  ...
+# Subtest: separate citizenship, origin and permit: Ich bin Italienerin, Ausweis C
+ok 221 - separate citizenship, origin and permit: Ich bin Italienerin, Ausweis C
+  ---
+  duration_ms: 0.883057
+  type: 'test'
+  ...
+# Subtest: separate citizenship, origin and permit: Ich habe Bewilligung B
+ok 222 - separate citizenship, origin and permit: Ich habe Bewilligung B
+  ---
+  duration_ms: 0.258509
+  type: 'test'
+  ...
+# Subtest: separate citizenship, origin and permit: Ich habe ein Baby
+ok 223 - separate citizenship, origin and permit: Ich habe ein Baby
+  ---
+  duration_ms: 0.196607
+  type: 'test'
+  ...
+# Subtest: separate citizenship, origin and permit: Ich komme aus Italien
+ok 224 - separate citizenship, origin and permit: Ich komme aus Italien
+  ---
+  duration_ms: 0.301139
+  type: 'test'
+  ...
+# Subtest: separate citizenship, origin and permit: Ich bin aus Italien
+ok 225 - separate citizenship, origin and permit: Ich bin aus Italien
+  ---
+  duration_ms: 0.95928
+  type: 'test'
+  ...
+# Subtest: separate citizenship, origin and permit: Ich bin deutscher Staatsbürger
+ok 226 - separate citizenship, origin and permit: Ich bin deutscher Staatsbürger
+  ---
+  duration_ms: 0.757232
+  type: 'test'
+  ...
+# Subtest: separate citizenship, origin and permit: Ich bin indischer Staatsbürger, B-Bewilligung
+ok 227 - separate citizenship, origin and permit: Ich bin indischer Staatsbürger, B-Bewilligung
+  ---
+  duration_ms: 0.474676
+  type: 'test'
+  ...
+# Subtest: separate citizenship, origin and permit: Staatsangehörigkeit eines Drittstaats
+ok 228 - separate citizenship, origin and permit: Staatsangehörigkeit eines Drittstaats
+  ---
+  duration_ms: 0.431412
+  type: 'test'
+  ...
+# Subtest: Bern to Zurich with Italian B permit returns scoped SEM rule and municipal documents
+ok 229 - Bern to Zurich with Italian B permit returns scoped SEM rule and municipal documents
+  ---
+  duration_ms: 17.735264
+  type: 'test'
+  ...
+# Subtest: Bern to Zurich with Italian C permit returns scoped SEM rule and municipal documents
+ok 230 - Bern to Zurich with Italian C permit returns scoped SEM rule and municipal documents
+  ---
+  duration_ms: 4.585291
+  type: 'test'
+  ...
+# Subtest: Bern to Zurich with Italian L permit returns scoped SEM rule and municipal documents
+ok 231 - Bern to Zurich with Italian L permit returns scoped SEM rule and municipal documents
+  ---
+  duration_ms: 1.170634
+  type: 'test'
+  ...
+# Subtest: B without citizenship asks the missing citizenship group, short answer resumes
+ok 232 - B without citizenship asks the missing citizenship group, short answer resumes
+  ---
+  duration_ms: 1.391885
+  type: 'test'
+  ...
+# Subtest: permit received as a later short follow-up preserves citizenship and origin
+ok 233 - permit received as a later short follow-up preserves citizenship and origin
+  ---
+  duration_ms: 4.447432
+  type: 'test'
+  ...
+# Subtest: foreign arrival never gets domestic permit mobility rule
+ok 234 - foreign arrival never gets domestic permit mobility rule
+  ---
+  duration_ms: 1.120376
+  type: 'test'
+  ...
+# Subtest: third-country B does not inherit EU mobility
+ok 235 - third-country B does not inherit EU mobility
+  ---
+  duration_ms: 1.000738
+  type: 'test'
+  ...
+# Subtest: SEM outage leaves city guidance and explicitly marks the missing permit rule
+ok 236 - SEM outage leaves city guidance and explicitly marks the missing permit rule
+  ---
+  duration_ms: 0.678956
+  type: 'test'
+  ...
+# Subtest: baby is a family fact, never a B permit
+ok 237 - baby is a family fact, never a B permit
+  ---
+  duration_ms: 0.972384
+  type: 'test'
+  ...
+# Subtest: changed SEM clause cannot produce a remembered legal rule
+ok 238 - changed SEM clause cannot produce a remembered legal rule
+  ---
+  duration_ms: 0.550188
+  type: 'test'
+  ...
+# Subtest: battery locations require both acceptance and municipal household scope
+ok 239 - battery locations require both acceptance and municipal household scope
+  ---
+  duration_ms: 334.541356
+  type: 'test'
+  ...
+# Subtest: changed acceptance table never invents battery acceptance
+ok 240 - changed acceptance table never invents battery acceptance
+  ---
+  duration_ms: 0.598588
+  type: 'test'
+  ...
+# Subtest: battery follow-up preserves address, sorts only the known subset, supplies retailer locator
+ok 241 - battery follow-up preserves address, sorts only the known subset, supplies retailer locator
+  ---
+  duration_ms: 332.095807
+  type: 'test'
+  ...
+# Subtest: battery source failure gives useful external action and no fake locations
+ok 242 - battery source failure gives useful external action and no fake locations
+  ---
+  duration_ms: 90.145935
+  type: 'test'
+  ...
+# Subtest: unverified address is not reused as a confirmed battery distance point
+ok 243 - unverified address is not reused as a confirmed battery distance point
+  ---
+  duration_ms: 297.779894
+  type: 'test'
+  ...
+# Subtest: locator never accepts arbitrary query strings
+ok 244 - locator never accepts arbitrary query strings
+  ---
+  duration_ms: 0.162711
+  type: 'test'
+  ...
+# Subtest: denied permit is not a positive B slot
+ok 245 - denied permit is not a positive B slot
+  ---
+  duration_ms: 0.110142
+  type: 'test'
+  ...
+# Subtest: citizenship correction uses the final statement
+ok 246 - citizenship correction uses the final statement
+  ---
+  duration_ms: 0.240273
+  type: 'test'
+  ...
+# Subtest: expired permit does not activate an unconditional mobility answer
+ok 247 - expired permit does not activate an unconditional mobility answer
+  ---
+  duration_ms: 0.724589
+  type: 'test'
+  ...
+# Subtest: real parser and retrieval cache avoid repeated HTTP requests
+ok 248 - real parser and retrieval cache avoid repeated HTTP requests
+  ---
+  duration_ms: 28.129426
+  type: 'test'
+  ...
+# Subtest: concurrent identical queries share a request
+ok 249 - concurrent identical queries share a request
+  ---
+  duration_ms: 15.399674
+  type: 'test'
+  ...
+# Subtest: robots disallow blocks page fetch
+ok 250 - robots disallow blocks page fetch
+  ---
+  duration_ms: 2.338533
+  type: 'test'
+  ...
+# Subtest: robots outage fails closed
+ok 251 - robots outage fails closed
+  ---
+  duration_ms: 2.045227
+  type: 'test'
+  ...
+# Subtest: robots setting is configurable
+ok 252 - robots setting is configurable
+  ---
+  duration_ms: 6.550517
+  type: 'test'
+  ...
+# Subtest: public reuse requires terms review by default
+ok 253 - public reuse requires terms review by default
+  ---
+  duration_ms: 0.909439
+  type: 'test'
+  ...
+# Subtest: terms setting is configurable independently
+ok 254 - terms setting is configurable independently
+  ---
+  duration_ms: 7.497373
+  type: 'test'
+  ...
+# Subtest: unknown source cannot create SSRF
+ok 255 - unknown source cannot create SSRF
+  ---
+  duration_ms: 0.862938
+  type: 'test'
+  ...
+# Subtest: redirect to private or other origin is never fetched
+ok 256 - redirect to private or other origin is never fetched
+  ---
+  duration_ms: 4.942646
+  type: 'test'
+  ...
+# Subtest: HTTP 404 cannot turn into evidence
+ok 257 - HTTP 404 cannot turn into evidence
+  ---
+  duration_ms: 2.763947
+  type: 'test'
+  ...
+# Subtest: oversized responses are refused
+ok 258 - oversized responses are refused
+  ---
+  duration_ms: 1.499111
+  type: 'test'
+  ...
+# Subtest: expired cache is never served as fresh after failure
+ok 259 - expired cache is never served as fresh after failure
+  ---
+  duration_ms: 3.391239
+  type: 'test'
+  ...
+# Subtest: reported Kreis 8 regression: no assumed city or postcode 8004
+ok 260 - reported Kreis 8 regression: no assumed city or postcode 8004
+  ---
+  duration_ms: 196.829075
+  type: 'test'
+  ...
+# Subtest: reported Apollostrasse regression: old district and postcode are cleared; exact house gives nearby points
+ok 261 - reported Apollostrasse regression: old district and postcode are cleared; exact house gives nearby points
+  ---
+  duration_ms: 113.29988
+  type: 'test'
+  ...
+# Subtest: explicit conflicting address/district requires confirmation, not a silent correction
+ok 262 - explicit conflicting address/district requires confirmation, not a silent correction
+  ---
+  duration_ms: 62.023185
+  type: 'test'
+  ...
+# Subtest: postal and district mismatch, nonexistent house and unknown street do not reuse prior locations
+ok 263 - postal and district mismatch, nonexistent house and unknown street do not reuse prior locations
+  ---
+  duration_ms: 162.969401
+  type: 'test'
+  ...
+# Subtest: cardboard clarification chain asks city then postcode and uses the actual calendar
+ok 264 - cardboard clarification chain asks city then postcode and uses the actual calendar
+  ---
+  duration_ms: 75.037805
+  type: 'test'
+  ...
+# Subtest: material change retains verified address and can move from glass to cardboard
+ok 265 - material change retains verified address and can move from glass to cardboard
+  ---
+  duration_ms: 59.084069
+  type: 'test'
+  ...
+# Subtest: collection-day cutoff uses Europe/Zurich time and does not claim that collection is over
+ok 266 - collection-day cutoff uses Europe/Zurich time and does not claim that collection is over
+  ---
+  duration_ms: 111.27483
+  type: 'test'
+  ...
+# Subtest: unavailable live rule never turns into a fabricated preparation time
+ok 267 - unavailable live rule never turns into a fabricated preparation time
+  ---
+  duration_ms: 51.542173
+  type: 'test'
+  ...
+# Subtest: how to set out cardboard answers from a matching city passage without asking for postcode
+ok 268 - how to set out cardboard answers from a matching city passage without asking for postcode
+  ---
+  duration_ms: 62.967277
+  type: 'test'
+  ...
+# Subtest: cardboard instructions do not invent preparation or cost from an unavailable source
+ok 269 - cardboard instructions do not invent preparation or cost from an unavailable source
+  ---
+  duration_ms: 33.03737
+  type: 'test'
+  ...
+# Subtest: missing battery source preserves the prior address without claiming free return or nearest stations
+ok 270 - missing battery source preserves the prior address without claiming free return or nearest stations
+  ---
+  duration_ms: 35.493149
+  type: 'test'
+  ...
+# Subtest: stale snapshot, unsupported PET and opening-hour requests remain explicit
+ok 271 - stale snapshot, unsupported PET and opening-hour requests remain explicit
+  ---
+  duration_ms: 36.337302
+  type: 'test'
+  ...
+# Subtest: distance and polygon math are geographic, not a postcode approximation
+ok 272 - distance and polygon math are geographic, not a postcode approximation
+  ---
+  duration_ms: 0.435164
+  type: 'test'
+  ...
+# Subtest: real MCP bridge ignores model-invented 8004 and preserves the authoritative follow-up
+ok 273 - real MCP bridge ignores model-invented 8004 and preserves the authoritative follow-up
+  ---
+  duration_ms: 514.462283
+  type: 'test'
+  ...
+# Subtest: browser demo serves its page and real results via the local API
+ok 274 - browser demo serves its page and real results via the local API
+  ---
+  duration_ms: 582.137341
+  type: 'test'
+  ...
+# Subtest: HTTP locations, input limits and cross-origin protection work
+ok 275 - HTTP locations, input limits and cross-origin protection work
+  ---
+  duration_ms: 402.501364
+  type: 'test'
+  ...
+1..275
+# tests 275
+# suites 0
+# pass 275
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 14482.219902

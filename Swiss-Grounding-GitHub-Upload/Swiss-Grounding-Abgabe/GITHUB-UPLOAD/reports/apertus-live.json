@@ -1,0 +1,45 @@
+{
+  "version": "0.5.7 / V7.7",
+  "checkedAt": "2026-09-25T08:44:12.770Z",
+  "liveModel": false,
+  "realMcp": false,
+  "visualBrowserCheck": false,
+  "rows": [
+    {
+      "name": "Zuzug aus anderem Kanton",
+      "status": "not_run",
+      "reason": "missing_event_key",
+      "mapRendered": null
+    },
+    {
+      "name": "Staatsangehörigkeit als Folgefrage",
+      "status": "not_run",
+      "reason": "missing_event_key",
+      "mapRendered": null
+    },
+    {
+      "name": "Büchsen und kurze Hausnummer",
+      "status": "not_run",
+      "reason": "missing_event_key",
+      "mapRendered": null
+    },
+    {
+      "name": "Sperrgut-Coupons und heutige Alternativen",
+      "status": "not_run",
+      "reason": "missing_event_key",
+      "mapRendered": null
+    },
+    {
+      "name": "Nichtschweizer Ziel",
+      "status": "not_run",
+      "reason": "missing_event_key",
+      "mapRendered": null
+    }
+  ],
+  "status": "skipped_missing_key",
+  "notes": [
+    "Map data presence is checked; a CLI cannot confirm browser map rendering. mapRendered=null means not observed.",
+    "Only fixed public demo questions and metadata are saved. No API key, full model reply, conversation token or personal chat is written.",
+    "A successful transport run is not proof of factual correctness or arbitrary client compatibility."
+  ]
+}

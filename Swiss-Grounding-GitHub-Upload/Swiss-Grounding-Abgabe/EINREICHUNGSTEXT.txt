@@ -1,0 +1,29 @@
+TITLE
+Swiss Grounding — Zürich: cited local answers via MCP
+
+SHORT DESCRIPTION
+A German-language MCP server for selected moving, registration and recycling questions in the City of Zürich. It turns official sources and municipal geodata into cited answers, targeted clarification questions and structured map data. Conversation context survives short follow-ups and material changes. Cardboard dates resolve by postcode; glass and metal stations are ranked by straight-line distance from an official address. Household-battery guidance includes two verified municipal yards and explicitly separates these from missing retail-location coverage.
+
+EVALUATION
+Release V7.8 / 0.6.0. Evaluate the submitted main commit.
+Transport: stdio. Runtime: Node.js >=20.19 and npm.
+Setup: npm ci
+Start: node src/mcp.js
+Credentials: none for MCP. Internet is needed for live official sources.
+Hosted endpoint: none. Optional local Apertus web demo included.
+The README begins with the complete Evaluation quick start.
+
+DECLARED SCOPE
+Topics #4 Waste collection & recycling and #5 Moving/registration, selected procedures only, plus debt-register-extract guidance. City of Zürich only; German answers. No canton-wide or Switzerland-wide coverage.
+
+QUALITY EVIDENCE
+275 automated tests passed in a clean extracted installation. Eight additional V7.8 scenarios passed against live official sources through a real MCP subprocess. Tests cover clarifications, context changes, source gaps, protocol behaviour and scope boundaries. Tests and public reports are included. Live Apertus, direct Windows execution and visual browser rendering were not verified in this release run.
+
+KEY LIMITS
+No footpath routing, live opening status, verified nearest PET/battery retail branch, automatic eUmzug eligibility or individual residence-permit decision. Explicit partial/missing-data responses preserve these limits.
+
+REPOSITORY LINK
+Paste the actual GitHub repository URL here after uploading.
+
+PITCH, FALLS EIN KURZER DEUTSCHER TEXT BENÖTIGT WIRD
+Ankommen in Zürich, ohne sich durch viele Behördenwebseiten zu suchen: Swiss Grounding liefert einer KI nachvollziehbare lokale Fakten, stellt passende Rückfragen und macht Sammelstellen auf einer Karte nutzbar. Der MCP-Server funktioniert ohne eigenen Modellschlüssel und liefert Antworten, Quellen und Grenzen strukturiert an den angeschlossenen Client.

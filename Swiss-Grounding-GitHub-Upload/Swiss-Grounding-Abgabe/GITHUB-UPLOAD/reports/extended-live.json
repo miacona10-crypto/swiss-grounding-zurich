@@ -1,0 +1,243 @@
+{
+  "checkedAt": "2026-09-25T08:41:17.230Z",
+  "version": "0.5.7 / V7.7",
+  "realMcp": true,
+  "liveSources": true,
+  "liveModel": false,
+  "rows": [
+    {
+      "name": "Sperrgut-Coupons",
+      "question": "Wo kaufe ich Sperrgut-Marken in Zürich?",
+      "status": "ok",
+      "passed": true,
+      "claimIds": [
+        "coupons_ended",
+        "bulky_options",
+        "bulky_price",
+        "mobile_free",
+        "pickup_paid",
+        "pickup_booking"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Die Stadt Zürich setzt auf quartiernahe Entsorgung | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/aktuell/medienmitteilungen/2024/09/die-stadt-zuerich-setzt-auf-quartiernahe-entsorgung.html",
+          "retrievedAt": "2026-09-25T08:41:25.351Z"
+        },
+        {
+          "title": "Sperrgut | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/was-entsorgen/sperrgut.html",
+          "retrievedAt": "2026-09-25T08:41:26.296Z"
+        },
+        {
+          "title": "Recyclinghof | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/recyclinghof.html",
+          "retrievedAt": "2026-09-25T08:41:27.447Z"
+        },
+        {
+          "title": "Mobiler Recyclinghof im Quartier | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/mobiler-recyclinghof.html",
+          "retrievedAt": "2026-09-25T08:41:28.407Z"
+        },
+        {
+          "title": "Abfuhr Sperrgut, Metall, Elektrogeräte und Grubengut | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/abfuhr-sperrgut-metall-elektro-grubengut.html",
+          "retrievedAt": "2026-09-25T08:41:29.332Z"
+        }
+      ]
+    },
+    {
+      "name": "Recyclinghöfe",
+      "question": "Welche Öffnungszeiten haben die Recyclinghöfe in Zürich?",
+      "status": "ok",
+      "passed": true,
+      "claimIds": [
+        "yard_Looächer",
+        "yard_Werdhölzli",
+        "looacher_hours",
+        "werdholzli_hours"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Recyclinghof | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/recyclinghof.html",
+          "retrievedAt": "2026-09-25T08:41:27.447Z"
+        }
+      ]
+    },
+    {
+      "name": "Elektrogeräte",
+      "question": "Wo entsorge ich einen Fernseher in Zürich?",
+      "status": "ok",
+      "passed": true,
+      "claimIds": [
+        "electronics_free",
+        "pickup_paid",
+        "pickup_booking"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Recyclinghof | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/recyclinghof.html",
+          "retrievedAt": "2026-09-25T08:41:27.447Z"
+        },
+        {
+          "title": "Abfuhr Sperrgut, Metall, Elektrogeräte und Grubengut | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/abfuhr-sperrgut-metall-elektro-grubengut.html",
+          "retrievedAt": "2026-09-25T08:41:29.332Z"
+        }
+      ]
+    },
+    {
+      "name": "Züri-Sack",
+      "question": "Wo kaufe ich Züri-Säcke in Zürich?",
+      "status": "ok",
+      "passed": true,
+      "claimIds": [
+        "sack_buy",
+        "sack_price"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Abfuhr Hauskehricht | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/abfuhr-hauskehricht.html",
+          "retrievedAt": "2026-09-25T08:41:30.360Z"
+        }
+      ]
+    },
+    {
+      "name": "Papier",
+      "question": "Wie entsorge ich Papier in Zürich?",
+      "status": "ok",
+      "passed": true,
+      "claimIds": [
+        "paper_rule",
+        "paper_prepare"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Papiersammlung | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/papiersammlung",
+          "retrievedAt": "2026-09-25T08:41:31.300Z"
+        }
+      ]
+    },
+    {
+      "name": "Bioabfall",
+      "question": "Wie entsorge ich Bioabfall in Zürich?",
+      "status": "ok",
+      "passed": true,
+      "claimIds": [
+        "bio_bin",
+        "bio_time"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Abfuhr Bioabfall | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/abfuhr-bioabfall.html",
+          "retrievedAt": "2026-09-25T08:41:32.317Z"
+        }
+      ]
+    },
+    {
+      "name": "Kunststoff",
+      "question": "Wo gebe ich Kunststoff in Zürich ab?",
+      "status": "partial",
+      "passed": true,
+      "claimIds": [
+        "plastic_return"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Kunststoffsammlung | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kunststoffsammlung.html",
+          "retrievedAt": "2026-09-25T08:41:33.343Z"
+        }
+      ]
+    },
+    {
+      "name": "PET",
+      "question": "Wo gebe ich PET in Zürich ab?",
+      "status": "partial",
+      "passed": true,
+      "claimIds": [
+        "pet_retail",
+        "pet_free"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Zurück an die Verkaufsstelle | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/verkaufsstelle.html",
+          "retrievedAt": "2026-09-25T08:41:34.461Z"
+        }
+      ]
+    },
+    {
+      "name": "Sonderabfall",
+      "question": "Wo entsorge ich Sonderabfall in Zürich?",
+      "status": "ok",
+      "passed": true,
+      "claimIds": [
+        "hazard_not_trash",
+        "hazard_location",
+        "hazard_quantity"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Sonderabfall | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/was-entsorgen/sonderabfall.html",
+          "retrievedAt": "2026-09-25T08:41:35.439Z"
+        },
+        {
+          "title": "Sonderabfall-Sammelstelle | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/sonderabfall-sammelstelle",
+          "retrievedAt": "2026-09-25T08:41:36.470Z"
+        }
+      ]
+    },
+    {
+      "name": "Kalender",
+      "question": "Wie finde ich meinen persönlichen Entsorgungskalender in Zürich?",
+      "status": "ok",
+      "passed": true,
+      "claimIds": [
+        "personal_calendar"
+      ],
+      "missingRules": [],
+      "sources": [
+        {
+          "title": "Entsorgungskalender | Stadt Zürich",
+          "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/entsorgungskalender.html",
+          "retrievedAt": "2026-09-25T08:41:37.482Z"
+        }
+      ]
+    },
+    {
+      "name": "Konstanz",
+      "question": "Rundfunkbeitrag nach Umzug nach Konstanz?",
+      "status": "out_of_scope",
+      "passed": true,
+      "claimIds": [],
+      "missingRules": [],
+      "sources": []
+    },
+    {
+      "name": "Sprache",
+      "question": "Comment puis-je m'inscrire à Zurich?",
+      "status": "invalid",
+      "passed": true,
+      "claimIds": [],
+      "missingRules": [],
+      "sources": []
+    }
+  ]
+}

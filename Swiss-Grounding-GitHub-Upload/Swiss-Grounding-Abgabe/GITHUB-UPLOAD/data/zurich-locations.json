@@ -1,0 +1,2368 @@
+{
+  "sourceUrl": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_sammelstellen/download/entsorgungskalender_sammelstellen_2026.csv",
+  "recordsUrl": "https://data.stadt-zuerich.ch/api/3/action/datastore_search?resource_id=feb3aa86-377c-4f4b-8d61-e7f789b9a600&limit=2000",
+  "datasetUrl": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_sammelstellen",
+  "metadataUrl": "https://data.stadt-zuerich.ch/api/3/action/package_show?id=entsorgungskalender_sammelstellen",
+  "license": "cc-zero",
+  "referenceYear": 2026,
+  "downloadedAt": "2026-09-24T12:25:06.961Z",
+  "sourceMetadataModified": "2026-09-22T15:02:17.891696",
+  "rawRecordCount": 446,
+  "placeholderRows": 265,
+  "sha256": "5123520272818497f2eb4dab4d4d0e4a522eb0a9991fc80932264681f11d59a2",
+  "stations": [
+    {
+      "id": "zh-2026-1",
+      "sourceRecordIds": [
+        1
+      ],
+      "postalCode": "8001",
+      "address": "Gessnerallee vis à vis 36 WST 3 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-2",
+      "sourceRecordIds": [
+        2
+      ],
+      "postalCode": "8001",
+      "address": "Hirschengraben 13 WST 2 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-3",
+      "sourceRecordIds": [
+        3
+      ],
+      "postalCode": "8001",
+      "address": "Uraniastrasse 2a Polizeiwiese WST 1 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-4",
+      "sourceRecordIds": [
+        4
+      ],
+      "postalCode": "8002",
+      "address": "Am Schanzengraben 25 Gartenstrasse  WST 15 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-5",
+      "sourceRecordIds": [
+        5
+      ],
+      "postalCode": "8002",
+      "address": "Brunaustrasse 6 Seestrasse WST 16 Behälter",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-6",
+      "sourceRecordIds": [
+        6
+      ],
+      "postalCode": "8002",
+      "address": "General-Guisan-Quai 31",
+      "materials": [
+        "Glas"
+      ]
+    },
+    {
+      "id": "zh-2026-7",
+      "sourceRecordIds": [
+        7
+      ],
+      "postalCode": "8002",
+      "address": "General-Guisan-Quai 37",
+      "materials": [
+        "Glas"
+      ]
+    },
+    {
+      "id": "zh-2026-8",
+      "sourceRecordIds": [
+        8
+      ],
+      "postalCode": "8002",
+      "address": "Grütlistrasse 36 WST 17 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-9",
+      "sourceRecordIds": [
+        9
+      ],
+      "postalCode": "8002",
+      "address": "Klopstockstrasse vis à vis 23 WST 14 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-10",
+      "sourceRecordIds": [
+        10
+      ],
+      "postalCode": "8002",
+      "address": "Mythenquai 1",
+      "materials": [
+        "Glas"
+      ]
+    },
+    {
+      "id": "zh-2026-11",
+      "sourceRecordIds": [
+        11
+      ],
+      "postalCode": "8002",
+      "address": "Mythenquai 21",
+      "materials": [
+        "Glas"
+      ]
+    },
+    {
+      "id": "zh-2026-12",
+      "sourceRecordIds": [
+        12
+      ],
+      "postalCode": "8003",
+      "address": "Aegertenstrasse vis à vis 16 WST 30 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-13",
+      "sourceRecordIds": [
+        13
+      ],
+      "postalCode": "8003",
+      "address": "Bertastrasse vis à vis 59 WST 36 UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-14",
+      "sourceRecordIds": [
+        14
+      ],
+      "postalCode": "8003",
+      "address": "Fritschistrasse vis à vis 11  WST 34 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-15",
+      "sourceRecordIds": [
+        15
+      ],
+      "postalCode": "8003",
+      "address": "Idaplatz 4 WST 33 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-16",
+      "sourceRecordIds": [
+        16
+      ],
+      "postalCode": "8003",
+      "address": "Letzigraben 26 Ecke Edelweisstrasse WST 67 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-17",
+      "sourceRecordIds": [
+        17
+      ],
+      "postalCode": "8003",
+      "address": "Meinrad-Lienert-Strasse vis à vis  1 WST 31 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-18",
+      "sourceRecordIds": [
+        18
+      ],
+      "postalCode": "8003",
+      "address": "Schlossgasse vis à vis 22 Steinstrasse WST 21 OFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-19",
+      "sourceRecordIds": [
+        19
+      ],
+      "postalCode": "8003",
+      "address": "Seebahnstrasse 89 vis à vis Post WST 29 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-20",
+      "sourceRecordIds": [
+        20
+      ],
+      "postalCode": "8003",
+      "address": "Zentralstrasse vis à vis 76 WST 32 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-21",
+      "sourceRecordIds": [
+        21
+      ],
+      "postalCode": "8004",
+      "address": "Albisriederplatz 6 Einfahrt Hardstrasse WST 47 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-22",
+      "sourceRecordIds": [
+        22
+      ],
+      "postalCode": "8004",
+      "address": "Bullingerstrasse 41 WST 46 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-23",
+      "sourceRecordIds": [
+        23
+      ],
+      "postalCode": "8004",
+      "address": "Erismannstrasse 31 WST 49 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-24",
+      "sourceRecordIds": [
+        24
+      ],
+      "postalCode": "8004",
+      "address": "Hohlstrasse vis à vis 90 WST 39 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-25",
+      "sourceRecordIds": [
+        25
+      ],
+      "postalCode": "8004",
+      "address": "Kanzleistr. 137 Herman-Greulich-Str. WST 38 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-26",
+      "sourceRecordIds": [
+        26
+      ],
+      "postalCode": "8004",
+      "address": "Kochstrasse 21 WST 48 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-27",
+      "sourceRecordIds": [
+        27
+      ],
+      "postalCode": "8004",
+      "address": "Lagerstrasse 47 WST 37 UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-28",
+      "sourceRecordIds": [
+        28
+      ],
+      "postalCode": "8004",
+      "address": "Molkenstrasse vis à vis 5 WST 40 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-29",
+      "sourceRecordIds": [
+        29
+      ],
+      "postalCode": "8004",
+      "address": "Seebahnstrasse 171 Lochergut WST 44 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-30",
+      "sourceRecordIds": [
+        30
+      ],
+      "postalCode": "8004",
+      "address": "St. Jakobstr. vis à vis 29 Lutherstr. WST 41 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-31",
+      "sourceRecordIds": [
+        31
+      ],
+      "postalCode": "8004",
+      "address": "Tellstrasse vis à bis 31 Militärstrasse WST 43 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-32",
+      "sourceRecordIds": [
+        32
+      ],
+      "postalCode": "8004",
+      "address": "Weberstrasse 3 WST 42 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-33",
+      "sourceRecordIds": [
+        33
+      ],
+      "postalCode": "8004",
+      "address": "Zimmerlistrasse vis à vis 4 WST 45 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-34",
+      "sourceRecordIds": [
+        34
+      ],
+      "postalCode": "8005",
+      "address": "Geroldstrasse 35 WST 172  OFC Behälter",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-35",
+      "sourceRecordIds": [
+        35
+      ],
+      "postalCode": "8005",
+      "address": "Hardturmstrasse 126 Hardturmweg WST 51 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-36",
+      "sourceRecordIds": [
+        36
+      ],
+      "postalCode": "8005",
+      "address": "Heinrichstrasse 200 unter Viadukt WST 50 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-37",
+      "sourceRecordIds": [
+        37
+      ],
+      "postalCode": "8005",
+      "address": "Josefstrasse 92 WST 53 UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-38",
+      "sourceRecordIds": [
+        38
+      ],
+      "postalCode": "8005",
+      "address": "Konradstrasse 79 WST 54 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-39",
+      "sourceRecordIds": [
+        39
+      ],
+      "postalCode": "8005",
+      "address": "Röntgenstrasse 39 WST 52 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-40",
+      "sourceRecordIds": [
+        40
+      ],
+      "postalCode": "8005",
+      "address": "Sportweg 39 Kehrplatz WST 169 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-41",
+      "sourceRecordIds": [
+        41
+      ],
+      "postalCode": "8006",
+      "address": "Kronenstrasse 19 Kehrplatz WST 82 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-42",
+      "sourceRecordIds": [
+        42
+      ],
+      "postalCode": "8006",
+      "address": "Langmauerstrasse 90 WST 93 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-43",
+      "sourceRecordIds": [
+        43
+      ],
+      "postalCode": "8006",
+      "address": "Letzistrasse vis à vis 50 WST 94 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-44",
+      "sourceRecordIds": [
+        44
+      ],
+      "postalCode": "8006",
+      "address": "Ottikerstrasse vis à vis 61 Rigi-Platz WST 92 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-45",
+      "sourceRecordIds": [
+        45
+      ],
+      "postalCode": "8006",
+      "address": "Scheuchzerstrasse vis à vis 98 WST 86 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-46",
+      "sourceRecordIds": [
+        46
+      ],
+      "postalCode": "8006",
+      "address": "Sonneggstr, vis à vis 84 Weinbergstr. WST 85 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-47",
+      "sourceRecordIds": [
+        47
+      ],
+      "postalCode": "8006",
+      "address": "Sonneggstrasse 26 WST 96 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-48",
+      "sourceRecordIds": [
+        48
+      ],
+      "postalCode": "8006",
+      "address": "Vogelsangstr. vis à vis 33 Gladbachstr. WST 95 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-49",
+      "sourceRecordIds": [
+        49
+      ],
+      "postalCode": "8006",
+      "address": "Weinbergstrasse 131 Röslistrasse WST 84 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-50",
+      "sourceRecordIds": [
+        50
+      ],
+      "postalCode": "8008",
+      "address": "Bellerivestrasse 158",
+      "materials": [
+        "Glas"
+      ]
+    },
+    {
+      "id": "zh-2026-51",
+      "sourceRecordIds": [
+        51
+      ],
+      "postalCode": "8008",
+      "address": "Bleulerstrasse 70 WST 60 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-52",
+      "sourceRecordIds": [
+        52
+      ],
+      "postalCode": "8008",
+      "address": "Hammerstrasse vis à vis 43 WST 110 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-53",
+      "sourceRecordIds": [
+        53
+      ],
+      "postalCode": "8008",
+      "address": "Höschgasse 4",
+      "materials": [
+        "Glas"
+      ]
+    },
+    {
+      "id": "zh-2026-54",
+      "sourceRecordIds": [
+        54
+      ],
+      "postalCode": "8008",
+      "address": "Mittelstrasse 6 Klausstrasse WST 56 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-55",
+      "sourceRecordIds": [
+        55
+      ],
+      "postalCode": "8008",
+      "address": "Mühlebachstrasse 200 WST 150 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-56",
+      "sourceRecordIds": [
+        56
+      ],
+      "postalCode": "8008",
+      "address": "Mühlebachstrasse 35 WST 58 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-57",
+      "sourceRecordIds": [
+        57
+      ],
+      "postalCode": "8008",
+      "address": "Riesbachstrasse 61 Höschgasse WST 59 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-58",
+      "sourceRecordIds": [
+        58
+      ],
+      "postalCode": "8008",
+      "address": "Seefeldquai 8",
+      "materials": [
+        "Glas"
+      ]
+    },
+    {
+      "id": "zh-2026-59",
+      "sourceRecordIds": [
+        59
+      ],
+      "postalCode": "8008",
+      "address": "Seefeldstrasse 152 WST 57 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-60",
+      "sourceRecordIds": [
+        60
+      ],
+      "postalCode": "8008",
+      "address": "Seefeldstrasse 233 WST 55 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-61",
+      "sourceRecordIds": [
+        61
+      ],
+      "postalCode": "8032",
+      "address": "Bergstr. vis à vis 142 Jupitersteig WST 111 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-62",
+      "sourceRecordIds": [
+        62
+      ],
+      "postalCode": "8032",
+      "address": "Dolderstrasse vis à vis 39 Bungertweg WST103 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-63",
+      "sourceRecordIds": [
+        63
+      ],
+      "postalCode": "8032",
+      "address": "Forchstrasse 261 Burgwies WST 109 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-64",
+      "sourceRecordIds": [
+        64
+      ],
+      "postalCode": "8032",
+      "address": "Merkurstrasse 4 WST 102 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-65",
+      "sourceRecordIds": [
+        65
+      ],
+      "postalCode": "8037",
+      "address": "Hönggerstr.vis à vis 41 Leutholdstr. WST 119 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-66",
+      "sourceRecordIds": [
+        66
+      ],
+      "postalCode": "8037",
+      "address": "Im Waidegg 1 Bucheggplatz WST 120 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-67",
+      "sourceRecordIds": [
+        67
+      ],
+      "postalCode": "8037",
+      "address": "Lehenstrasse 65 WST 124 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-68",
+      "sourceRecordIds": [
+        68
+      ],
+      "postalCode": "8037",
+      "address": "Nordstrasse 205",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-69",
+      "sourceRecordIds": [
+        69
+      ],
+      "postalCode": "8037",
+      "address": "Rebbergstrasse vis à vis 19 WST 123 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-70",
+      "sourceRecordIds": [
+        70
+      ],
+      "postalCode": "8037",
+      "address": "Rosengartenstr. 10 unter Brücke WST 122 OFC Behält",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-71",
+      "sourceRecordIds": [
+        71
+      ],
+      "postalCode": "8037",
+      "address": "Wasserwerkstrasse 109 Parkplatz WST 167 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-72",
+      "sourceRecordIds": [
+        72
+      ],
+      "postalCode": "8038",
+      "address": "Alte Kalchbühlstrasse 15 bei Coop WST 4 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-73",
+      "sourceRecordIds": [
+        73
+      ],
+      "postalCode": "8038",
+      "address": "Etzelstrasse vis à vis 6 WST 7 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-74",
+      "sourceRecordIds": [
+        74
+      ],
+      "postalCode": "8038",
+      "address": "Morgentalstrasse vis à vis 73 WST 8 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-75",
+      "sourceRecordIds": [
+        75
+      ],
+      "postalCode": "8038",
+      "address": "Mythenquai 307",
+      "materials": [
+        "Glas"
+      ]
+    },
+    {
+      "id": "zh-2026-76",
+      "sourceRecordIds": [
+        76
+      ],
+      "postalCode": "8038",
+      "address": "Mythenquai 317",
+      "materials": [
+        "Glas"
+      ]
+    },
+    {
+      "id": "zh-2026-77",
+      "sourceRecordIds": [
+        77
+      ],
+      "postalCode": "8038",
+      "address": "Paradiesstrasse 45 WST 9 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-78",
+      "sourceRecordIds": [
+        78
+      ],
+      "postalCode": "8038",
+      "address": "Salomon-Vögelin-Strasse 3 WST 10 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-79",
+      "sourceRecordIds": [
+        79
+      ],
+      "postalCode": "8038",
+      "address": "Tannenrauchstrasse 116 Rainfussweg WST 5 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-80",
+      "sourceRecordIds": [
+        80
+      ],
+      "postalCode": "8041",
+      "address": "Leimbachstrasse 160 Klebestrasse WST 11 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-81",
+      "sourceRecordIds": [
+        81
+      ],
+      "postalCode": "8041",
+      "address": "Maneggpromenade vis à vis 88 WST 13 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-82",
+      "sourceRecordIds": [
+        82
+      ],
+      "postalCode": "8041",
+      "address": "Tuchmacherstrasse 18 Green City WST 137 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-83",
+      "sourceRecordIds": [
+        83
+      ],
+      "postalCode": "8044",
+      "address": "Moussonstrasse 22 WST 98 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-84",
+      "sourceRecordIds": [
+        84
+      ],
+      "postalCode": "8044",
+      "address": "Spyristrasse 20 Spyriplatz WST 97 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-85",
+      "sourceRecordIds": [
+        85
+      ],
+      "postalCode": "8044",
+      "address": "Zürichbergstr vis à vis  80 Vorderberg WST 101 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-86",
+      "sourceRecordIds": [
+        86
+      ],
+      "postalCode": "8044",
+      "address": "Zürichbergstr, 196 Forrenweid PP Zoo WST 100 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-87",
+      "sourceRecordIds": [
+        87
+      ],
+      "postalCode": "8045",
+      "address": "Arbentalstrasse 329 WST 27 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-88",
+      "sourceRecordIds": [
+        88
+      ],
+      "postalCode": "8045",
+      "address": "Bachtobelstr.vis ä vis 10 Uetlibergstr. WST 23 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-89",
+      "sourceRecordIds": [
+        89
+      ],
+      "postalCode": "8045",
+      "address": "Giesshübelstr. vis à vis 106 Brunaupark WST 18 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-90",
+      "sourceRecordIds": [
+        90
+      ],
+      "postalCode": "8045",
+      "address": "Hegianwandweg 75 Adolf-Lüchinger-Str.  WST 26 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-91",
+      "sourceRecordIds": [
+        91
+      ],
+      "postalCode": "8045",
+      "address": "Schweighofstrasse 7 WST 25 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-92",
+      "sourceRecordIds": [
+        92
+      ],
+      "postalCode": "8046",
+      "address": "Fronwaldstrasse vis à vis 94 WST 132 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-93",
+      "sourceRecordIds": [
+        93
+      ],
+      "postalCode": "8046",
+      "address": "Georg-Kempf-Strasse 53 WST 130 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-94",
+      "sourceRecordIds": [
+        94
+      ],
+      "postalCode": "8046",
+      "address": "Glaubtenstrasse 98 WT 128 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-95",
+      "sourceRecordIds": [
+        95
+      ],
+      "postalCode": "8046",
+      "address": "Katzenseestrasse 200 Badi Katzensee WST 305 OFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-96",
+      "sourceRecordIds": [
+        96
+      ],
+      "postalCode": "8046",
+      "address": "Lerchenhalde vàv 53 SH Schauenberg WST 129 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-97",
+      "sourceRecordIds": [
+        97
+      ],
+      "postalCode": "8046",
+      "address": "Mühlackerstr. 122 Buswendeschlaufe WST165 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel"
+      ]
+    },
+    {
+      "id": "zh-2026-98",
+      "sourceRecordIds": [
+        98
+      ],
+      "postalCode": "8046",
+      "address": "Riedenhaldenstr. 280 Bhf Affoltern WST 125 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-99",
+      "sourceRecordIds": [
+        99
+      ],
+      "postalCode": "8046",
+      "address": "Schwandenholzstr.194 Buswendeschlaufe WST 166 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-100",
+      "sourceRecordIds": [
+        100
+      ],
+      "postalCode": "8046",
+      "address": "Wehntalerstrasse 440 Neuwiesenstrass WST 127 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-101",
+      "sourceRecordIds": [
+        101
+      ],
+      "postalCode": "8046",
+      "address": "Wehntalerstrasse 597 alte Busschlaufe WST 131 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-102",
+      "sourceRecordIds": [
+        102
+      ],
+      "postalCode": "8046",
+      "address": "Wolfswinkel vis à vis 41 WST 133  UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-103",
+      "sourceRecordIds": [
+        103
+      ],
+      "postalCode": "8047",
+      "address": "Albisriederstr. 334 Albisriderhaus WST 65 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-104",
+      "sourceRecordIds": [
+        104
+      ],
+      "postalCode": "8047",
+      "address": "Flurstrasse 130 Pflegez.  Bachwiesen WST 300 OFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-105",
+      "sourceRecordIds": [
+        105
+      ],
+      "postalCode": "8047",
+      "address": "Letzigraben 104 WST 68 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-106",
+      "sourceRecordIds": [
+        106
+      ],
+      "postalCode": "8047",
+      "address": "Mühlezelgstrasse 1a Letzigraben WST 69 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-107",
+      "sourceRecordIds": [
+        107
+      ],
+      "postalCode": "8047",
+      "address": "Triemlistrasse 22 Hagenbuchrain WST66 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-108",
+      "sourceRecordIds": [
+        108
+      ],
+      "postalCode": "8048",
+      "address": "Altstetterstrasse 162 Pfarrhausstrasse WST 73 OFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-109",
+      "sourceRecordIds": [
+        109
+      ],
+      "postalCode": "8048",
+      "address": "Dachslernstr. vis à vis 9  TAZ Werkhof WST 71 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-110",
+      "sourceRecordIds": [
+        110
+      ],
+      "postalCode": "8048",
+      "address": "Ernst-Zöbeli-Strasse vis à vis 4 WST76 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-111",
+      "sourceRecordIds": [
+        111
+      ],
+      "postalCode": "8048",
+      "address": "Eugen-Huber-Strasse 4 WST 74 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-112",
+      "sourceRecordIds": [
+        112
+      ],
+      "postalCode": "8048",
+      "address": "Hardgutstrasse vis à vis 9 WST 72 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-113",
+      "sourceRecordIds": [
+        113
+      ],
+      "postalCode": "8048",
+      "address": "Hohlstrasse 665 Werdhölzlistrasse WST 77 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-114",
+      "sourceRecordIds": [
+        114
+      ],
+      "postalCode": "8048",
+      "address": "Loogartenstrasse 37 Schulhaus WST 70 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-115",
+      "sourceRecordIds": [
+        115
+      ],
+      "postalCode": "8048",
+      "address": "Rautistrasse 345 WST 75 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-116",
+      "sourceRecordIds": [
+        116
+      ],
+      "postalCode": "8048",
+      "address": "Rautistrasse 77 Freilager WST 168 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-117",
+      "sourceRecordIds": [
+        117
+      ],
+      "postalCode": "8049",
+      "address": "Appenzellerstrasse vis à vis 73  WST 116 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-118",
+      "sourceRecordIds": [
+        118
+      ],
+      "postalCode": "8049",
+      "address": "Geeringstrasse 95 Kehrplatz WST 115 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-119",
+      "sourceRecordIds": [
+        119
+      ],
+      "postalCode": "8049",
+      "address": "Im Stelzenacker 11 Kehrplatz WST 113 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-120",
+      "sourceRecordIds": [
+        120
+      ],
+      "postalCode": "8049",
+      "address": "Paul-Feyerabend-Hof 3 ETH WST 170 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-121",
+      "sourceRecordIds": [
+        121
+      ],
+      "postalCode": "8049",
+      "address": "Riedhofstr. vis à vis 104  Schulhaus WST 114 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-122",
+      "sourceRecordIds": [
+        122
+      ],
+      "postalCode": "8049",
+      "address": "Riedhofstrasse 9 Wieslergasse WST 112 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-123",
+      "sourceRecordIds": [
+        123
+      ],
+      "postalCode": "8049",
+      "address": "Riedhofstrasse vis à vis 378 WST 117 UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-124",
+      "sourceRecordIds": [
+        124
+      ],
+      "postalCode": "8050",
+      "address": "Baumackerstrasse vis à vis 28 WST 138 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-125",
+      "sourceRecordIds": [
+        125
+      ],
+      "postalCode": "8050",
+      "address": "Binzmühlestrasse 210 WST 134 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-126",
+      "sourceRecordIds": [
+        126
+      ],
+      "postalCode": "8050",
+      "address": "Dörflistr. vis à vis 90  Stadthof 11 WST 135 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-127",
+      "sourceRecordIds": [
+        127
+      ],
+      "postalCode": "8050",
+      "address": "Hagenholzstrasse 110 / Lager Nord",
+      "materials": [
+        "Oel"
+      ]
+    },
+    {
+      "id": "zh-2026-128",
+      "sourceRecordIds": [
+        128
+      ],
+      "postalCode": "8050",
+      "address": "Hagenholzstrasse 110 WST 153 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-129",
+      "sourceRecordIds": [
+        129
+      ],
+      "postalCode": "8050",
+      "address": "Leutschenbachstrasse 82 WST 171 UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-130",
+      "sourceRecordIds": [
+        130
+      ],
+      "postalCode": "8050",
+      "address": "Neunbrunnenstrasse 60 WST 81 UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-131",
+      "sourceRecordIds": [
+        131
+      ],
+      "postalCode": "8050",
+      "address": "Oleanderstrasse 1 Affolternstr. WST 136 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-132",
+      "sourceRecordIds": [
+        132
+      ],
+      "postalCode": "8050",
+      "address": "Opfikonstrasse 18 Kehrplatz WST 157 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-133",
+      "sourceRecordIds": [
+        133
+      ],
+      "postalCode": "8050",
+      "address": "Regensbergstrasse vis à vis 30 WST 142 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-134",
+      "sourceRecordIds": [
+        134
+      ],
+      "postalCode": "8050",
+      "address": "Tramstrasse 235 SH Saatlen WST 158 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-135",
+      "sourceRecordIds": [
+        135
+      ],
+      "postalCode": "8050",
+      "address": "Tramstrasse 55 Kirchenackerweg WST 140 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-136",
+      "sourceRecordIds": [
+        136
+      ],
+      "postalCode": "8050",
+      "address": "Wattstrasse vis à vis 6 WST 139 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-137",
+      "sourceRecordIds": [
+        137
+      ],
+      "postalCode": "8051",
+      "address": "Bocklerstrasse vis à vis 14 Parkplatz WST 151 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-138",
+      "sourceRecordIds": [
+        138
+      ],
+      "postalCode": "8051",
+      "address": "Dübendorfstr. 350 PP Mattenhof WST 162 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-139",
+      "sourceRecordIds": [
+        139
+      ],
+      "postalCode": "8051",
+      "address": "Helen-Keller-Strasse 12 WST 303 OFC Pflegezentrum",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-140",
+      "sourceRecordIds": [
+        140
+      ],
+      "postalCode": "8051",
+      "address": "Helen-Keller-Strasse 4a Altwiesenstr. WST 163 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-141",
+      "sourceRecordIds": [
+        141
+      ],
+      "postalCode": "8051",
+      "address": "Hirzenbachstrasse 40 WST 161 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-142",
+      "sourceRecordIds": [
+        142
+      ],
+      "postalCode": "8051",
+      "address": "Im Altried vis-à-vis 3 WST 164 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-143",
+      "sourceRecordIds": [
+        143
+      ],
+      "postalCode": "8051",
+      "address": "Kronwiesenstrasse 29 WST 160 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-144",
+      "sourceRecordIds": [
+        144
+      ],
+      "postalCode": "8051",
+      "address": "Luchswiesenstrasse 25 WST 159 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-145",
+      "sourceRecordIds": [
+        145
+      ],
+      "postalCode": "8051",
+      "address": "Luegislandstrasse 173 WST 152 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-146",
+      "sourceRecordIds": [
+        146
+      ],
+      "postalCode": "8051",
+      "address": "Reparaturen OFC / UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-147",
+      "sourceRecordIds": [
+        147
+      ],
+      "postalCode": "8051",
+      "address": "Ueberlandstrasse 14 Waldgarten WST 154 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-148",
+      "sourceRecordIds": [
+        148
+      ],
+      "postalCode": "8051",
+      "address": "Ueberlandstrasse 381 WST 155 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-149",
+      "sourceRecordIds": [
+        149
+      ],
+      "postalCode": "8051",
+      "address": "Ueberlandstrasse 409 / Lager Entsorgungsanlagen",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-150",
+      "sourceRecordIds": [
+        150
+      ],
+      "postalCode": "8051",
+      "address": "Ueberlandstrasse 409 WST 173 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-151",
+      "sourceRecordIds": [
+        151
+      ],
+      "postalCode": "8052",
+      "address": "Birchstrasse vis à vis 408 WST 148 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-152",
+      "sourceRecordIds": [
+        152
+      ],
+      "postalCode": "8052",
+      "address": "Hertensteinstrasse vis à vis 20 WST 147 UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-153",
+      "sourceRecordIds": [
+        153
+      ],
+      "postalCode": "8052",
+      "address": "Köschenrütistrasse 72 WST 146 UFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-154",
+      "sourceRecordIds": [
+        154
+      ],
+      "postalCode": "8052",
+      "address": "Schaffhauserstr. vis à vis  502 PP WST 144 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-155",
+      "sourceRecordIds": [
+        155
+      ],
+      "postalCode": "8052",
+      "address": "Stiglenstrasse 50 Parkplatz WST 149 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-156",
+      "sourceRecordIds": [
+        156
+      ],
+      "postalCode": "8053",
+      "address": "Drusbergstr. 135 / Witikonerstr. 136 WST 107 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-157",
+      "sourceRecordIds": [
+        157
+      ],
+      "postalCode": "8053",
+      "address": "Katzenschwanzstr. 28 Parkplatz WST 105 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-158",
+      "sourceRecordIds": [
+        158
+      ],
+      "postalCode": "8053",
+      "address": "Trichtenhausenstr. 93 Kienastenwies WST 106 Behält",
+      "materials": [
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-159",
+      "sourceRecordIds": [
+        159
+      ],
+      "postalCode": "8053",
+      "address": "Waserstrasse 36 Eierbrechtstrasse WST108 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-160",
+      "sourceRecordIds": [
+        160
+      ],
+      "postalCode": "8053",
+      "address": "Witikonerstrasse 390 Parkplatz WST 104 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-161",
+      "sourceRecordIds": [
+        161
+      ],
+      "postalCode": "8055",
+      "address": "Berneggweg vis à vis 8 WST 22 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-162",
+      "sourceRecordIds": [
+        162
+      ],
+      "postalCode": "8055",
+      "address": "Birmensdorferstrasse 432 WST 35 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-163",
+      "sourceRecordIds": [
+        163
+      ],
+      "postalCode": "8055",
+      "address": "Birmensdorferstrasse 488 Parkplatz WST 63 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-164",
+      "sourceRecordIds": [
+        164
+      ],
+      "postalCode": "8055",
+      "address": "Friesenbergstrasse 193  Bolistrasse WST 28 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-165",
+      "sourceRecordIds": [
+        165
+      ],
+      "postalCode": "8055",
+      "address": "Gutstrasse 149 WST 62 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-166",
+      "sourceRecordIds": [
+        166
+      ],
+      "postalCode": "8055",
+      "address": "Schweighofstr. 357 Paul-Clairmont-Str. WST 24 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-167",
+      "sourceRecordIds": [
+        167
+      ],
+      "postalCode": "8055",
+      "address": "Talwiesenstr. 169 Birmensdorferstr. WST 19 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-168",
+      "sourceRecordIds": [
+        168
+      ],
+      "postalCode": "8055",
+      "address": "Talwiesenstrasse vis à vis 118 WST 20 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-169",
+      "sourceRecordIds": [
+        169
+      ],
+      "postalCode": "8057",
+      "address": "Anna-Heer-Strasse vis à vis 14 WST 89 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-170",
+      "sourceRecordIds": [
+        170
+      ],
+      "postalCode": "8057",
+      "address": "Hoffeld vis à vis 46 Birchstrasse WST 91 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-171",
+      "sourceRecordIds": [
+        171
+      ],
+      "postalCode": "8057",
+      "address": "Käferholzstrasse 44 Parkplatz WST 83 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-172",
+      "sourceRecordIds": [
+        172
+      ],
+      "postalCode": "8057",
+      "address": "Milchbuckstr. 2 Schaffhauserstr. WST 87 OFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-173",
+      "sourceRecordIds": [
+        173
+      ],
+      "postalCode": "8057",
+      "address": "Mimosenstrasse vis à vis 1 WST 143 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-174",
+      "sourceRecordIds": [
+        174
+      ],
+      "postalCode": "8057",
+      "address": "Ringstrasse 72 Ulmenweg WST 90 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-175",
+      "sourceRecordIds": [
+        175
+      ],
+      "postalCode": "8057",
+      "address": "Viktoriastrasse 34 WST 141 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-176",
+      "sourceRecordIds": [
+        176
+      ],
+      "postalCode": "8057",
+      "address": "Zeppelinstrasse 43 / Spelteriniweg WST 88 OFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    },
+    {
+      "id": "zh-2026-177",
+      "sourceRecordIds": [
+        177
+      ],
+      "postalCode": "8064",
+      "address": "Bändlistrasse 94 Recyclinghof WST 174 UFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-178",
+      "sourceRecordIds": [
+        178
+      ],
+      "postalCode": "8064",
+      "address": "Grünauring 25 WST 80 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-179",
+      "sourceRecordIds": [
+        179
+      ],
+      "postalCode": "8064",
+      "address": "Grünauring vis à vis 37 Tüffenwies WST 79 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-180",
+      "sourceRecordIds": [
+        180
+      ],
+      "postalCode": "8064",
+      "address": "Hardhof 1d unter Europabrücke WST 78 OFC",
+      "materials": [
+        "Glas",
+        "Metall",
+        "Oel",
+        "Textilien"
+      ]
+    },
+    {
+      "id": "zh-2026-181",
+      "sourceRecordIds": [
+        181
+      ],
+      "postalCode": "8064",
+      "address": "Hardhof 9 Wasserversorgung WST 309 OFC",
+      "materials": [
+        "Glas",
+        "Metall"
+      ]
+    }
+  ]
+}

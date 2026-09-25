@@ -1,0 +1,16 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { findLocations } from '../src/locations.js';
+import { prepareStations } from '../src/dataset.js';
+const now=Date.parse('2026-09-24T12:00:00Z');
+const data={license:'cc-zero',downloadedAt:'2026-09-24T00:00:00Z',referenceYear:2026,sourceUrl:'https://data.stadt-zuerich.ch/example.csv',stations:[{id:'fixture-a',postalCode:'8004',address:'Fiktive Testadresse A',materials:['Glas']},{id:'fixture-b',postalCode:'8004',address:'Fiktive Testadresse B',materials:['Oel']},{id:'fixture-c',postalCode:'8005',address:'Fiktive Testadresse C',materials:['Glas']}]};
+test('locations filter BOTH material and postcode, retain source',()=>{const r=findLocations({postalCode:'8004',material:'Glas'},{data,now});assert.equal(r.status,'ok');assert.deepEqual(r.results.map(x=>x.id),['fixture-a']);assert.equal(r.sourceUrl,data.sourceUrl);assert.equal(r.results[0].distance,undefined);assert.match(r.limitations[0],/keine Distanzsortierung/);});
+test('locations ask only for missing material',()=>{const r=findLocations({postalCode:'8004'},{data,now});assert.deepEqual(r.missingFields,['material']);});
+test('PET cannot be inferred from glass or other material',()=>{assert.equal(findLocations({postalCode:'8004',material:'PET'},{data,now}).status,'out_of_scope');});
+test('a postcode outside dataset is not a false positive',()=>{assert.equal(findLocations({postalCode:'8400',material:'Glas'},{data,now}).status,'no_matches');});
+test('expired and future snapshots fail closed',()=>{for(const date of ['2026-08-01','2026-09-30','nonsense'])assert.equal(findLocations({postalCode:'8004',material:'Glas'},{data:{...data,downloadedAt:date},now}).status,'unavailable');});
+test('prior year is not a current calendar-year dataset',()=>{assert.equal(findLocations({postalCode:'8004',material:'Glas'},{data:{...data,referenceYear:2025},now}).status,'unavailable');});
+test('invalid types and unbounded limits are rejected',()=>{for(const bad of [{postalCode:8004},{limit:Infinity},{limit:-2},{limit:1.5}])assert.equal(findLocations({postalCode:'8004',material:'Glas',...bad},{data,now}).status,'invalid');});
+test('source placeholder rows never turn into fake locations',()=>{const fields={PLZ:'.',Station:'.',Glas:'.',Metall:'.',Oel:'.',Textilien:'.'};const result=prepareStations([{_id:1,...fields},{_id:2,...fields,PLZ:'8004.0',Station:'Fiktive Testadresse',Glas:'x'}],2026);assert.equal(result.placeholderRows,1);assert.equal(result.stations.length,1);assert.equal(result.stations[0].postalCode,'8004');});
+test('conflicting material claims are refused',()=>{const row={_id:1,PLZ:'8004.0',Station:'Fiktive Testadresse',Glas:'x',Metall:'.',Oel:'.',Textilien:'.'};assert.throws(()=>prepareStations([row,{...row,_id:2,Glas:'.',Metall:'x'}],2026),/Conflicting/);});
+test('exact duplicate rows retain both source identifiers',()=>{const row={_id:1,PLZ:'8004.0',Station:'Fiktive Testadresse',Glas:'x',Metall:'.',Oel:'.',Textilien:'.'};const {stations}=prepareStations([row,{...row,_id:2}],2026);assert.equal(stations.length,1);assert.deepEqual(stations[0].sourceRecordIds,[1,2]);});

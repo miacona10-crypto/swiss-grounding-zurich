@@ -1,0 +1,28 @@
+{
+  "name": "swiss-grounding-starter",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "mcp": "node src/mcp.js",
+    "web": "node src/web.js",
+    "test": "node --test",
+    "check:sources": "node scripts/check-sources.js",
+    "refresh:locations": "node scripts/refresh-locations.js",
+    "check:mcp-live": "node scripts/check-dialogues-live.js",
+    "refresh:geo": "node scripts/refresh-geo.js",
+    "test:apertus-live": "node APERTUS-TEST.mjs --live",
+    "check:extended-live": "node scripts/check-extended-live.js",
+    "check:postcode-live": "node scripts/check-postcode-live.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "htmlparser2": "12.0.0",
+    "robots-parser": "3.0.1",
+    "zod": "4.6.5",
+    "@modelcontextprotocol/client": "2.0.0"
+  }
+}

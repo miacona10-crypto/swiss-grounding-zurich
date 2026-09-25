@@ -1,0 +1,45 @@
+{
+  "status": "retrieved",
+  "sourceId": "zh-yards",
+  "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/recyclinghof.html",
+  "title": "Recyclinghof | Stadt Zürich",
+  "authority": "Stadt Zürich",
+  "municipality": "zuerich",
+  "language": "de",
+  "retrievedAt": "2026-09-25T09:38:07.018Z",
+  "httpLastModified": "Fri, 25 Sep 2026 09:38:06 GMT",
+  "contentSha256": "718c27280f637ac055e9dcc891a92dd3af474574f261f9b5bdeb766f3ca69a63",
+  "doc": {
+    "title": "Recyclinghof | Stadt Zürich",
+    "blocks": [
+      {
+        "heading": "Navigation › Sprunglink",
+        "text": "Die Recyclinghöfe Looächer und Werdhölzli stehen der Stadtbevölkerung für die Entsorgung von zahlreichen Abfallgruppen in haushaltsüblichen Mengen zur Verfügung. Bitte beachten Sie, dass die Recyclinghöfe anstelle von Bargeld digitale Zahlungsmittel bevorzugen."
+      },
+      {
+        "heading": "Navigation › Sprunglink",
+        "text": "Bücher, Getränkekartons , Haushaltsbatterien, Kaffeekapseln aus Aluminium, Karton* , Naturkorken, Papier* , PET-Getränkeflaschen , Plastikflaschen , Styropor , Textilien | *Kleinmengen bis 0.5m 3 | Gratis"
+      }
+    ],
+    "links": [],
+    "contacts": [
+      {
+        "title": "Recyclinghof Looächer mit Tauschplatz",
+        "streets": [
+          "Mühlackerstrasse 207"
+        ],
+        "postalCode": "8046",
+        "city": "Zürich"
+      },
+      {
+        "title": "Recyclinghof Werdhölzli",
+        "streets": [
+          "Bändlistrasse 94"
+        ],
+        "postalCode": "8064",
+        "city": "Zürich"
+      }
+    ]
+  },
+  "cache": "miss"
+}

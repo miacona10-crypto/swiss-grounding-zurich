@@ -1,0 +1,1064 @@
+{
+  "version": "0.6.0 / V7.8",
+  "checkedAt": "2026-09-25T09:38:40.308Z",
+  "realMcp": true,
+  "liveSources": true,
+  "liveModel": false,
+  "visualBrowserTest": false,
+  "rows": [
+    {
+      "name": "Italian B permit from Bern",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Ich ziehe aus Bern nach Zürich. Wo melde ich mich an?",
+          "status": "ok",
+          "answer": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Online oder mit Termin**\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n\n**Vorbereitung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "switzerland",
+            "nationality": null,
+            "citizenshipGroup": null,
+            "permitType": null,
+            "withChildren": false
+          },
+          "pending": null,
+          "claims": [
+            {
+              "id": "domestic_online",
+              "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_appointment",
+              "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+              "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_deregister",
+              "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_deregister",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "mapDataAvailable": false,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            }
+          ]
+        },
+        {
+          "question": "Ich bin Italiener und habe eine B-Bewilligung. Was muss ich beachten?",
+          "status": "ok",
+          "answer": "Als ausländische Person beim Zuzug aus einer anderen Schweizer Gemeinde nach Zürich: Das solltest du vorbereiten.\n\n**Anmeldung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n\n**Unterlagen für die Anmeldung**\n- Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.\n- Ausländerausweis mitnehmen, sofern vorhanden.\n- Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.\n- Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.\n- Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.\n\n**Gebühren**\n- Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.\n- Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.\n\n**Deine bestehende B-Bewilligung EU/EFTA**\n- Mit einer bestehenden EU/EFTA-Bewilligung ist beim Wechsel in einen anderen Kanton laut SEM keine neue Bewilligung allein wegen des Wohnortwechsels nötig. Dies bestätigt weder die persönliche Gültigkeit noch eine Verlängerung deiner Bewilligung.\n- Lege deinen EU/EFTA-Ausweis bei der Anmeldung am neuen Wohnort vor, damit die neue Wohnadresse eingetragen wird.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "switzerland",
+            "nationality": "foreign",
+            "citizenshipGroup": "eu_efta",
+            "permitType": "B",
+            "withChildren": false
+          },
+          "pending": null,
+          "claims": [
+            {
+              "id": "domestic_deregister",
+              "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_deregister",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_appointment",
+              "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+              "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_online",
+              "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_identity",
+              "text": "Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_identity",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_permit",
+              "text": "Ausländerausweis mitnehmen, sofern vorhanden.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_permit",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_lease",
+              "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_lease",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_insurance",
+              "text": "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_insurance",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_civil",
+              "text": "Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_civil",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_fee",
+              "text": "Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde; pro erwachsene Person",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_fee",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_fees",
+              "text": "Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.",
+              "conditions": "Ausländische Staatsangehörigkeit; je nach Bewilligung",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_fees",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "permit_eu_mobility",
+              "text": "Mit einer bestehenden EU/EFTA-Bewilligung ist beim Wechsel in einen anderen Kanton laut SEM keine neue Bewilligung allein wegen des Wohnortwechsels nötig. Dies bestätigt weder die persönliche Gültigkeit noch eine Verlängerung deiner Bewilligung.",
+              "conditions": "Bestehende EU/EFTA-Bewilligung; Wohnortwechsel innerhalb der Schweiz",
+              "sourceId": "sem-eu-mobility",
+              "passageId": "permit_eu_mobility",
+              "sourceUrl": "https://www.sem.admin.ch/sem/de/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html",
+              "sourceTitle": "FAQ – Fragen zur Personenfreizügigkeit",
+              "retrievedAt": "2026-09-25T09:39:00.124Z"
+            },
+            {
+              "id": "permit_eu_address",
+              "text": "Lege deinen EU/EFTA-Ausweis bei der Anmeldung am neuen Wohnort vor, damit die neue Wohnadresse eingetragen wird.",
+              "conditions": "Bestehende EU/EFTA-Bewilligung; Wohnortwechsel innerhalb der Schweiz",
+              "sourceId": "sem-eu-mobility",
+              "passageId": "permit_eu_address",
+              "sourceUrl": "https://www.sem.admin.ch/sem/de/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html",
+              "sourceTitle": "FAQ – Fragen zur Personenfreizügigkeit",
+              "retrievedAt": "2026-09-25T09:39:00.124Z"
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "mapDataAvailable": false,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "title": "FAQ – Fragen zur Personenfreizügigkeit",
+              "url": "https://www.sem.admin.ch/sem/de/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html",
+              "authority": "Staatssekretariat für Migration SEM",
+              "retrievedAt": "2026-09-25T09:39:00.124Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "B permit citizenship clarification",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Ich ziehe aus Bern nach Zürich und habe Bewilligung B",
+          "status": "needs_clarification",
+          "answer": "Du hast die Bewilligung B genannt. Hast du eine EU/EFTA-Staatsangehörigkeit oder die eines anderen Staates? Der bisherige Wohnort sagt nichts über deine Staatsangehörigkeit aus.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "switzerland",
+            "nationality": null,
+            "citizenshipGroup": null,
+            "permitType": "B",
+            "withChildren": false
+          },
+          "pending": {
+            "field": "citizenshipGroup",
+            "reason": "Du hast die Bewilligung B genannt. Hast du eine EU/EFTA-Staatsangehörigkeit oder die eines anderen Staates? Der bisherige Wohnort sagt nichts über deine Staatsangehörigkeit aus.",
+            "options": [
+              "EU/EFTA-Staatsangehörigkeit",
+              "Staatsangehörigkeit eines Drittstaats"
+            ]
+          },
+          "claims": [],
+          "actions": [],
+          "mapDataAvailable": false,
+          "mapRendered": null,
+          "sources": []
+        },
+        {
+          "question": "Italien",
+          "status": "ok",
+          "answer": "Als ausländische Person beim Zuzug aus einer anderen Schweizer Gemeinde nach Zürich: Das solltest du vorbereiten.\n\n**Anmeldung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n\n**Unterlagen für die Anmeldung**\n- Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.\n- Ausländerausweis mitnehmen, sofern vorhanden.\n- Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.\n- Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.\n- Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.\n\n**Gebühren**\n- Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.\n- Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.\n\n**Deine bestehende B-Bewilligung EU/EFTA**\n- Mit einer bestehenden EU/EFTA-Bewilligung ist beim Wechsel in einen anderen Kanton laut SEM keine neue Bewilligung allein wegen des Wohnortwechsels nötig. Dies bestätigt weder die persönliche Gültigkeit noch eine Verlängerung deiner Bewilligung.\n- Lege deinen EU/EFTA-Ausweis bei der Anmeldung am neuen Wohnort vor, damit die neue Wohnadresse eingetragen wird.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "switzerland",
+            "nationality": "foreign",
+            "citizenshipGroup": "eu_efta",
+            "permitType": "B",
+            "withChildren": false
+          },
+          "pending": null,
+          "claims": [
+            {
+              "id": "domestic_deregister",
+              "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_deregister",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_appointment",
+              "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+              "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_online",
+              "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_identity",
+              "text": "Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_identity",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_permit",
+              "text": "Ausländerausweis mitnehmen, sofern vorhanden.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_permit",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_lease",
+              "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_lease",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_insurance",
+              "text": "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_insurance",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_civil",
+              "text": "Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_civil",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_fee",
+              "text": "Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde; pro erwachsene Person",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_fee",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_fees",
+              "text": "Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.",
+              "conditions": "Ausländische Staatsangehörigkeit; je nach Bewilligung",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_fees",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "permit_eu_mobility",
+              "text": "Mit einer bestehenden EU/EFTA-Bewilligung ist beim Wechsel in einen anderen Kanton laut SEM keine neue Bewilligung allein wegen des Wohnortwechsels nötig. Dies bestätigt weder die persönliche Gültigkeit noch eine Verlängerung deiner Bewilligung.",
+              "conditions": "Bestehende EU/EFTA-Bewilligung; Wohnortwechsel innerhalb der Schweiz",
+              "sourceId": "sem-eu-mobility",
+              "passageId": "permit_eu_mobility",
+              "sourceUrl": "https://www.sem.admin.ch/sem/de/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html",
+              "sourceTitle": "FAQ – Fragen zur Personenfreizügigkeit",
+              "retrievedAt": "2026-09-25T09:39:00.124Z"
+            },
+            {
+              "id": "permit_eu_address",
+              "text": "Lege deinen EU/EFTA-Ausweis bei der Anmeldung am neuen Wohnort vor, damit die neue Wohnadresse eingetragen wird.",
+              "conditions": "Bestehende EU/EFTA-Bewilligung; Wohnortwechsel innerhalb der Schweiz",
+              "sourceId": "sem-eu-mobility",
+              "passageId": "permit_eu_address",
+              "sourceUrl": "https://www.sem.admin.ch/sem/de/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html",
+              "sourceTitle": "FAQ – Fragen zur Personenfreizügigkeit",
+              "retrievedAt": "2026-09-25T09:39:00.124Z"
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "mapDataAvailable": false,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "title": "FAQ – Fragen zur Personenfreizügigkeit",
+              "url": "https://www.sem.admin.ch/sem/de/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html",
+              "authority": "Staatssekretariat für Migration SEM",
+              "retrievedAt": "2026-09-25T09:39:00.124Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Baby is not permit B",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Ich bin Italiener und ziehe mit meinem Baby aus Bern nach Zürich. Was muss ich beachten?",
+          "status": "ok",
+          "answer": "Dein Anmeldeweg: Zuzug aus einer anderen Schweizer Gemeinde nach Zürich.\n\n**Zuzug anmelden**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n\n**Passende Unterlagen**\n- Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.\n- Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.\n- Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.\n- Ausländerausweis mitnehmen, sofern vorhanden.\n- Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.\n\n**Weitere Schritte nach deiner Situation**\n- Die Anmeldung beim Personenmeldeamt meldet Strom und Wasser nicht automatisch um. Kläre die Anmeldung bei ewz und der Wasserversorgung.\n- Falls du ein Auto hast: Innerhalb des Kantons kannst du die neue Adresse dem Strassenverkehrsamt melden; bei einem Zuzug aus einem anderen Kanton nennt die Stadt für neue Kontrollschilder und Ausweise eine Frist von 14 Tagen und persönliche Abholung.\n- Wenn du einen Hund über drei Monate hast, melde ihn innert zehn Tagen nach dem Zuzug bei der städtischen Hundekontrolle an.\n- Falls du selbständig erwerbstätig bist, melde dich bei der SVA Zürich.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "switzerland",
+            "nationality": "foreign",
+            "citizenshipGroup": "eu_efta",
+            "permitType": null,
+            "withChildren": true
+          },
+          "pending": null,
+          "claims": [
+            {
+              "id": "domestic_deregister",
+              "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_deregister",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_appointment",
+              "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+              "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_online",
+              "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_identity",
+              "text": "Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_identity",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_lease",
+              "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_lease",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_insurance",
+              "text": "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_insurance",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_permit",
+              "text": "Ausländerausweis mitnehmen, sofern vorhanden.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_permit",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_civil",
+              "text": "Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_civil",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "steps_utilities",
+              "text": "Die Anmeldung beim Personenmeldeamt meldet Strom und Wasser nicht automatisch um. Kläre die Anmeldung bei ewz und der Wasserversorgung.",
+              "conditions": "Nach einem Zuzug in die Stadt Zürich",
+              "sourceId": "zh-first-steps",
+              "passageId": "steps_utilities",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html",
+              "sourceTitle": "Erste Schritte | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:39:08.866Z"
+            },
+            {
+              "id": "steps_car",
+              "text": "Falls du ein Auto hast: Innerhalb des Kantons kannst du die neue Adresse dem Strassenverkehrsamt melden; bei einem Zuzug aus einem anderen Kanton nennt die Stadt für neue Kontrollschilder und Ausweise eine Frist von 14 Tagen und persönliche Abholung.",
+              "conditions": "Bei Fahrzeugbesitz; Umzug innerhalb des Kantons oder aus einem anderen Kanton",
+              "sourceId": "zh-first-steps",
+              "passageId": "steps_car",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html",
+              "sourceTitle": "Erste Schritte | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:39:08.866Z"
+            },
+            {
+              "id": "steps_dog",
+              "text": "Wenn du einen Hund über drei Monate hast, melde ihn innert zehn Tagen nach dem Zuzug bei der städtischen Hundekontrolle an.",
+              "conditions": "Hund über drei Monate; Zuzug in die Stadt Zürich",
+              "sourceId": "zh-first-steps",
+              "passageId": "steps_dog",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html",
+              "sourceTitle": "Erste Schritte | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:39:08.866Z"
+            },
+            {
+              "id": "steps_self_employed",
+              "text": "Falls du selbständig erwerbstätig bist, melde dich bei der SVA Zürich.",
+              "conditions": "Selbständigerwerbend; Zuzug in die Stadt Zürich",
+              "sourceId": "zh-first-steps",
+              "passageId": "steps_self_employed",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html",
+              "sourceTitle": "Erste Schritte | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:39:08.866Z"
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            }
+          ],
+          "mapDataAvailable": false,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "title": "Erste Schritte | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/neu-in-zuerich/erste-schritte.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:39:08.866Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Non-EU permit cautious referral",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Ich bin indischer Staatsbürger mit B-Bewilligung und ziehe aus Bern nach Zürich",
+          "status": "partial",
+          "answer": "Als ausländische Person beim Zuzug aus einer anderen Schweizer Gemeinde nach Zürich: Das solltest du vorbereiten.\n\n**Anmeldung**\n- Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.\n- Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.\n- Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.\n- Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.\n\n**Unterlagen für die Anmeldung**\n- Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.\n- Ausländerausweis mitnehmen, sofern vorhanden.\n- Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.\n- Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.\n- Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.\n\n**Gebühren**\n- Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.\n- Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.\n\n**Bewilligung und Kantonswechsel klären**\n- Die EU/EFTA-Regel lässt sich nicht allein aus deiner B-Bewilligung ableiten. Eine mögliche Bewilligung zum Kantonswechsel und Ausnahmen, etwa aufgrund der Familienkonstellation, müssen separat geklärt werden. Kläre den Kantonswechsel vor dem Umzug mit dem Migrationsamt Zürich.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": "switzerland",
+            "nationality": "foreign",
+            "citizenshipGroup": "other",
+            "permitType": "B",
+            "withChildren": false
+          },
+          "pending": null,
+          "claims": [
+            {
+              "id": "domestic_deregister",
+              "text": "Melde dich bei der bisherigen Wohngemeinde ab. Die Stadt nennt die Abmeldung als Voraussetzung für die Anmeldung.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_deregister",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "deadline",
+              "text": "Melde deinen Zuzug innerhalb von 14 Tagen nach dem tatsächlichen Einzug. Vor dem Einzug ist die Anmeldung noch nicht möglich.",
+              "conditions": "Zuzug in die Stadt Zürich",
+              "sourceId": "zh-registration",
+              "passageId": "deadline",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_appointment",
+              "text": "Wenn du persönlich vorsprechen möchtest, buche vorher einen Termin. Der bestätigte Termin legt den Besuchsort fest.",
+              "conditions": "Persönliche Anmeldung bei Zuzug aus der Schweiz",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_appointment",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_online",
+              "text": "Prüfe deinen Umzug im offiziellen eUmzugCH-Portal. Eine Online-Anmeldung ist je nach Ausgangsgemeinde und persönlicher Situation möglich; dieser Server bestätigt die individuelle Berechtigung nicht.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_online",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_identity",
+              "text": "Pass mitnehmen; für EU/EFTA-Staatsangehörige genügt auch die Identitätskarte.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_identity",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_permit",
+              "text": "Ausländerausweis mitnehmen, sofern vorhanden.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_permit",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_lease",
+              "text": "Mietvertrag, Wohnungsausweis oder Untermietvertrag mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_lease",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_insurance",
+              "text": "Krankenkassenkarten aller anzumeldenden Familienmitglieder mitnehmen.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_insurance",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_civil",
+              "text": "Relevante Zivilstandspapiere mitnehmen: Ehepapiere und Geburtsscheine der Kinder; bei Zuzug aus dem Ausland im Original.",
+              "conditions": "Zuzug aus der Schweiz; ausländische Staatsangehörigkeit",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_civil",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "domestic_fee",
+              "text": "Die städtische Anmeldegebühr beträgt 40 Franken pro erwachsene Person.",
+              "conditions": "Zuzug aus einer Schweizer Gemeinde; pro erwachsene Person",
+              "sourceId": "zh-registration",
+              "passageId": "domestic_fee",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            },
+            {
+              "id": "foreign_fees",
+              "text": "Bei ausländischer Staatsangehörigkeit: Zusätzliche migrationsamtliche Gebühren hängen von der Bewilligung ab; ein Gesamtbetrag wird hier nicht bestätigt.",
+              "conditions": "Ausländische Staatsangehörigkeit; je nach Bewilligung",
+              "sourceId": "zh-registration",
+              "passageId": "foreign_fees",
+              "sourceUrl": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "sourceTitle": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            }
+          ],
+          "actions": [
+            {
+              "label": "Online-Anmeldung prüfen",
+              "url": "https://www.eumzug.swiss/eumzugngx/global"
+            },
+            {
+              "label": "Termin für Zuzug aus der Schweiz",
+              "url": "https://www.stadt-zuerich.ch/termin-pma"
+            },
+            {
+              "label": "Migrationsamt Zürich: Aufenthalt und Bewilligungen",
+              "url": "https://www.zh.ch/de/migration-integration/aufenthalt.html"
+            }
+          ],
+          "mapDataAvailable": false,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Zuzug in die Stadt Zürich | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/lebenslagen/einwohner-services/umziehen-melden/zuzug.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:38:49.363Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Household batteries after glass",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Glas an der Bahnhofstrasse 102 in Zürich entsorgen",
+          "status": "ok",
+          "answer": "Die drei nächstgelegenen erfassten Sammelstellen für Glas **nach Luftlinie** ab Bahnhofstrasse 102, 8001 Zürich (Kreis 1):\n\n1. **Uraniastrasse 2a** · 8001 Zürich, Kreis 1 · ca. 210 m Luftlinie\n2. **Gessnerallee 36** · 8001 Zürich, Kreis 1 · ca. 220 m Luftlinie\n3. **Lagerstrasse 47** · 8004 Zürich, Kreis 4 · ca. 600 m Luftlinie\n\nFusswege können länger sein. Öffnungszeiten und aktuelle Betriebszustände sind nicht geprüft.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Glas",
+            "street": "Bahnhofstrasse",
+            "houseNumber": "102",
+            "postalCode": "8001",
+            "district": 1,
+            "address": "Bahnhofstrasse 102",
+            "addressStatus": "confirmed"
+          },
+          "pending": null,
+          "claims": [],
+          "actions": [],
+          "mapDataAvailable": true,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Amtliche Sammelstellen mit Koordinaten",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_sammelstelle",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtliche Stadtkreisgrenzen",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_stadtkreise",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        },
+        {
+          "question": "Wo kann ich Batterien am nächsten entsorgen?",
+          "status": "partial",
+          "answer": "Batterien kannst du laut Stadt Zürich bei Verkaufsstellen kostenlos zurückgeben, die solche Produkte vertreiben. Dein Ausgangspunkt bleibt Bahnhofstrasse 102, Zürich.\n\n**Belegte Abgabeorte für Haushaltsbatterien in haushaltsüblichen Mengen:**\n- **Recyclinghof Werdhölzli**: Bändlistrasse 94, 8064 Zürich · ca. 5000 m Luftlinie\n- **Recyclinghof Looächer mit Tauschplatz**: Mühlackerstrasse 207, 8046 Zürich · ca. 6390 m Luftlinie\n\nDie städtische Annahmeliste nennt Haushaltsbatterien als gratis. Die Höfe sind zusätzliche Möglichkeiten, keine Empfehlung für die kürzeste Strecke. Eine Verkaufsstelle kann näher sein. Öffne dafür die Recycling-Map, wähle „Batterien“ und suche mit deiner PLZ. Öffnungszeiten vor dem Besuch auf der Standortseite prüfen.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Batterien",
+            "street": "Bahnhofstrasse",
+            "houseNumber": "102",
+            "postalCode": "8001",
+            "district": 1,
+            "address": "Bahnhofstrasse 102",
+            "addressStatus": "confirmed"
+          },
+          "pending": null,
+          "claims": [],
+          "actions": [
+            {
+              "label": "Weitere Batterie-Annahmestellen auf Recycling-Map suchen",
+              "url": "https://recycling-map.ch/de/karte?zip=8001"
+            },
+            {
+              "label": "Recyclinghöfe: Öffnungszeiten und Annahme prüfen",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/recyclinghof.html"
+            }
+          ],
+          "mapDataAvailable": true,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Zurück an die Verkaufsstelle | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/verkaufsstelle.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:39:09.309Z"
+            },
+            {
+              "title": "Recyclinghof | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/recyclinghof.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:39:10.488Z"
+            },
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Direct batteries",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Wo kann ich Batterien in Zürich entsorgen?",
+          "status": "partial",
+          "answer": "Batterien kannst du laut Stadt Zürich bei Verkaufsstellen kostenlos zurückgeben, die solche Produkte vertreiben.\n\n**Belegte Abgabeorte für Haushaltsbatterien in haushaltsüblichen Mengen:**\n- **Recyclinghof Looächer mit Tauschplatz**: Mühlackerstrasse 207, 8046 Zürich\n- **Recyclinghof Werdhölzli**: Bändlistrasse 94, 8064 Zürich\n\nDie städtische Annahmeliste nennt Haushaltsbatterien als gratis. Die Höfe sind zusätzliche Möglichkeiten, keine Empfehlung für die kürzeste Strecke. Eine Verkaufsstelle kann näher sein. Öffne dafür die Recycling-Map, wähle „Batterien“ und suche mit deiner PLZ. Öffnungszeiten vor dem Besuch auf der Standortseite prüfen.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Batterien",
+            "address": null,
+            "addressStatus": "not_confirmed"
+          },
+          "pending": null,
+          "claims": [],
+          "actions": [
+            {
+              "label": "Weitere Batterie-Annahmestellen auf Recycling-Map suchen",
+              "url": "https://recycling-map.ch/de/karte"
+            },
+            {
+              "label": "Recyclinghöfe: Öffnungszeiten und Annahme prüfen",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/recyclinghof.html"
+            }
+          ],
+          "mapDataAvailable": true,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Zurück an die Verkaufsstelle | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/verkaufsstelle.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:39:09.309Z"
+            },
+            {
+              "title": "Recyclinghof | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/recyclinghof.html",
+              "authority": "Stadt Zürich",
+              "retrievedAt": "2026-09-25T09:39:10.488Z"
+            },
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cardboard still resolves postcode",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Wann Karton an der Langstrasse in Zürich?",
+          "status": "needs_clarification",
+          "answer": "Welche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Karton",
+            "street": "Langstrasse",
+            "address": null,
+            "addressStatus": "not_confirmed"
+          },
+          "pending": {
+            "field": "postal_code",
+            "reason": "Welche Postleitzahl hat deine Adresse an der Langstrasse – 8004 oder 8005? Für den Kartonkalender genügt die PLZ; eine genaue Hausnummer ist dafür nicht nötig.",
+            "options": [
+              "PLZ 8004",
+              "PLZ 8005"
+            ]
+          },
+          "claims": [],
+          "actions": [
+            {
+              "label": "Amtlichen Entsorgungskalender öffnen",
+              "url": "https://www.stadt-zuerich.ch/entsorgungskalender"
+            }
+          ],
+          "mapDataAvailable": false,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            }
+          ]
+        },
+        {
+          "question": "8004",
+          "status": "ok",
+          "answer": "Nächster im amtlichen Kalender verzeichneter Kartontermin für 8004 Zürich: **01.10.2026**.\n\nStelle den Karton am Sammeltag vor **7 Uhr** bereit.\n\nDer Termin gilt laut Datensatz für die PLZ; kurzfristige Betriebsänderungen sind nicht enthalten.",
+          "context": {
+            "municipality": "Stadt Zürich",
+            "material": "Karton",
+            "street": "Langstrasse",
+            "postalCode": "8004",
+            "address": null,
+            "addressStatus": "not_confirmed"
+          },
+          "pending": null,
+          "claims": [],
+          "actions": [],
+          "mapDataAvailable": false,
+          "mapRendered": null,
+          "sources": [
+            {
+              "title": "Amtliche Gebäudeadressen Zürich",
+              "url": "https://data.stadt-zuerich.ch/dataset/geo_adressen_stadt_zuerich",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Amtlicher Kartonkalender nach PLZ",
+              "url": "https://data.stadt-zuerich.ch/dataset/entsorgungskalender_karton",
+              "retrievedAt": "2026-09-24T18:10:53.636Z"
+            },
+            {
+              "title": "Kartonsammlung | Stadt Zürich",
+              "url": "https://www.stadt-zuerich.ch/de/umwelt-und-energie/entsorgung/wo-und-wann-entsorgen/kartonsammlung.html",
+              "retrievedAt": "2026-09-25T09:39:12.344Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Other destination",
+      "passed": true,
+      "turns": [
+        {
+          "question": "Ich ziehe nach Uster. Wo melde ich mich an?",
+          "status": "out_of_scope",
+          "answer": "Dieser Server unterstützt ausschliesslich die Stadt Zürich, nicht uster. Für diese andere Gemeinde wende dich an deren Einwohneramt oder Entsorgungsstelle.",
+          "context": {
+            "municipality": null,
+            "address": null,
+            "addressStatus": "missing",
+            "residenceOrigin": null,
+            "nationality": null,
+            "citizenshipGroup": null,
+            "permitType": null,
+            "withChildren": false
+          },
+          "pending": null,
+          "claims": [],
+          "actions": [],
+          "mapDataAvailable": false,
+          "mapRendered": null,
+          "sources": []
+        }
+      ]
+    }
+  ]
+}
